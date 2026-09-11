@@ -1,0 +1,79 @@
+{
+  "rows": [
+    {
+      "id": "infineon-skeleton-sst-20260902",
+      "title": "Infineon与Skeleton合作开发AI数据中心固态变压器及峰值功率方案",
+      "published_at": "2026-09-02",
+      "publisher": "Infineon",
+      "url": "https://www.infineon.com/technology-news/2026/inftn202609-134",
+      "source_tier": "T1",
+      "status": "verified",
+      "evidence_stage": "合作/联合开发",
+      "event_types": ["AI电力", "合作"],
+      "products": ["SiC", "GaN", "SST"],
+      "applications": ["AI数据中心"],
+      "companies": ["Infineon", "Skeleton"],
+      "summary": "公开合作覆盖固态变压器与峰值功率缓冲，属于架构和联合开发证据，尚不等于规模收入。"
+    },
+    {
+      "id": "infineon-grid-to-core-20260901",
+      "title": "Infineon发布AI数据中心Grid-to-Core电力路径",
+      "published_at": "2026-09-01",
+      "publisher": "Infineon",
+      "url": "https://www.infineon.com/our-stories/we-power-ai",
+      "source_tier": "T1",
+      "status": "verified",
+      "evidence_stage": "路线图/产品组合",
+      "event_types": ["AI电力", "产品路线"],
+      "products": ["SiC", "GaN", "Silicon"],
+      "applications": ["AI数据中心"],
+      "companies": ["Infineon"],
+      "summary": "展示从电网到芯片的电力半导体组合，可验证产品布局，不直接验证客户采购与收入。"
+    },
+    {
+      "id": "rohm-650v-igbt-20260825",
+      "title": "ROHM推出新一代650V IGBT，面向汽车辅助系统及工业设备",
+      "published_at": "2026-08-25",
+      "publisher": "ROHM",
+      "url": "https://www.rohm.com/news-detail?defaultGroupId=false&news-title=2026-08-25_news_igbt",
+      "source_tier": "T1",
+      "status": "verified",
+      "evidence_stage": "产品发布",
+      "event_types": ["产品发布"],
+      "products": ["IGBT"],
+      "applications": ["汽车", "工业"],
+      "companies": ["ROHM"],
+      "summary": "AEC-Q101产品发布，验证技术与产品供给；客户验证、量产及收入需继续跟踪。"
+    },
+    {
+      "id": "renesas-price-report-20260910",
+      "title": "媒体报道Renesas拟自2027年起调整部分产品价格",
+      "published_at": "2026-09-10",
+      "publisher": "电子工程专辑",
+      "url": "https://www.eet-china.com/mp/a523890.html",
+      "source_tier": "T2",
+      "status": "pending",
+      "evidence_stage": "媒体报道/待原文",
+      "event_types": ["价格"],
+      "products": ["功率器件", "模拟芯片"],
+      "applications": ["汽车", "工业"],
+      "companies": ["Renesas"],
+      "summary": "报道涉及价格调整，但在取得公司正式通知或客户侧交叉验证前，不进入涨价广度指标。"
+    },
+    {
+      "id": "industry-price-summary-20260803",
+      "title": "公开披露文件汇总国内功率器件多轮调价信息",
+      "published_at": "2026-08-03",
+      "publisher": "巨潮资讯",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-03/1225454414.PDF",
+      "source_tier": "T1",
+      "status": "verified_secondary",
+      "evidence_stage": "监管披露/行业汇总",
+      "event_types": ["价格", "供给"],
+      "products": ["IGBT", "MOSFET", "功率器件"],
+      "applications": ["汽车", "工业", "新能源"],
+      "companies": ["Infineon", "扬杰科技", "士兰微", "华润微", "捷捷微电"],
+      "summary": "监管披露文件可核验行业调价汇总，但并非全部公司的原始调价函；看板单列为二次核验材料。"
+    }
+  ]
+}

@@ -27,7 +27,9 @@ jobs:
         with:
           python-version: "3.12"
       - name: Collect and calculate
-        run: python scripts/update_data.py --root .
+        run: |
+          python scripts/collect_news.py --root .
+          python scripts/update_data.py --root .
       - name: Test
         run: python -m unittest discover -s tests -v
       - name: Build static site
@@ -44,7 +46,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/latest.json data/history
+          git add data/latest.json data/events.json data/history
           git diff --cached --quiet || git commit -m "data: daily refresh $(date -u +%F)"
           git push
       - uses: actions/configure-pages@v5

@@ -4,12 +4,16 @@
 
 ## 看板结构
 
-1. 景气总览
-2. 价格与供给
-3. 下游应用
-4. 技术与材料
-5. 公司与财务
-6. 市场与催化
+1. 今日总览
+2. 景气周期
+3. 价格与供给
+4. AI 电力
+5. 汽车与新能源
+6. 技术与材料
+7. 公司与财务
+8. 市场表现
+9. 事件与新闻
+10. 数据与方法
 
 ## 数据原则
 
@@ -18,10 +22,13 @@
 - 单一来源失败时保留最近成功数据并标记陈旧，不用空值覆盖。
 - 股票涨跌不进入产业景气得分。
 - 固定 SKU 价格篮子从首次上线日起积累，历史不足时明确显示“证据积累中”。
+- 新闻按 T1 官方、T2 权威媒体、T3 自动发现分级；自动新闻只能进入待核验池。
+- BLS/FRED 半导体器件 PPI 是公开价格代理，不冒充具体器件现货价格。
 
 ## 本地验证（仅开发需要）
 
 ```powershell
+py -3 scripts/collect_news.py --root .
 py -3 scripts/update_data.py --root .
 py -3 scripts/build_site.py --root .
 py -3 -m unittest discover -s tests -v
@@ -38,7 +45,9 @@ py -3 -m unittest discover -s tests -v
 - `/api/power-demand.json`
 - `/api/power-materials.json`
 - `/api/power-companies.json`
+- `/api/power-market.json`
 - `/api/power-events.json`
+- `/api/power-sources.json`
 - `/api/power-health.json`
 - `/api/index.json`
 

@@ -1,0 +1,14 @@
+{
+  "lookback_days": 15,
+  "queries": [
+    "power semiconductor SiC GaN IGBT",
+    "power semiconductor price increase",
+    "AI data center power semiconductor 800V",
+    "功率半导体 涨价",
+    "SiC 碳化硅 量产 定点",
+    "IGBT MOSFET 涨价"
+  ],
+  "tier1_domains": ["infineon.com", "onsemi.com", "st.com", "rohm.com", "renesas.com", "sec.gov", "cninfo.com.cn", "stats.gov.cn", "nea.gov.cn", "opencompute.org", "nvidia.com"],
+  "tier2_domains": ["reuters.com", "bloomberg.com", "nikkei.com", "trendforce.com", "eet-china.com", "eetimes.com"],
+  "exclude_terms": ["coupon", "promotion", "giveaway", "best stocks", "stock picks", "youtube", "优惠", "促销", "赠品", "荐股", "ETF", "测评", "股价", "入场点", "热门讨论", "投资逻辑", "怎么样", "A股中报"]
+}

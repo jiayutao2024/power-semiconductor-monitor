@@ -4,4 +4,6 @@ __pycache__/
 _site/
 .env
 qa-*.png
+qa_*.png
+.qa-server.pid
 .edge-*/

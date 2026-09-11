@@ -1,130 +1,86 @@
-const $ = (s, root=document) => root.querySelector(s);
-const $$ = (s, root=document) => [...root.querySelectorAll(s)];
-let DATA = null;
-let companyRegion = 'A股';
-let marketRegion = 'A股';
+let DATA=null, companyRegion='全部', marketRegion='A股';
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+const num=(v,d=1)=>v==null?'—':Number(v).toLocaleString('zh-CN',{maximumFractionDigits:d});
+const pct=v=>v==null?'—':`${v>0?'+':''}${num(v,1)}%`;
+const cls=v=>v==null?'neutral':v>=0?'positive':'negative';
+const latestObs=id=>DATA.observations.filter(x=>x.metric_id===id).sort((a,b)=>String(b.period).localeCompare(String(a.period)))[0];
+const companyRows=()=>DATA.market.filter(x=>x.kind==='company');
+const titleMap={overview:'今日总览',cycle:'景气周期',pricing:'价格与供给',ai:'AI 电力',mobility:'汽车与新能源',technology:'技术与材料',companies:'公司与财务',market:'市场表现',news:'事件与新闻',methods:'数据与方法'};
 
-const fmt = (v, digits=1) => v == null ? '—' : Number(v).toLocaleString('zh-CN',{maximumFractionDigits:digits});
-const pct = v => v == null ? '—' : `${v>0?'+':''}${fmt(v,2)}%`;
-const cls = v => v == null ? '' : v >= 0 ? 'positive' : 'negative';
-const dateText = iso => iso ? iso.replace('T',' ').slice(0,16) : '—';
-
-function setTabs(){
-  $$('.tab').forEach(btn => btn.addEventListener('click', () => {
-    $$('.tab,.panel').forEach(x=>x.classList.remove('active'));
-    btn.classList.add('active');
-    $(`#${btn.dataset.tab}`).classList.add('active');
-    history.replaceState(null,'',`#${btn.dataset.tab}`);
-  }));
-  const hash=location.hash.slice(1);
-  if(hash && $(`.tab[data-tab="${hash}"]`)) $(`.tab[data-tab="${hash}"]`).click();
+function gotoPage(id,push=true){
+  if(!titleMap[id]) id='overview'; $$('.page').forEach(x=>x.classList.toggle('active',x.id===id)); $$('.nav-item').forEach(x=>x.classList.toggle('active',x.dataset.page===id));
+  $('#breadcrumb').textContent=`POWER SEMICONDUCTOR / ${titleMap[id]}`; $('#page-title').textContent=id==='overview'?'功率半导体产业监测终端':titleMap[id];
+  if(push){const u=new URL(location.href);u.searchParams.set('page',id);history.pushState({},'',u)} $('.sidebar').classList.remove('open'); window.scrollTo(0,0);
 }
 
-function renderHeader(){
-  $('#generated-at').textContent=dateText(DATA.meta.generated_at);
-  $('#health-line').textContent=`行情 ${DATA.health.market_success}/${DATA.health.market_total} · SKU ${DATA.health.sku_observed}/${DATA.health.sku_target}`;
-}
+function kpi(label,value,note,delta='',color=''){return `<div class="kpi"><span>${esc(label)}</span><strong class="${color}">${esc(value)}</strong><small>${esc(note)}</small>${delta?`<small class="${color}">${esc(delta)}</small>`:''}</div>`}
+function bar(label,value,suffix='%',color='blue',scale=100){const width=value==null?0:Math.max(0,Math.min(100,Math.abs(value)/scale*100));return `<div class="bar-block"><label>${esc(label)}</label><div class="bar-track"><div class="bar-fill ${color}" style="width:${width}%"></div></div><b>${value==null?'—':num(value,1)+suffix}</b></div>`}
+function statusClass(x){return String(x).startsWith('verified')?'verified':x==='pending'?'pending':''}
+function statusName(x){return String(x).startsWith('verified')?'已核验':x==='pending'?'待核验':'自动发现'}
+function eventCard(e){return `<article class="news-row"><header><span class="status-badge ${statusClass(e.status)}">${statusName(e.status)}</span><span class="tier">${esc(e.source_tier)}</span><span class="tier">${esc(e.evidence_stage)}</span></header><h3><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a></h3><p>${esc(e.summary||'')}</p><footer><span>${esc(e.published_at)}</span><span>·</span><span>${esc(e.publisher)}</span><span>·</span><span>${esc((e.products||[]).join(' / '))}</span></footer></article>`}
 
+function lineChart(el,series,options={}){
+  const node=typeof el==='string'?$(el):el;if(!node)return; const width=Math.max(500,node.clientWidth||700),height=node.clientHeight||260,p={l:42,r:14,t:12,b:28};
+  const all=series.flatMap(s=>s.data||[]).filter(x=>Number.isFinite(Number(x.value)));if(!all.length){node.innerHTML='<div class="empty-note">暂无可绘制序列</div>';return}
+  const dates=[...new Set(all.map(x=>x.date))].sort(), minY=Math.min(...all.map(x=>+x.value)),maxY=Math.max(...all.map(x=>+x.value)),span=maxY-minY||1;
+  const x=d=>p.l+(dates.indexOf(d)/Math.max(1,dates.length-1))*(width-p.l-p.r), y=v=>p.t+(maxY-v)/span*(height-p.t-p.b);
+  let svg=`<svg viewBox="0 0 ${width} ${height}" role="img">`;
+  for(let i=0;i<5;i++){const yy=p.t+i*(height-p.t-p.b)/4,val=maxY-i*span/4;svg+=`<line class="grid-line" x1="${p.l}" x2="${width-p.r}" y1="${yy}" y2="${yy}"/><text class="axis-text" x="2" y="${yy+3}">${num(val,1)}</text>`}
+  [0,.25,.5,.75,1].forEach(q=>{const idx=Math.min(dates.length-1,Math.round((dates.length-1)*q)),xx=x(dates[idx]);svg+=`<text class="axis-text" text-anchor="middle" x="${xx}" y="${height-7}">${dates[idx].slice(0,7)}</text>`});
+  series.forEach((s,i)=>{const pts=(s.data||[]).filter(z=>dates.includes(z.date));svg+=`<polyline class="${i?'line-b':'line-a'}" points="${pts.map(z=>`${x(z.date)},${y(+z.value)}`).join(' ')}"/>`;pts.filter((_,j)=>j%Math.max(1,Math.floor(pts.length/80))===0||j===pts.length-1).forEach(z=>svg+=`<circle class="chart-point" cx="${x(z.date)}" cy="${y(+z.value)}" r="5" fill="transparent" data-tip="${esc(s.name)}｜${z.date}｜${num(z.value,2)}"/>`) });
+  node.innerHTML=svg+'</svg>'; node.querySelectorAll('[data-tip]').forEach(n=>{n.onmousemove=e=>showTip(e,n.dataset.tip);n.onmouseleave=hideTip});
+}
+function showTip(e,text){const t=$('#tooltip');t.textContent=text;t.style.display='block';t.style.left=`${e.clientX+12}px`;t.style.top=`${e.clientY+12}px`}function hideTip(){$('#tooltip').style.display='none'}
+
+function renderHeader(){const h=DATA.health,dt=DATA.meta.generated_at.replace('T',' ').slice(0,16);$('#side-time').textContent=`${dt} 北京时间`;$('#health-pill').textContent=`${h.market_success}/${h.market_total} 行情 · ${h.event_count} 事件`;$('#health-pill').classList.toggle('ok',h.source_failures.length===0);$('#news-count').textContent=h.event_count}
 function renderOverview(){
-  const c=DATA.cycle;
-  $('#stage-label').textContent=c.label;
-  $('#stage-reason').textContent=c.reason;
-  $('#coverage-row').innerHTML=`<span>供给 ${c.coverage.supply}/${c.thresholds.stage_min_supply}</span><span>需求 ${c.coverage.demand}/${c.thresholds.stage_min_demand}</span><span>盈利 ${c.coverage.profit}/${c.thresholds.stage_min_profit}</span>`;
-  const matrix=$('#cycle-matrix');
-  matrix.innerHTML='<span class="matrix-zone" style="left:7%;bottom:8%">去库存</span><span class="matrix-zone" style="right:5%;bottom:8%">需求复苏</span><span class="matrix-zone" style="left:7%;top:8%">供给趋紧</span><span class="matrix-zone" style="right:5%;top:8%">盈利兑现</span>';
-  if(c.supply_tightness==null){matrix.insertAdjacentHTML('beforeend','<div class="matrix-missing"><div><b>暂不落点</b>供给侧可比历史不足，避免伪精确</div></div>')}
-  else matrix.insertAdjacentHTML('beforeend',`<i class="matrix-dot" style="left:${c.demand_breadth}%;bottom:${c.supply_tightness}%"></i>`);
-  const kpis=[
-    ['需求扩散度',c.demand_breadth==null?'—':`${fmt(c.demand_breadth)}%`,`${c.coverage.demand} 项有效`,''],
-    ['需求强度',c.demand_strength==null?'—':`${fmt(c.demand_strength)}分`,'方向技术评分','gold'],
-    ['供给紧张度',c.supply_tightness==null?'待积累':'可计算',`SKU ${DATA.health.sku_observed}/${DATA.health.sku_target}`,'gray'],
-    ['20日市场上涨广度',c.market_breadth_20d==null?'—':`${fmt(c.market_breadth_20d)}%`,'不进入产业得分','gray']
-  ];
-  $('#kpi-strip').innerHTML=kpis.map(x=>`<div class="kpi-card ${x[3]}"><span>${x[0]}</span><strong>${x[1]}</strong><small>${x[2]}</small></div>`).join('');
-  $('#metric-heatmap').innerHTML=DATA.metrics.slice(0,8).map(m=>`<div class="metric-cell ${m.status}"><b>${m.name}</b><span>${m.frequency} · ${m.tier}</span><small>${m.status==='active'?'已接入':m.status==='partial'?'部分接入':'历史积累中'}</small></div>`).join('');
-  const obs=DATA.observations.filter(x=>['nev_output_yoy','solar_capacity_yoy','industrial_equip_yoy'].includes(x.metric_id));
-  $('#daily-signals').innerHTML=obs.map(x=>`<div class="signal"><b>${x.note} <span class="positive">${pct(x.value)}</span></b><p>${x.period} · <a href="${x.source_url}" target="_blank" rel="noopener">${x.source_name}</a></p></div>`).join('')+`<div class="signal"><b>供给侧仍在建立基准</b><p>没有可比 SKU 历史前，不把涨价新闻直接转成行业得分。</p></div>`;
-  $('#industry-chain').innerHTML=DATA.methodology.chain.map((x,i)=>`<div>${x}</div>${i<DATA.methodology.chain.length-1?'<i>→</i>':''}`).join('');
+  const c=DATA.cycle,proxies=DATA.price_proxies.filter(x=>x.status==='ok'),verified=DATA.events.filter(x=>String(x.status).startsWith('verified'));
+  $('#stage-label').textContent=c.label;$('#stage-reason').textContent=c.reason;$('#coverage-score').textContent=`${c.coverage.supply+c.coverage.demand+c.coverage.profit}项`;
+  $('#horizon-grid').innerHTML=[['价格',proxies[0]?`${pct(proxies[0].change_3m)} / 3M`:'—',proxies[0]?.period||'暂无'],['需求',`${num(c.demand_strength)} / 100`,`${c.coverage.demand}项终端指标`],['盈利',`${c.coverage.profit}家公司`,'公开财务覆盖'],['事件',`${verified.length}条核验`,`${DATA.events.length}条新闻线索`]].map(x=>`<div class="horizon-card"><span>${x[0]}</span><strong>${x[1]}</strong><small>${x[2]}</small></div>`).join('');
+  $('#signal-bars').innerHTML=bar('价格代理紧张度',c.supply_tightness,'','coral')+bar('终端需求强度',c.demand_strength,'','cyan')+bar('需求上涨广度',c.demand_breadth,'','blue')+bar('市场上涨广度',c.market_breadth_20d,'','amber');
+  $('#overview-news').innerHTML=verified.slice(0,4).map(e=>`<div class="mini-news"><b>${esc(e.title)}</b><small>${e.published_at} · ${esc(e.evidence_stage)}</small></div>`).join('')||'<div class="empty-note">暂无核验事件</div>';
+  const valid=companyRows().filter(x=>x.relative_return_20d!=null).sort((a,b)=>b.relative_return_20d-a.relative_return_20d), selected=[...valid.slice(0,3),...valid.slice(-3)];const mx=Math.max(...selected.map(x=>Math.abs(x.relative_return_20d)),1);
+  $('#company-pulse').innerHTML=selected.map(x=>`<div class="rank-row"><span>${esc(x.name)}</span><div class="bar-track"><div class="bar-fill ${x.relative_return_20d>=0?'coral':'cyan'}" style="width:${Math.abs(x.relative_return_20d)/mx*100}%"></div></div><b class="${cls(x.relative_return_20d)}">${pct(x.relative_return_20d)}</b></div>`).join('');
+  lineChart('#overview-market-chart',[{name:'A股等权',data:DATA.market_indices['A股']},{name:'海外等权',data:DATA.market_indices['海外']}]);
 }
 
-function renderPrices(){
-  $('#sku-count').textContent=`${DATA.health.sku_observed}/${DATA.health.sku_target}`;
-  const cards=[['价格指数','待积累','共同有效日=100'],['涨价广度','待积累','上涨SKU/可比SKU'],['缺货广度','待积累','无库存SKU/有效SKU'],['交期中位数','待积累','按规格单元分组']];
-  $('#supply-cards').innerHTML=cards.map(x=>`<div class="kpi-card gray"><span>${x[0]}</span><strong>${x[1]}</strong><small>${x[2]}</small></div>`).join('');
-  $('#sku-cells').innerHTML=DATA.sku.cells.map(x=>`<div class="bar-row"><span>${x.product} ${x.voltage_v}V</span><div class="bar-track"><div class="bar-fill" style="width:${x.target/DATA.sku.target_count*800}%"></div></div><b>${x.target}</b></div>`).join('');
-  const rows=DATA.sku.rows;
-  $('#sku-table').innerHTML=rows.length?rows.map(x=>`<tr><td>${x.cell}</td><td>${x.manufacturer}</td><td>${x.mpn}</td><td>${x.voltage_v}V</td><td>${x.quantity}</td><td>${x.price} ${x.currency}</td><td>${x.stock}</td><td>${x.lead_time_weeks??'—'}</td><td>${x.observed_at}</td><td><a href="${x.source_url}">原文</a></td></tr>`).join(''):'<tr class="empty-row"><td colspan="10">固定篮子正在逐项核验料号与公开页面；上线后从第一个共同有效日开始计算。</td></tr>';
-}
+function renderCycle(){const c=DATA.cycle,p=DATA.price_proxies[0];$('#cycle-kpis').innerHTML=kpi('供给证据',`${c.coverage.supply}项`,'公开价格代理')+kpi('需求证据',`${c.coverage.demand}项`,'最低要求3项')+kpi('盈利公司',`${c.coverage.profit}家`,'最低要求2家')+kpi('阶段判定',c.sufficient?'可生成':'证据不足','固定规则门槛');
+  const map=$('#phase-map'); if(c.supply_tightness==null||c.demand_strength==null)map.innerHTML='<div class="phase-missing"><div><b>暂不落点</b>供给或需求连续序列不足</div></div>';else map.innerHTML=`<span class="phase-label" style="left:4%;top:7%">供给趋紧 / 需求弱</span><span class="phase-label" style="right:4%;top:7%">共振扩张</span><span class="phase-label" style="left:4%;bottom:7%">供需宽松</span><span class="phase-label" style="right:4%;bottom:7%">需求复苏</span><i class="phase-dot" style="left:${c.demand_strength}%;bottom:${c.supply_tightness}%"></i>`;
+  $('#cycle-evidence').innerHTML=[['需求广度',`${num(c.demand_breadth)}% · ${c.coverage.demand}项`,c.coverage.demand>=3],['价格代理',p?`${pct(p.change_3m)} · ${p.period}`:'缺失',!!p],['固定SKU','尚未形成连续可比快照',false],['财务覆盖',`${c.coverage.profit}家公司公开值`,c.coverage.profit>=2],['市场温度',`${num(c.market_breadth_20d)}%样本上涨（不计分）`,true]].map(x=>`<div class="evidence-row ${x[2]?'done':''}"><i></i><div><b>${x[0]}</b><small>${x[1]}</small></div><em>${x[2]?'已覆盖':'待积累'}</em></div>`).join('');
+  $('#chain').innerHTML=DATA.methodology.chain.map((x,i)=>`<div>${x}</div>${i<DATA.methodology.chain.length-1?'<i>→</i>':''}`).join('')}
 
-function renderDemand(){
-  const map={nev_output_yoy:['新能源汽车','主驱/OBC/DC-DC'],solar_capacity_yoy:['光伏与电网','逆变器/功率模块'],industrial_equip_yoy:['工业控制','变频器/伺服'],ai_power_confirmation:['AI数据中心','PSU/BBU/SST']};
-  const obsBy=Object.fromEntries(DATA.observations.map(x=>[x.metric_id,x]));
-  $('#application-grid').innerHTML=Object.entries(map).map(([id,v])=>{const x=obsBy[id];return `<div class="application-card"><span class="section-kicker">${v[1]}</span><h3>${v[0]}</h3><div class="app-value">${x?pct(x.value):'待财报扩散'}</div><p>${x?`${x.period} · ${x.note}`:'按公开AI电源收入/指引公司数计算'}</p>${x?`<a class="source-link" href="${x.source_url}" target="_blank">原始来源 →</a>`:''}</div>`}).join('');
-  const names=Object.fromEntries(DATA.metrics.map(x=>[x.id,x.name]));
-  $('#demand-bars').innerHTML=DATA.cycle.demand_components.map(x=>`<div class="bar-row"><span>${names[x.metric_id]}</span><div class="bar-track"><div class="bar-fill ${x.direction_points<3?'gold':''}" style="width:${x.direction_points/3*100}%"></div></div><b>${x.direction_points}/3</b></div>`).join('');
-  const rows=[['AI数据中心','强','中','强','强'],['新能源汽车','中','强','强','弱'],['光伏/储能','弱','强','强','弱'],['工业控制','中','强','中','弱']];
-  $('#application-matrix').innerHTML=['应用','低压MOS','IGBT','SiC','GaN',...rows.flat()].map((x,i)=>`<div class="${i<5||i%5===0?'head':x==='强'?'strong':x==='中'?'medium':''}">${x}</div>`).join('');
-}
+function renderPricing(){const rows=DATA.price_proxies.filter(x=>x.status==='ok'),p=rows[0];$('#price-kpis').innerHTML=(p?kpi('最新代理指数',num(p.latest,2),p.period)+kpi('环比',pct(p.mom),'月度变化','',cls(p.mom))+kpi('近3个月',pct(p.change_3m),'累计变化','',cls(p.change_3m))+kpi('5年分位',`${num(p.percentile_5y)}%`,'原始指数分位'):kpi('价格代理','—','抓取失败').repeat(4));
+  const range=+$('#price-range').value;lineChart('#price-chart',rows.map(x=>({name:x.short_name,data:x.history.slice(-range)})));
+  const pe=DATA.events.filter(x=>(x.event_types||[]).includes('价格')).slice(0,7);$('#price-events').innerHTML=pe.map(e=>`<div class="time-row"><small>${e.published_at} · ${e.source_tier} · ${statusName(e.status)}</small><b>${esc(e.title)}</b><p>${esc(e.summary||'')}</p><a href="${esc(e.url)}" target="_blank">原文 ↗</a></div>`).join('')||'<div class="empty-note">近半月无相关事件</div>';
+  const cells=DATA.sku.cells||DATA.sku.baskets||[];$('#sku-status').textContent=`${DATA.health.sku_observed} / ${DATA.health.sku_target}`;$('#sku-cells').innerHTML=cells.map(x=>`<div class="sku-cell"><b>${esc(x.name||x.label||x.id)}</b><span>${esc(x.description||x.definition||'固定规格单元')}</span></div>`).join('');$('#sku-note').textContent=DATA.health.sku_observed?'已有观测，可在API查看明细。':'尚未形成稳定、可公开复现的器件级报价序列；不使用媒体调价幅度替代料号价格。'}
 
-function renderTechnology(){
-  const mats=[['Silicon','30–1700V','成熟成本曲线',['MOSFET、IGBT','关注价格与稼动率']],['SiC','650–3300V','高压高效率',['汽车、光储、AI机房','关注有效产能与量产']],['GaN','40–650V','高频小型化',['快充、服务器PSU','关注客户验证与出货']]];
-  $('#material-cards').innerHTML=mats.map(x=>`<article class="card material-card"><span class="section-kicker">MATERIAL</span><h3>${x[0]}</h3><div class="voltage">${x[1]}</div><p>${x[2]}</p><ul>${x[3].map(y=>`<li>${y}</li>`).join('')}</ul></article>`).join('');
-  const stages=['传闻','官方发布/路线图','展示/点亮','送样','客户验证','合同/定点','量产','出货/收入'];
-  $('#evidence-stages').innerHTML=stages.map((x,i)=>`<div><b>${i+1}</b> ${x}</div>`).join('');
-}
+function renderAI(){const stages=[['架构/标准','NVIDIA 800V · OCP',true],['产品路线','多厂商Grid-to-Core',true],['产品发布','SiC / GaN方案',true],['客户验证','需公开客户证据',false],['规模收入','需财务拆分',false]];$('#ai-ladder').innerHTML=stages.map((x,i)=>`<div class="ladder-step ${x[2]?'done':i===3?'active':''}"><b>${x[0]}</b><small>${x[1]}</small></div>`).join('');const ev=DATA.events.filter(x=>(x.applications||[]).includes('AI数据中心')).slice(0,6);$('#ai-events').innerHTML=ev.map(eventCard).join('')||'<div class="empty-note">近半月暂无AI电力事件</div>';const rows=companyRows().filter(x=>(x.applications||[]).includes('AI电源'));$('#ai-companies').innerHTML=rows.map(x=>`<div class="company-card"><b>${esc(x.name)}</b><span>${esc(x.segment)}</span><span>${esc((x.materials||[]).join(' / '))} · 20日 ${pct(x.return_20d)}</span></div>`).join('')}
 
-function allCompanies(){return DATA.market.filter(x=>x.kind==='company')}
-function renderCompanies(){
-  const rows=allCompanies().filter(x=>x.region===companyRegion);
-  const q=$('#company-search').value.trim().toLowerCase();
-  const filtered=rows.filter(x=>!q||[x.name,x.segment,(x.materials||[]).join(' '),(x.applications||[]).join(' ')].join(' ').toLowerCase().includes(q));
-  const core=rows.filter(x=>x.purity==='核心').length;
-  const segments=new Set(rows.map(x=>x.segment)).size;
-  const positive=rows.filter(x=>x.relative_return_20d!=null&&x.relative_return_20d>0).length;
-  $('#company-summary').innerHTML=[['样本公司',rows.length,'固定研究池'],['核心纯度',core,'其余为产业相关'],['覆盖环节',segments,'按公开产品分类'],['跑赢基准',`${positive}/${rows.filter(x=>x.relative_return_20d!=null).length}`,'20日相对收益']].map(x=>`<div class="kpi-card"><span>${x[0]}</span><strong>${x[1]}</strong><small>${x[2]}</small></div>`).join('');
-  $('#company-table').innerHTML=filtered.map(x=>`<tr><td><b>${x.name}</b><br><small>${x.symbol}</small></td><td>${x.region}</td><td>${x.segment}</td><td>${(x.materials||[]).join(' / ')}</td><td>${(x.applications||[]).join(' / ')}</td><td><span class="badge ${x.purity==='核心'?'neutral':'warning'}">${x.purity}</span></td><td class="${cls(x.return_20d)}">${pct(x.return_20d)}</td><td class="${cls(x.relative_return_20d)}">${pct(x.relative_return_20d)}</td><td><a href="${x.ir}" target="_blank">IR</a></td></tr>`).join('');
-  const fin=DATA.observations.filter(x=>x.company);
-  $('#financial-cards').innerHTML=fin.map(x=>`<div class="financial-item"><div><b>${x.company}</b><small>${x.metric_id.replaceAll('_',' ')} · ${x.period}</small></div><div><strong>${fmt(x.value)}${x.unit==='%'?'%':''}</strong><small><a href="${x.source_url}" target="_blank">${x.source_name}</a></small></div></div>`).join('');
-}
+function renderDemand(){const ids=['nev_output_yoy','solar_capacity_yoy','industrial_equip_yoy'],names={'nev_output_yoy':'新能源汽车产量','solar_capacity_yoy':'太阳能装机容量','industrial_equip_yoy':'电气机械增加值'},rows=ids.map(latestObs).filter(Boolean);$('#demand-kpis').innerHTML=rows.map(x=>kpi(names[x.metric_id],pct(x.value),x.period,'',cls(x.value))).join('')+kpi('需求广度',`${num(DATA.cycle.demand_breadth)}%`,'正增长指标占比');$('#demand-bars').innerHTML=rows.map((x,i)=>bar(names[x.metric_id],x.value,'%',['coral','cyan','blue'][i],35)).join('');
+  const m=[['应用','MOSFET','IGBT','SiC','GaN'],['AI数据中心','中','中','高','高'],['新能源汽车','中','高','高','中'],['光储充','中','高','高','中'],['工业控制','高','高','中','低']];$('#application-matrix').innerHTML=m.flatMap((r,ri)=>r.map((v,ci)=>`<div class="${ri===0||ci===0?'head':v==='高'?'high':v==='中'?'medium':''}">${v}</div>`)).join('');$('#demand-table').innerHTML=rows.map(x=>`<tr><td><b>${names[x.metric_id]}</b></td><td>${x.period}</td><td class="${cls(x.value)}">${pct(x.value)}</td><td>${x.published_at}</td><td>${x.status}</td><td><a href="${x.source_url}" target="_blank">${x.source_name} ↗</a></td></tr>`).join('')}
 
-function renderMarket(){
-  const rows=allCompanies();
-  const valid=rows.filter(x=>x.return_20d!=null);
-  const median=valid.length?valid.map(x=>x.return_20d).sort((a,b)=>a-b)[Math.floor(valid.length/2)]:null;
-  const best=[...valid].sort((a,b)=>b.relative_return_20d-a.relative_return_20d)[0];
-  $('#market-cards').innerHTML=[['有效行情',`${valid.length}/${rows.length}`,'最近交易日'],['20日收益中位数',pct(median),'全部公司'],['上涨广度',`${fmt(DATA.cycle.market_breadth_20d)}%`,'20日收益>0'],['相对收益领先',best?best.name:'—',best?pct(best.relative_return_20d):'—']].map(x=>`<div class="kpi-card"><span>${x[0]}</span><strong>${x[1]}</strong><small>${x[2]}</small></div>`).join('');
-  const rr=rows.filter(x=>x.region===marketRegion&&x.relative_return_20d!=null).sort((a,b)=>b.relative_return_20d-a.relative_return_20d).slice(0,12);
-  const max=Math.max(1,...rr.map(x=>Math.abs(x.relative_return_20d)));
-  $('#relative-bars').innerHTML=rr.map(x=>`<div class="bar-row"><span>${x.name}</span><div class="bar-track"><div class="bar-fill ${x.relative_return_20d<0?'gold':''}" style="width:${Math.abs(x.relative_return_20d)/max*100}%"></div></div><b class="${cls(x.relative_return_20d)}">${pct(x.relative_return_20d)}</b></div>`).join('');
-  $('#events-list').innerHTML=DATA.events.length?DATA.events.map(x=>`<div class="signal"><b>${x.title}</b><p>${x.stage} · ${x.published_at}</p></div>`).join(''):'<div class="signal"><b>事件自动核验池准备中</b><p>只有官方发布、客户验证、合同、量产或收入证据才会进入正式事件流。</p></div>';
-  $('#market-table').innerHTML=rows.map(x=>`<tr><td><b>${x.name}</b><br><small>${x.symbol}</small></td><td>${fmt(x.price,3)} ${x.currency||''}</td><td>${x.trade_date||'—'}</td><td class="${cls(x.return_1d)}">${pct(x.return_1d)}</td><td class="${cls(x.return_20d)}">${pct(x.return_20d)}</td><td class="${cls(x.return_60d)}">${pct(x.return_60d)}</td><td class="${cls(x.relative_return_20d)}">${pct(x.relative_return_20d)}</td><td>${x.source_url?`<a href="${x.source_url}" target="_blank">行情</a>`:'—'}</td></tr>`).join('');
-}
+function renderTechnology(){const mats=[['Silicon','成熟 / 成本效率','工业、家电、汽车低中压','价格 · 库存 · 稼动率'],['SiC','高压 / 高温 / 高效率','主驱、快充、光储、SST','衬底 · 车规验证 · 收入'],['GaN','高频 / 高功率密度','服务器PSU、板级DC/DC、快充','功率段 · 客户验证 · 出货']];$('#materials').innerHTML=mats.map(x=>`<article class="material-card"><span class="material-badge">${x[1]}</span><h3>${x[0]}</h3><p>${x[2]}</p><small>${x[3]}</small></article>`).join('');const chain=['高纯粉料','衬底尺寸与缺陷','外延均匀性','晶圆良率','器件性能','模块封装','系统效率','规模收入'];$('#material-chain').innerHTML=chain.map(x=>`<div>${x}</div>`).join('');const stages=['传闻/媒体','官方路线图','产品发布','送样','客户验证','合同/定点','量产','出货/收入'];$('#evidence-ladder').innerHTML=stages.map((x,i)=>`<div class="evidence-row ${i>0?'done':''}"><i></i><div><b>${i+1}. ${x}</b><small>${i<2?'只形成线索':'保留原文、日期与公司主体'}</small></div><em>${i+1}/8</em></div>`).join('')}
 
-function renderMethod(){
-  $('#method-list').innerHTML=DATA.metrics.map(m=>`<div class="method-row"><b>${m.name} <span class="badge neutral">${m.tier}</span></b><p>${m.formula}</p><small>${m.source} · ${m.frequency} · ${m.status}</small></div>`).join('');
-  const endpoints=['dashboard','power-overview','power-prices','power-supply','power-demand','power-materials','power-companies','power-events','power-sources','power-health','index'];
+function renderCompanies(){const all=companyRows(),q=($('#company-search').value||'').toLowerCase(),rows=all.filter(x=>(companyRegion==='全部'||x.region===companyRegion)&&JSON.stringify(x).toLowerCase().includes(q));const core=rows.filter(x=>x.purity==='核心').length,segments=new Set(rows.map(x=>x.segment)).size;$('#company-kpis').innerHTML=kpi('当前样本',`${rows.length}家`,'筛选后公司')+kpi('核心纯度',`${core}家`,'功率主业样本')+kpi('产业环节',`${segments}类`,'按公开产品定位')+kpi('行情有效',`${rows.filter(x=>x.status==='ok').length}家`,'最近交易日');const seg={};rows.forEach(x=>seg[x.segment]=(seg[x.segment]||0)+1);$('#segment-bars').innerHTML=Object.entries(seg).sort((a,b)=>b[1]-a[1]).slice(0,8).map(x=>bar(x[0],x[1],'','cyan',Math.max(...Object.values(seg)))).join('');const fin=DATA.observations.filter(x=>x.company), latest={};fin.forEach(x=>{const key=x.company+'|'+x.metric_id;if(!latest[key]||x.period>latest[key].period)latest[key]=x});$('#financial-list').innerHTML=Object.values(latest).map(x=>`<div class="financial-row"><div><b>${esc(x.company)}</b><small>${esc(x.metric_id)} · ${x.period}</small></div><div><strong>${num(x.value,1)}${x.unit==='%'?'%':''}</strong><small><a href="${x.source_url}" target="_blank">${x.source_name} ↗</a></small></div></div>`).join('');const revenueSeries=[['onsemi','on_revenue'],['Infineon','infineon_revenue']].map(([name,id])=>{const r=fin.filter(x=>x.metric_id===id).sort((a,b)=>a.period.localeCompare(b.period)),base=r[0]?.value;return{name,data:r.map(x=>({date:x.period,value:base?x.value/base*100:null}))}});lineChart('#finance-chart',revenueSeries);$('#company-table').innerHTML=rows.map(x=>`<tr><td><b>${esc(x.name)}</b><br><small>${x.symbol}</small></td><td>${x.region}</td><td>${esc(x.segment)}</td><td>${esc((x.materials||[]).join(' / '))}</td><td>${esc((x.applications||[]).join(' / '))}</td><td class="${cls(x.return_20d)}">${pct(x.return_20d)}</td><td class="${cls(x.relative_return_20d)}">${pct(x.relative_return_20d)}</td><td class="${cls(x.return_250d)}">${pct(x.return_250d)}</td><td><a href="${x.ir}" target="_blank">IR ↗</a></td></tr>`).join('')}
+
+function renderMarket(){const rows=companyRows().filter(x=>x.region===marketRegion),valid=rows.filter(x=>x.return_20d!=null),sorted=[...valid].sort((a,b)=>b.relative_return_20d-a.relative_return_20d),median=[...valid].sort((a,b)=>a.return_20d-b.return_20d)[Math.floor(valid.length/2)]?.return_20d;$('#market-kpis').innerHTML=kpi('样本数',`${rows.length}家`,marketRegion)+kpi('20日中位数',pct(median),'样本收益','',cls(median))+kpi('上涨广度',`${num(valid.filter(x=>x.return_20d>0).length/Math.max(1,valid.length)*100)}%`,'20日收益为正')+kpi('相对领先',sorted[0]?.name||'—',pct(sorted[0]?.relative_return_20d));lineChart('#market-index-chart',[{name:`${marketRegion}等权`,data:DATA.market_indices[marketRegion]}]);const mx=Math.max(...sorted.map(x=>Math.abs(x.relative_return_20d)),1);$('#relative-bars').innerHTML=sorted.map(x=>`<div class="bar-block"><label>${esc(x.name)}</label><div class="bar-track"><div class="bar-fill ${x.relative_return_20d>=0?'coral':'cyan'}" style="width:${Math.abs(x.relative_return_20d)/mx*100}%"></div></div><b class="${cls(x.relative_return_20d)}">${pct(x.relative_return_20d)}</b></div>`).join('');$('#market-table').innerHTML=rows.map(x=>`<tr><td><b>${esc(x.name)}</b><br><small>${x.symbol}</small></td><td>${num(x.price,3)} ${x.currency||''}</td><td>${x.trade_date||'—'}</td><td class="${cls(x.return_1d)}">${pct(x.return_1d)}</td><td class="${cls(x.return_20d)}">${pct(x.return_20d)}</td><td class="${cls(x.return_60d)}">${pct(x.return_60d)}</td><td class="${cls(x.return_250d)}">${pct(x.return_250d)}</td><td class="${cls(x.relative_return_20d)}">${pct(x.relative_return_20d)}</td></tr>`).join('')}
+
+function renderNews(){const events=DATA.events;const types=[...new Set(events.flatMap(x=>x.event_types||[]))].sort(),products=[...new Set(events.flatMap(x=>x.products||[]))].sort();$('#news-type').innerHTML='<option value="">全部事件</option>'+types.map(x=>`<option>${esc(x)}</option>`).join('');$('#news-product').innerHTML='<option value="">全部产品</option>'+products.map(x=>`<option>${esc(x)}</option>`).join('');filterNews()}
+function filterNews(){const q=$('#news-search').value.toLowerCase(),st=$('#news-status').value,type=$('#news-type').value,product=$('#news-product').value;let rows=DATA.events.filter(e=>(!q||JSON.stringify(e).toLowerCase().includes(q))&&(st==='all'||(st==='verified'?String(e.status).startsWith('verified'):e.status===st))&&(!type||(e.event_types||[]).includes(type))&&(!product||(e.products||[]).includes(product)));const verified=rows.filter(x=>String(x.status).startsWith('verified')).length,pending=rows.filter(x=>x.status==='pending').length,t1=rows.filter(x=>x.source_tier==='T1').length;$('#news-summary').className='news-summary';$('#news-summary').innerHTML=[['筛选结果',rows.length],['已核验',verified],['待核验',pending],['一级来源',t1]].map(x=>`<div class="news-stat"><span>${x[0]}</span><strong>${x[1]}</strong></div>`).join('');$('#news-feed').innerHTML=rows.slice(0,80).map(eventCard).join('')||'<div class="empty-note">没有符合筛选条件的事件</div>'}
+
+function renderMethods(){
+  const h=DATA.health;
+  $('#health-kpis').innerHTML=kpi('行情接口',`${h.market_success}/${h.market_total}`,'成功 / 总数')+kpi('价格代理',`${h.price_proxy_success}/${h.price_proxy_total}`,'BLS / FRED')+kpi('事件总数',h.event_count,'近半月+人工核验')+kpi('抓取失败',h.source_failures.length,'本次运行');
+  $('#metric-dictionary').innerHTML=DATA.metrics.map(m=>`<div class="method-item"><b>${esc(m.name)} · ${m.tier}</b><p>${esc(m.formula)}</p><small>${esc(m.source)} · ${m.frequency} · ${m.status}</small></div>`).join('');
+  const endpoints=['dashboard','power-overview','power-prices','power-supply','power-demand','power-materials','power-companies','power-market','power-events','power-sources','power-health','index'];
   $('#api-list').innerHTML=endpoints.map(x=>`<a href="api/${x}.json" target="_blank">/api/${x}.json</a>`).join('');
-  $$('[data-open-method]').forEach(x=>x.onclick=()=>{$('#method-drawer').classList.add('open');$('#method-drawer').setAttribute('aria-hidden','false')});
-  $('.drawer-close').onclick=()=>{$('#method-drawer').classList.remove('open');$('#method-drawer').setAttribute('aria-hidden','true')};
+  $('#principles').innerHTML=DATA.methodology.principles.map(x=>`<div>✓ ${esc(x)}</div>`).join('');
+}
+function bind(){
+  $$('.nav-item').forEach(b=>b.onclick=()=>gotoPage(b.dataset.page));$$('[data-goto]').forEach(b=>b.onclick=()=>gotoPage(b.dataset.goto));$('#menu-toggle').onclick=()=>$('.sidebar').classList.toggle('open');window.onpopstate=()=>gotoPage(new URL(location.href).searchParams.get('page')||'overview',false);
+  $('#price-range').onchange=renderPricing;$('#company-search').oninput=renderCompanies;$$('[data-company-region]').forEach(b=>b.onclick=()=>{$$('[data-company-region]').forEach(x=>x.classList.remove('active'));b.classList.add('active');companyRegion=b.dataset.companyRegion;renderCompanies()});$$('[data-market-region]').forEach(b=>b.onclick=()=>{$$('[data-market-region]').forEach(x=>x.classList.remove('active'));b.classList.add('active');marketRegion=b.dataset.marketRegion;renderMarket()});['#news-search','#news-status','#news-type','#news-product'].forEach(s=>$(s).addEventListener(s==='#news-search'?'input':'change',filterNews));window.addEventListener('resize',()=>{renderOverview();renderPricing();renderMarket()})
 }
 
-function bindControls(){
-  $$('[data-company-region]').forEach(b=>b.onclick=()=>{$$('[data-company-region]').forEach(x=>x.classList.remove('active'));b.classList.add('active');companyRegion=b.dataset.companyRegion;renderCompanies()});
-  $('#company-search').addEventListener('input',renderCompanies);
-  $$('[data-market-region]').forEach(b=>b.onclick=()=>{$$('[data-market-region]').forEach(x=>x.classList.remove('active'));b.classList.add('active');marketRegion=b.dataset.marketRegion;renderMarket()});
-}
-
-async function boot(){
-  setTabs();
-  try{
-    const res=await fetch('api/dashboard.json',{cache:'no-store'});
-    if(!res.ok) throw new Error(`HTTP ${res.status}`);
-    DATA=await res.json();
-    renderHeader();renderOverview();renderPrices();renderDemand();renderTechnology();renderCompanies();renderMarket();renderMethod();bindControls();
-  }catch(err){
-    $('#generated-at').textContent='数据加载失败';
-    $('#health-line').textContent=err.message;
-    document.querySelector('main').insertAdjacentHTML('afterbegin',`<div class="card"><b>暂时无法读取数据接口</b><p>${err.message}</p></div>`);
-  }
-}
+async function boot(){try{const r=await fetch('api/dashboard.json',{cache:'no-store'});if(!r.ok)throw new Error(`HTTP ${r.status}`);DATA=await r.json();renderHeader();renderOverview();renderCycle();renderPricing();renderAI();renderDemand();renderTechnology();renderCompanies();renderMarket();renderNews();renderMethods();bind();gotoPage(new URL(location.href).searchParams.get('page')||'overview',false)}catch(e){$('#page-title').textContent='数据加载失败';$('main').innerHTML=`<article class="card"><h2>无法读取数据接口</h2><p>${esc(e.message)}</p></article>`}}
 boot();
