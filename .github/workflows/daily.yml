@@ -1,0 +1,58 @@
+name: Daily data refresh and Pages deploy
+
+on:
+  schedule:
+    - cron: "30 23 * * *" # 07:30 Asia/Shanghai
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: power-semiconductor-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Collect and calculate
+        run: python scripts/update_data.py --root .
+      - name: Test
+        run: python -m unittest discover -s tests -v
+      - name: Build static site
+        run: python scripts/build_site.py --root .
+      - name: Append immutable daily snapshot
+        if: github.event_name != 'push'
+        shell: bash
+        run: |
+          mkdir -p data/history
+          cp data/latest.json "data/history/$(TZ=Asia/Shanghai date +%F).json"
+      - name: Commit refreshed snapshot
+        if: github.event_name != 'push'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/latest.json data/history
+          git diff --cached --quiet || git commit -m "data: daily refresh $(date -u +%F)"
+          git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}

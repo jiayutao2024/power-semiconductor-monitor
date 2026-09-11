@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="功率半导体产业景气、价格、需求、技术材料、公司财务与市场催化公开数据看板">
+  <title>功率半导体产业景气跟踪</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="watermark" aria-hidden="true"><span>浙商证券 · 陶嘉宇</span><span>浙商证券 · 陶嘉宇</span><span>浙商证券 · 陶嘉宇</span><span>浙商证券 · 陶嘉宇</span><span>浙商证券 · 陶嘉宇</span><span>浙商证券 · 陶嘉宇</span></div>
+  <header class="site-header">
+    <div class="brand-mark" aria-hidden="true">浙</div>
+    <div class="title-block">
+      <p class="eyebrow">POWER SEMICONDUCTOR MONITOR</p>
+      <h1>功率半导体产业景气与投资线索跟踪</h1>
+      <p>价格 × 供给 × 下游需求 × 技术材料 × 财务验证</p>
+    </div>
+    <div class="update-box"><span>北京时间每日更新</span><strong id="generated-at">加载中</strong><small id="health-line">正在读取数据接口</small></div>
+  </header>
+
+  <nav class="tabs" aria-label="主要页面">
+    <button class="tab active" data-tab="overview">景气总览</button>
+    <button class="tab" data-tab="prices">价格与供给</button>
+    <button class="tab" data-tab="demand">下游应用</button>
+    <button class="tab" data-tab="technology">技术与材料</button>
+    <button class="tab" data-tab="companies">公司与财务</button>
+    <button class="tab" data-tab="market">市场与催化</button>
+  </nav>
+
+  <main>
+    <section class="panel active" id="overview">
+      <div class="hero-grid">
+        <article class="stage-card">
+          <div class="section-kicker">当前产业阶段</div>
+          <div class="stage-label" id="stage-label">—</div>
+          <p id="stage-reason">—</p>
+          <div class="coverage-row" id="coverage-row"></div>
+        </article>
+        <article class="card matrix-card">
+          <div class="card-head"><div><span class="section-kicker">周期定位</span><h2>供给紧张度 × 需求扩散度</h2></div><span class="badge neutral">市场表现不计入产业得分</span></div>
+          <div id="cycle-matrix" class="cycle-matrix"></div>
+        </article>
+      </div>
+      <section class="kpi-strip" id="kpi-strip"></section>
+      <div class="grid two-one">
+        <article class="card"><div class="card-head"><div><span class="section-kicker">八项核心监测</span><h2>指标覆盖与状态</h2></div><button class="text-button" data-open-method>查看公式</button></div><div id="metric-heatmap" class="metric-grid"></div></article>
+        <article class="card"><div class="card-head"><div><span class="section-kicker">每日变化</span><h2>今天最值得看的信号</h2></div></div><div id="daily-signals" class="signal-list"></div></article>
+      </div>
+      <article class="card chain-card"><span class="section-kicker">研究传导链</span><div id="industry-chain" class="chain"></div></article>
+    </section>
+
+    <section class="panel" id="prices">
+      <div class="page-intro"><div><span class="section-kicker">SUPPLY & PRICING</span><h2>价格上涨必须同时看到广度、库存和交期</h2><p>只比较同制造商料号、同包装、同数量档和同币种；当前日起建立公开历史，不回填不可核验的渠道报价。</p></div><div class="coverage-big"><strong id="sku-count">0/48</strong><span>固定 SKU 已观测</span></div></div>
+      <div class="grid four" id="supply-cards"></div>
+      <div class="grid two">
+        <article class="card"><div class="card-head"><div><span class="section-kicker">固定篮子</span><h2>八个可比规格单元</h2></div></div><div id="sku-cells" class="bar-list"></div></article>
+        <article class="card"><div class="card-head"><div><span class="section-kicker">联合验证</span><h2>价格 × 库存四象限</h2></div></div><div class="placeholder-chart"><div class="quadrant"><span>涨价且去库<br><b>真实趋紧</b></span><span>涨价且累库<br><b>渠道扰动</b></span><span>降价且去库<br><b>清库存尾声</b></span><span>降价且累库<br><b>供给过剩</b></span></div><p>有至少两个有效快照后自动落点</p></div></article>
+      </div>
+      <article class="card"><div class="card-head"><div><span class="section-kicker">明细底表</span><h2>SKU、价格、库存与交期</h2></div><span class="badge warning">公开网页稳定性需持续检验</span></div><div class="table-wrap"><table><thead><tr><th>规格单元</th><th>制造商</th><th>料号</th><th>耐压</th><th>数量档</th><th>价格</th><th>库存</th><th>交期</th><th>日期</th><th>来源</th></tr></thead><tbody id="sku-table"></tbody></table></div></article>
+    </section>
+
+    <section class="panel" id="demand">
+      <div class="page-intro"><div><span class="section-kicker">END DEMAND</span><h2>判断需求是否从单一 AI 向汽车、能源和工业扩散</h2><p>优先使用统计局、能源局和公司财报的月度或季度实际值，不把市场规模预测当作当前景气。</p></div></div>
+      <div class="application-grid" id="application-grid"></div>
+      <div class="grid two">
+        <article class="card"><div class="card-head"><div><span class="section-kicker">需求广度</span><h2>公开指标方向评分</h2></div><span class="badge neutral">强增长≥15%；正增长&gt;0%</span></div><div id="demand-bars" class="hbar-chart"></div></article>
+        <article class="card"><div class="card-head"><div><span class="section-kicker">产品映射</span><h2>应用 × 器件需求矩阵</h2></div></div><div id="application-matrix" class="mapping-matrix"></div></article>
+      </div>
+      <article class="card"><div class="card-head"><div><span class="section-kicker">技术迁移</span><h2>AI 800VDC 公开证据链</h2></div></div><div class="evidence-ladder"><div class="done">架构提出<small>NVIDIA</small></div><div class="done">标准发布<small>OCP Diablo</small></div><div class="active">产品发布<small>生态扩张</small></div><div>客户验证<small>待公开证据</small></div><div>规模出货<small>待财务确认</small></div></div></article>
+    </section>
+
+    <section class="panel" id="technology">
+      <div class="page-intro"><div><span class="section-kicker">TECHNOLOGY & MATERIALS</span><h2>把技术能力、客户验证与收入确认分开</h2><p>名义产能不等于有效供给，产品发布不等于客户定点，合同不等于当期收入。</p></div></div>
+      <div class="grid three" id="material-cards"></div>
+      <article class="card"><div class="card-head"><div><span class="section-kicker">产业链</span><h2>宽禁带材料价值传导</h2></div></div><div class="value-chain"><div><b>高纯粉料</b><span>纯度、颗粒控制</span></div><i>→</i><div><b>衬底</b><span>尺寸、缺陷、良率</span></div><i>→</i><div><b>外延</b><span>厚度与掺杂均匀性</span></div><i>→</i><div><b>器件</b><span>导通损耗、可靠性</span></div><i>→</i><div><b>模块封装</b><span>AMB/银烧结/散热</span></div><i>→</i><div><b>系统</b><span>效率、体积、TCO</span></div></div></article>
+      <div class="grid two">
+        <article class="card"><div class="card-head"><div><span class="section-kicker">材料选择</span><h2>Si / SiC / GaN 应用边界</h2></div></div><div class="table-wrap"><table><thead><tr><th>材料</th><th>优势区间</th><th>核心应用</th><th>看板验证指标</th></tr></thead><tbody><tr><td><b>Silicon</b></td><td>低成本、成熟供应</td><td>工业、家电、汽车</td><td>价格、库存、稼动率</td></tr><tr><td><b>SiC</b></td><td>高压、高温、高效率</td><td>主驱、充电、光储、AI机房侧</td><td>衬底价格、车规量产、收入</td></tr><tr><td><b>GaN</b></td><td>高频、小型化</td><td>消费快充、服务器PSU、机柜内DC/DC</td><td>产品功率、客户验证、出货</td></tr></tbody></table></div></article>
+        <article class="card"><div class="card-head"><div><span class="section-kicker">商业化口径</span><h2>八级证据阶梯</h2></div></div><div id="evidence-stages" class="vertical-ladder"></div></article>
+      </div>
+    </section>
+
+    <section class="panel" id="companies">
+      <div class="page-intro"><div><span class="section-kicker">COMPANIES & FINANCIALS</span><h2>A股与海外标的按产业环节横向比较</h2><p>公司池是研究样本，不是推荐名单；综合集团标注为“相关”，避免与纯功率半导体公司直接混排。</p></div><div class="segmented"><button class="active" data-company-region="A股">A股</button><button data-company-region="海外">海外</button></div></div>
+      <div class="grid four" id="company-summary"></div>
+      <article class="card"><div class="card-head"><div><span class="section-kicker">公司矩阵</span><h2>产业定位、材料与应用</h2></div><input id="company-search" class="search" placeholder="搜索公司、环节或应用"></div><div class="table-wrap"><table><thead><tr><th>公司</th><th>市场</th><th>产业环节</th><th>材料</th><th>应用</th><th>产业纯度</th><th>20日收益</th><th>相对收益</th><th>原始入口</th></tr></thead><tbody id="company-table"></tbody></table></div></article>
+      <div class="grid two">
+        <article class="card"><div class="card-head"><div><span class="section-kicker">财务验证</span><h2>公开披露值</h2></div></div><div id="financial-cards" class="financial-list"></div></article>
+        <article class="card"><div class="card-head"><div><span class="section-kicker">扩散公式</span><h2>盈利改善如何进入评分</h2></div></div><div class="formula-box"><code>满足至少 2 项的公司数 / 有效公司数</code><ul><li>单季度收入环比上升</li><li>毛利率环比上升</li><li>库存周转天数下降</li></ul><p>至少两期可比季度、至少两家公司后才生成，未披露不按零处理。</p></div></article>
+      </div>
+    </section>
+
+    <section class="panel" id="market">
+      <div class="page-intro"><div><span class="section-kicker">MARKET & CATALYSTS</span><h2>基本面与股价预期分开观察</h2><p>A股相对沪深300，海外相对费城半导体指数；公开聚合行情只用于市场温度，不进入产业阶段。</p></div></div>
+      <div class="grid four" id="market-cards"></div>
+      <div class="grid two">
+        <article class="card"><div class="card-head"><div><span class="section-kicker">横向比较</span><h2>20日相对收益</h2></div><div class="segmented small"><button class="active" data-market-region="A股">A股</button><button data-market-region="海外">海外</button></div></div><div id="relative-bars" class="hbar-chart"></div></article>
+        <article class="card"><div class="card-head"><div><span class="section-kicker">事件池</span><h2>事实、阶段与催化</h2></div></div><div id="events-list" class="signal-list"></div></article>
+      </div>
+      <article class="card"><div class="card-head"><div><span class="section-kicker">行情明细</span><h2>核心公司公开行情</h2></div><span class="badge warning">T3 行情代理</span></div><div class="table-wrap"><table><thead><tr><th>公司</th><th>最新价</th><th>交易日</th><th>1日</th><th>20日</th><th>60日</th><th>20日相对</th><th>来源</th></tr></thead><tbody id="market-table"></tbody></table></div></article>
+    </section>
+  </main>
+
+  <aside class="method-drawer" id="method-drawer" aria-hidden="true"><button class="drawer-close" aria-label="关闭">×</button><h2>数据与方法</h2><p>每项指标均保留定义、公式、数据期、发布日期、抓取时间和原始链接。</p><div id="method-list"></div><h3>公共接口</h3><div id="api-list" class="api-list"></div></aside>
+  <button class="floating-method" data-open-method>数据与方法</button>
+  <footer><p>数据来源：政府部门、监管文件、交易所、公司 IR、标准组织与公开商品页；公开行情使用聚合代理。</p><p>自动化抓取可能存在延迟或失败，页面会保留最近成功快照并标记陈旧。本页面仅供产业研究，不构成投资建议。</p></footer>
+  <script src="app.js"></script>
+</body>
+</html>

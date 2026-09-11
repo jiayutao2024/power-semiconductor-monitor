@@ -1,0 +1,16 @@
+{
+  "version":"0.1.0",
+  "method":"首期先建立规格槽位；只有制造商料号、包装、数量档和币种完全一致时才进入可比历史。",
+  "target_count":48,
+  "cells":[
+    {"cell":"LV_MOS_40V","product":"低压MOSFET","voltage_v":40,"target":6},
+    {"cell":"LV_MOS_100V","product":"低压MOSFET","voltage_v":100,"target":6},
+    {"cell":"SJ_MOS_650V","product":"超结MOSFET","voltage_v":650,"target":6},
+    {"cell":"IGBT_650V","product":"IGBT单管","voltage_v":650,"target":6},
+    {"cell":"IGBT_1200V","product":"IGBT单管","voltage_v":1200,"target":6},
+    {"cell":"SIC_650V","product":"SiC MOSFET","voltage_v":650,"target":6},
+    {"cell":"SIC_1200V","product":"SiC MOSFET","voltage_v":1200,"target":6},
+    {"cell":"GAN_650V","product":"GaN HEMT","voltage_v":650,"target":6}
+  ],
+  "rows":[]
+}

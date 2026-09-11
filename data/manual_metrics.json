@@ -1,0 +1,13 @@
+{
+  "as_of":"2026-09-11",
+  "notice":"仅录入可由公开原文核验的当前观测值；更新脚本不会把生成时间冒充为数据日期。",
+  "observations":[
+    {"metric_id":"nev_output_yoy","value":29.9,"unit":"%","period":"2026-07","published_at":"2026-08-17","source_name":"国家统计局","source_url":"https://www.stats.gov.cn/sj/zxfbhjd/202608/t20260817_1965055.html","source_tier":"T1","status":"verified","note":"新能源汽车当月产量同比"},
+    {"metric_id":"solar_capacity_yoy","value":16.1,"unit":"%","period":"2026-07","published_at":"2026-08-25","source_name":"国家能源局","source_url":"https://www.nea.gov.cn/20260825/1430d07985474c5b8110552785f1c74b/c.html","source_tier":"T1","status":"verified","note":"太阳能发电装机容量同比"},
+    {"metric_id":"industrial_equip_yoy","value":8.8,"unit":"%","period":"2026-07","published_at":"2026-08-17","source_name":"国家统计局","source_url":"https://www.stats.gov.cn/sj/zxfbhjd/202608/t20260817_1965055.html","source_tier":"T1","status":"verified","note":"电气机械和器材制造业增加值同比"},
+    {"metric_id":"on_revenue","company":"onsemi","value":1603.5,"unit":"USD mn","period":"2026Q2","published_at":"2026-08-03","source_name":"onsemi IR","source_url":"https://investor.onsemi.com/news-releases/news-release-details/onsemi-reports-second-quarter-2026-results","source_tier":"T1","status":"verified"},
+    {"metric_id":"on_gross_margin","company":"onsemi","value":38.4,"unit":"%","period":"2026Q2","published_at":"2026-08-03","source_name":"onsemi IR","source_url":"https://investor.onsemi.com/news-releases/news-release-details/onsemi-reports-second-quarter-2026-results","source_tier":"T1","status":"verified"},
+    {"metric_id":"stm_power_revenue","company":"STMicroelectronics","value":464,"unit":"USD mn","period":"2026Q2","published_at":"2026-07-23","source_name":"STMicroelectronics IR","source_url":"https://investors.st.com/financials/quarterly-results","source_tier":"T1","status":"verified"},
+    {"metric_id":"stm_power_operating_margin","company":"STMicroelectronics","value":-21.4,"unit":"%","period":"2026Q2","published_at":"2026-07-23","source_name":"STMicroelectronics IR","source_url":"https://investors.st.com/financials/quarterly-results","source_tier":"T1","status":"verified"}
+  ]
+}

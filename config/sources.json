@@ -1,0 +1,15 @@
+{
+  "as_of":"2026-09-11",
+  "sources":[
+    {"id":"market_yahoo_chart","name":"Yahoo Finance Chart API","tier":"T3","endpoint":"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}","frequency":"daily","automation":"active","covers":["A股行情","海外行情","基准指数"],"limitation":"公开行情聚合代理，不作为公司财务或产业景气事实来源。"},
+    {"id":"sec_companyfacts","name":"SEC EDGAR Companyfacts","tier":"T1","endpoint":"https://data.sec.gov/api/xbrl/companyfacts/CIK##########.json","frequency":"quarterly","automation":"adapter_ready","covers":["海外公司收入","毛利","库存","现金流","Capex"],"limitation":"需统一XBRL标签并将累计值还原为单季度；公司自定义标签另行核验。"},
+    {"id":"nbs_releases","name":"国家统计局月度发布","tier":"T1","endpoint":"https://www.stats.gov.cn/sj/zxfbhjd/","frequency":"monthly","automation":"curated_active","covers":["新能源汽车产量","工业增加值","工业机器人","家电产量"],"limitation":"不同月份披露产品项可能变化，需保留报告期而不是只显示抓取时间。"},
+    {"id":"nea_releases","name":"国家能源局统计发布","tier":"T1","endpoint":"https://www.nea.gov.cn/xwfb/nyyw.htm","frequency":"monthly","automation":"curated_active","covers":["光伏装机","风电装机","电网工程投资"],"limitation":"累计装机与新增装机不可混用。"},
+    {"id":"cn_exchange_filings","name":"上交所/深交所/巨潮资讯法定披露","tier":"T1","endpoint":"https://www.cninfo.com.cn/new/index","frequency":"quarterly","automation":"planned","covers":["A股收入","毛利","库存","合同负债","现金流","Capex"],"limitation":"接口字段和反爬规则可能变化，正式值需保留公告链接。"},
+    {"id":"digikey_public","name":"DigiKey公开商品页","tier":"T2","endpoint":"https://www.digikey.com/en/products/filter/transistors/","frequency":"daily","automation":"pilot","covers":["SKU价格","库存","交期","规格"],"limitation":"报价不是成交价；地区、税费、数量档和包装必须固定，需遵守站点访问规则。"},
+    {"id":"mouser_public","name":"Mouser公开商品页","tier":"T2","endpoint":"https://www.mouser.com/c/semiconductors/discrete-semiconductors/transistors/","frequency":"daily","automation":"pilot","covers":["SKU价格","库存","交期","规格"],"limitation":"页面动态结构可能变化，仅作为第二来源并保留原始URL。"},
+    {"id":"company_ir","name":"公司IR与季度业绩材料","tier":"T1","endpoint":"company-specific","frequency":"quarterly/event","automation":"partial","covers":["分部收入","管理层指引","AI电源确认","客户与量产证据"],"limitation":"定性指引不得等同于订单或收入。"},
+    {"id":"nvidia_800v","name":"NVIDIA 800VDC架构","tier":"T2","endpoint":"https://developer.nvidia.com/blog/nvidia-800-v-hvdc-architecture-will-power-the-next-generation-of-ai-factories/","frequency":"event","automation":"reference","covers":["AI数据中心供电路线图"],"limitation":"路线图不等于规模出货。"},
+    {"id":"ocp_diablo","name":"OCP Diablo ±400VDC规范","tier":"T2","endpoint":"https://www.opencompute.org/documents/ocp-specification-diablo-400-v0-7-0-final-pdf","frequency":"event","automation":"reference","covers":["AI数据中心技术标准"],"limitation":"标准发布不等于客户采用率。"}
+  ]
+}

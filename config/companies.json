@@ -1,0 +1,39 @@
+{
+  "as_of": "2026-09-11",
+  "definition": "按公开产品与业务范围纳入的研究样本，不构成股票推荐；综合集团仅作为产业参照。",
+  "domestic": [
+    {"symbol":"600460.SS","code":"600460","name":"士兰微","segment":"功率IDM","materials":["Silicon","SiC"],"applications":["汽车","工业","消费"],"purity":"核心","ir":"https://www.silan.com.cn/"},
+    {"symbol":"688396.SS","code":"688396","name":"华润微","segment":"功率IDM","materials":["Silicon","SiC"],"applications":["汽车","工业","新能源"],"purity":"核心","ir":"https://www.crmicro.com/"},
+    {"symbol":"300373.SZ","code":"300373","name":"扬杰科技","segment":"分立器件IDM","materials":["Silicon","SiC"],"applications":["汽车","新能源","工业"],"purity":"核心","ir":"https://www.21yangjie.com/"},
+    {"symbol":"603290.SS","code":"603290","name":"斯达半导","segment":"IGBT模块","materials":["Silicon","SiC"],"applications":["汽车","工业","新能源"],"purity":"核心","ir":"https://www.powersemi.com/"},
+    {"symbol":"688187.SS","code":"688187","name":"时代电气","segment":"高压IGBT/SiC","materials":["Silicon","SiC"],"applications":["轨交","电网","汽车"],"purity":"相关","ir":"https://www.tec.crrczic.cc/"},
+    {"symbol":"688711.SS","code":"688711","name":"宏微科技","segment":"功率模块","materials":["Silicon","SiC"],"applications":["工业","新能源","汽车"],"purity":"核心","ir":"https://www.macmicst.com/"},
+    {"symbol":"605111.SS","code":"605111","name":"新洁能","segment":"MOSFET/IGBT","materials":["Silicon","SiC"],"applications":["AI电源","汽车","工业"],"purity":"核心","ir":"https://www.ncepower.com/"},
+    {"symbol":"688261.SS","code":"688261","name":"东微半导","segment":"高压MOSFET/SiC","materials":["Silicon","SiC"],"applications":["AI电源","工业","新能源"],"purity":"核心","ir":"https://www.orientalsemi.com/"},
+    {"symbol":"300623.SZ","code":"300623","name":"捷捷微电","segment":"功率分立器件","materials":["Silicon"],"applications":["工业","消费","汽车"],"purity":"核心","ir":"https://www.jjwdz.com/"},
+    {"symbol":"688234.SS","code":"688234","name":"天岳先进","segment":"SiC衬底","materials":["SiC"],"applications":["汽车","AI电源","新能源"],"purity":"核心","ir":"https://www.sicc.cc/"},
+    {"symbol":"600703.SS","code":"600703","name":"三安光电","segment":"SiC/GaN全链","materials":["SiC","GaN"],"applications":["汽车","AI电源","消费"],"purity":"相关","ir":"https://www.sanan-e.com/"},
+    {"symbol":"688469.SS","code":"688469","name":"芯联集成","segment":"功率晶圆代工","materials":["Silicon","SiC"],"applications":["汽车","工业","新能源"],"purity":"核心","ir":"https://www.unt-c.com/"}
+  ],
+  "overseas": [
+    {"symbol":"IFX.DE","name":"Infineon","country":"德国","segment":"综合功率IDM","materials":["Silicon","SiC","GaN"],"applications":["AI电源","汽车","工业","新能源"],"purity":"核心","ir":"https://www.infineon.com/cms/en/about-infineon/investor/"},
+    {"symbol":"ON","name":"onsemi","country":"美国","segment":"智能电源IDM","materials":["Silicon","SiC","GaN"],"applications":["AI电源","汽车","工业"],"purity":"核心","ir":"https://investor.onsemi.com/"},
+    {"symbol":"STM","name":"STMicroelectronics","country":"欧洲","segment":"功率与分立器件","materials":["Silicon","SiC","GaN"],"applications":["汽车","工业","消费"],"purity":"核心","ir":"https://investors.st.com/"},
+    {"symbol":"6963.T","name":"ROHM","country":"日本","segment":"功率IDM","materials":["Silicon","SiC","GaN"],"applications":["汽车","工业","消费"],"purity":"核心","ir":"https://www.rohm.com/ir"},
+    {"symbol":"6504.T","name":"Fuji Electric","country":"日本","segment":"IGBT模块","materials":["Silicon","SiC"],"applications":["工业","新能源","汽车"],"purity":"相关","ir":"https://www.fujielectric.com/company/ir/"},
+    {"symbol":"6503.T","name":"Mitsubishi Electric","country":"日本","segment":"功率模块","materials":["Silicon","SiC"],"applications":["工业","轨交","汽车"],"purity":"相关","ir":"https://www.mitsubishielectric.com/en/investors/"},
+    {"symbol":"6723.T","name":"Renesas","country":"日本","segment":"功率与模拟","materials":["Silicon","GaN"],"applications":["汽车","工业","AI电源"],"purity":"相关","ir":"https://www.renesas.com/us/en/about/investor-relations"},
+    {"symbol":"AOSL","name":"Alpha & Omega Semiconductor","country":"美国","segment":"MOSFET/功率IC","materials":["Silicon"],"applications":["AI电源","消费","工业"],"purity":"核心","ir":"https://investor.aosmd.com/"},
+    {"symbol":"POWI","name":"Power Integrations","country":"美国","segment":"高压功率IC","materials":["Silicon","GaN"],"applications":["消费","工业","汽车"],"purity":"核心","ir":"https://investors.power.com/"},
+    {"symbol":"NVTS","name":"Navitas Semiconductor","country":"美国","segment":"GaN/SiC","materials":["GaN","SiC"],"applications":["AI电源","消费","汽车"],"purity":"核心","ir":"https://ir.navitassemi.com/"}
+  ],
+  "benchmarks": [
+    {"symbol":"000300.SS","name":"沪深300"},
+    {"symbol":"^SOX","name":"费城半导体指数"}
+  ],
+  "watch_only": [
+    {"name":"比亚迪半导体","reason":"未独立上市；作为车规功率模块产业参照，不进入股票组合。"},
+    {"name":"Nexperia","reason":"未独立上市；作为全球分立器件产业参照。"},
+    {"name":"Wolfspeed","reason":"资本结构变化期；待证券状态和连续行情口径稳定后再纳入。"}
+  ]
+}

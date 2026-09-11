@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "rules": {
+    "stage_min_supply": 3,
+    "stage_min_demand": 3,
+    "stage_min_profit": 2,
+    "market_not_in_industry_score": true
+  },
+  "metrics": [
+    {"id":"sku_price_index","name":"固定SKU价格指数","role":"供给","formula":"同规格单元内等权几何平均，首个共同有效日=100","frequency":"daily","source":"DigiKey/Mouser公开商品页","tier":"T2","status":"accumulating"},
+    {"id":"price_breadth","name":"涨价SKU广度","role":"供给","formula":"较上一有效快照上涨SKU数/可比SKU数","frequency":"daily","source":"固定SKU价格篮子","tier":"CALC","status":"accumulating"},
+    {"id":"stockout_breadth","name":"缺货广度","role":"供给","formula":"无可售库存SKU数/有效SKU数","frequency":"daily","source":"授权分销商公开库存","tier":"T2","status":"accumulating"},
+    {"id":"lead_time_index","name":"交期指数","role":"供给","formula":"固定SKU标准交期中位数；按产品单元分别计算","frequency":"weekly","source":"厂商/授权分销商公开交期","tier":"T2","status":"accumulating"},
+    {"id":"ai_power_confirmation","name":"AI电源确认指数","role":"需求","formula":"披露AI电源业务同比改善公司数/有效披露公司数","frequency":"quarterly","source":"公司IR/监管文件","tier":"T1","status":"partial"},
+    {"id":"nev_output_yoy","name":"新能源汽车产量同比","role":"需求","formula":"国家统计局当月公开同比","frequency":"monthly","source":"国家统计局","tier":"T1","status":"active"},
+    {"id":"solar_capacity_yoy","name":"太阳能装机容量同比","role":"需求","formula":"国家能源局累计装机容量同比","frequency":"monthly","source":"国家能源局","tier":"T1","status":"active"},
+    {"id":"industrial_equip_yoy","name":"电气机械行业增加值同比","role":"需求","formula":"国家统计局当月公开同比","frequency":"monthly","source":"国家统计局","tier":"T1","status":"active"},
+    {"id":"financial_diffusion","name":"财务改善扩散指数","role":"盈利","formula":"收入环比上升、毛利率环比上升、库存天数下降三项中至少满足两项的公司数/有效公司数","frequency":"quarterly","source":"交易所/SEC/公司IR；浙商证券研究所计算","tier":"CALC","status":"partial"},
+    {"id":"relative_return_20d","name":"20日相对收益","role":"市场","formula":"公司20日收益率-对应地区基准20日收益率","frequency":"daily","source":"公开行情聚合代理","tier":"T3","status":"active"}
+  ]
+}
