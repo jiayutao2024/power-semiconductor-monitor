@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-12T09:18:36+08:00",
-  "lookback_start": "2026-08-28",
+  "generated_at": "2026-09-13T09:15:13+08:00",
+  "lookback_start": "2026-08-29",
   "rows": [
     {
-      "id": "rss-cc9dda204a29",
-      "title": "功率半导体涨价潮延续 瑞萨电子新一轮调价明年起生效 - 财联社",
-      "published_at": "2026-09-10",
+      "id": "rss-102ba1e7b131",
+      "title": "功率大厂瑞萨电子再发涨价函 AI机柜功率跃升打开行业成长空间 - 财联社",
+      "published_at": "2026-09-12",
       "publisher": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1oVkVleUY3b1Jhb0lQTlNvc1FPa053b1B6RzN3Wkd6ajBLZi13TnFONmtMbWxNUngwWVFUY2pGUXZZYUhWR1N2dA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE85ZjFFRFBSaG96Wnp3ZUJHMUhUdVNlc0xnRGRXdk9LVUtSSTBhWkVxUGRBSUh4ZGNibm1xb2tQMnFnVVpSN1NkZA?oc=5",
       "source_tier": "T3",
       "status": "discovery",
       "evidence_stage": "新闻线索/待核验",
@@ -21,7 +21,7 @@
         "多应用"
       ],
       "companies": [],
-      "relevance_score": 2,
+      "relevance_score": 1,
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
@@ -69,6 +69,28 @@
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
+      "id": "rss-8d5715031ab8",
+      "title": "功率半导体大厂，宣布涨价 - 新浪财经",
+      "published_at": "2026-09-10",
+      "publisher": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZUQ3V0RhS2Vkek5RaXJmQUZQTHlEVGRfWEtUb2JXRmVya0Exc19iV3gxRnhCR0lGY0x3dHVTSU9fczM1a1VvNzRZdVlzeTlKRGdZMTJBMnJOOUxHTVplbkpycXozU0NaS0F4eXkybkN3cm9LaVYtRGRMWmdWb2wzaGg0MA?oc=5",
+      "source_tier": "T3",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "价格"
+      ],
+      "products": [
+        "功率器件"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 1,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
+    {
       "id": "renesas-price-report-20260910",
       "title": "媒体报道Renesas拟自2027年起调整部分产品价格",
       "published_at": "2026-09-10",
@@ -94,32 +116,10 @@
       "summary": "报道涉及价格调整，但在取得公司正式通知或客户侧交叉验证前，不进入涨价广度指标。"
     },
     {
-      "id": "rss-102ba1e7b131",
-      "title": "功率大厂瑞萨电子再发涨价函 AI机柜功率跃升打开行业成长空间 - 财联社",
-      "published_at": "2026-09-09",
-      "publisher": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE85ZjFFRFBSaG96Wnp3ZUJHMUhUdVNlc0xnRGRXdk9LVUtSSTBhWkVxUGRBSUh4ZGNibm1xb2tQMnFnVVpSN1NkZA?oc=5",
-      "source_tier": "T3",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "价格"
-      ],
-      "products": [
-        "功率器件"
-      ],
-      "applications": [
-        "多应用"
-      ],
-      "companies": [],
-      "relevance_score": 1,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
-    {
       "id": "rss-95ed33640104",
-      "title": "瑞萨电子再发涨价函 - 新浪网",
+      "title": "瑞萨电子再发涨价函 - 新浪财经",
       "published_at": "2026-09-09",
-      "publisher": "新浪网",
+      "publisher": "新浪财经",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB6SjR2U25KSXVfbno5Z0p3c0N5UzJSTnl3MFQ5RzdpaUF3OE5YWU1lbmR3c2EtaDFuZ19MMGw3eExyQ0FZeG13YnpZU1VvTFNlQ3l5d096QWZ2Q3ZZOXBCOG91WjRWbjVfaG94MWkwS1QzV1RDSjNrSHpTYnB2Zw?oc=5",
       "source_tier": "T3",
       "status": "discovery",
@@ -135,28 +135,6 @@
       ],
       "companies": [],
       "relevance_score": 1,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
-    {
-      "id": "rss-06b4032b93ed",
-      "title": "新增4起SiC合作！涉及芯联/理想/英飞凌等 - 电子工程专辑",
-      "published_at": "2026-09-04",
-      "publisher": "电子工程专辑",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBjSlA5VlI2cEV2cjdVOHRHN0FmbUxfd29kV0ZmMUtFalUwa2xULU9HblBzWGJCYzlYenhsdk9zWEFGNUxIMWs3RlYwb2txcDJabjdR?oc=5",
-      "source_tier": "T2",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "客户/合同"
-      ],
-      "products": [
-        "SiC"
-      ],
-      "applications": [
-        "多应用"
-      ],
-      "companies": [],
-      "relevance_score": 2,
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
