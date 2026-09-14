@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-09-13T09:15:13+08:00",
-  "lookback_start": "2026-08-29",
+  "generated_at": "2026-09-14T09:17:41+08:00",
+  "lookback_start": "2026-08-30",
   "rows": [
-    {
-      "id": "rss-102ba1e7b131",
-      "title": "功率大厂瑞萨电子再发涨价函 AI机柜功率跃升打开行业成长空间 - 财联社",
-      "published_at": "2026-09-12",
-      "publisher": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE85ZjFFRFBSaG96Wnp3ZUJHMUhUdVNlc0xnRGRXdk9LVUtSSTBhWkVxUGRBSUh4ZGNibm1xb2tQMnFnVVpSN1NkZA?oc=5",
-      "source_tier": "T3",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "价格"
-      ],
-      "products": [
-        "功率器件"
-      ],
-      "applications": [
-        "多应用"
-      ],
-      "companies": [],
-      "relevance_score": 1,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
     {
       "id": "rss-720f95783eac",
       "title": "瑞萨再度涨价！功率半导体迎来行业多轮涨价潮 - 电子工程专辑",
@@ -48,10 +26,10 @@
     },
     {
       "id": "rss-39b28ae7a92b",
-      "title": "功率半导体涨价潮延续，相关企业近2000家，近八成注册资本超千万元 - Sohu",
+      "title": "功率半导体涨价潮延续，相关企业近2000家，近八成注册资本超千万元 - mp.m.ofweek.com",
       "published_at": "2026-09-10",
-      "publisher": "Sohu",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOM1ZGME0yREFSZG5yNV92SHFkZ0JTTXZWSERiNFJ1Z09vVFFpR0NtLUNCOVBJdzNjeDI0T2w5NTZaaG54Q0M1R3k2R295TWZpMDlRN3FvaUsyMDhLNVJTNmtNTHpnSmpTY2FvOTk2VjNBNHUxazZvRXU4WGJHWFpKN3duek5QMGcxYmlOaQ?oc=5",
+      "publisher": "mp.m.ofweek.com",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE43V0RCZ1dMQlhZeXlNb2VaWGVNZDBoUTF1dzJfNllfbEhhenFEcVIwdGI1SzdjMDA3OHRwTFhpX2JCaE5VdjduQ2lNaEpsYk8yamc?oc=5",
       "source_tier": "T3",
       "status": "discovery",
       "evidence_stage": "新闻线索/待核验",
@@ -116,11 +94,33 @@
       "summary": "报道涉及价格调整，但在取得公司正式通知或客户侧交叉验证前，不进入涨价广度指标。"
     },
     {
+      "id": "rss-102ba1e7b131",
+      "title": "功率大厂瑞萨电子再发涨价函 AI机柜功率跃升打开行业成长空间 - 财联社",
+      "published_at": "2026-09-09",
+      "publisher": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE85ZjFFRFBSaG96Wnp3ZUJHMUhUdVNlc0xnRGRXdk9LVUtSSTBhWkVxUGRBSUh4ZGNibm1xb2tQMnFnVVpSN1NkZA?oc=5",
+      "source_tier": "T3",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "价格"
+      ],
+      "products": [
+        "功率器件"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 1,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
+    {
       "id": "rss-95ed33640104",
       "title": "瑞萨电子再发涨价函 - 新浪财经",
       "published_at": "2026-09-09",
       "publisher": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB6SjR2U25KSXVfbno5Z0p3c0N5UzJSTnl3MFQ5RzdpaUF3OE5YWU1lbmR3c2EtaDFuZ19MMGw3eExyQ0FZeG13YnpZU1VvTFNlQ3l5d096QWZ2Q3ZZOXBCOG91WjRWbjVfaG94MWkwS1QzV1RDSjNrSHpTYnB2Zw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE90dkNuR1g1N2NEbGZpRHhzQmhXZDl6YnlBQ1p0eGxXNTVXUnp1aXNlbnhZbnBqMWctSXhNdGFVQkIxWkRjNVZ4WlN0bnNjc3FuOXNJVEsyWVVFM0Y1TVI1V3hZdmNMR0VlVlpCQ00tNWpkcXR6MjJBdzcteXhhUQ?oc=5",
       "source_tier": "T3",
       "status": "discovery",
       "evidence_stage": "新闻线索/待核验",
