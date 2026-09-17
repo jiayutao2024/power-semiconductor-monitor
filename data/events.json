@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-16T09:30:06+08:00",
-  "lookback_start": "2026-09-01",
+  "generated_at": "2026-09-17T09:33:45+08:00",
+  "lookback_start": "2026-09-02",
   "rows": [
     {
-      "id": "rss-8b5b67b9e960",
-      "title": "15家车企冲刺下一代平台，这家SiC企业已量产上车 - 电子工程专辑",
+      "id": "rss-9aecbb1cdfa7",
+      "title": "15家车企冲刺下一代平台，这家SiC企业已量产上车 - eet-china.com",
       "published_at": "2026-09-15",
-      "publisher": "电子工程专辑",
+      "publisher": "eet-china.com",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1KRFY1bFkwTVJNQkFjdWl0Y1lGc2JyRHEwcnVkSjVuc3VteFhFVE5QU2Nna3ZPT2tNQjFBWWVYVUtST0FHWWF5VXBpcThNbHFFZnpv?oc=5",
       "source_tier": "T2",
       "status": "discovery",
@@ -47,10 +47,32 @@
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
-      "id": "rss-720f95783eac",
-      "title": "瑞萨再度涨价！功率半导体迎来行业多轮涨价潮 - 电子工程专辑",
+      "id": "rss-c3fa64e369e6",
+      "title": "【明日主题前瞻】多轮连涨开启！全球模拟及功率半导体企业7月集体涨价 - 财联社",
+      "published_at": "2026-09-14",
+      "publisher": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9ZaURyU3hZcGdwOVZrLUFsTVRBNFJUcEdOZmo2ZDZkaHdXb1BzQTlCNGxDa1J5S1hNS2F3Q0FrX1Vyb2hYMHA5WA?oc=5",
+      "source_tier": "T3",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "价格"
+      ],
+      "products": [
+        "功率器件"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 1,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
+    {
+      "id": "rss-44b3ae16d2df",
+      "title": "瑞萨再度涨价！功率半导体迎来行业多轮涨价潮 - eet-china.com",
       "published_at": "2026-09-10",
-      "publisher": "电子工程专辑",
+      "publisher": "eet-china.com",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB5VTR4NVNxbE5haHVYM3p1MEtyTHh6SHdSemIwalNBT254NVFHclEzX09acjhFOGRLUXRVSzk5RVFnRzRCMzlISHo0Z05jVTJ4OXJZ?oc=5",
       "source_tier": "T2",
       "status": "discovery",
@@ -69,11 +91,11 @@
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
-      "id": "rss-8d5715031ab8",
-      "title": "功率半导体大厂，宣布涨价 - 新浪财经",
+      "id": "rss-39b28ae7a92b",
+      "title": "功率半导体涨价潮延续，相关企业近2000家，近八成注册资本超千万元 - Moomoo",
       "published_at": "2026-09-10",
-      "publisher": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZUQ3V0RhS2Vkek5RaXJmQUZQTHlEVGRfWEtUb2JXRmVya0Exc19iV3gxRnhCR0lGY0x3dHVTSU9fczM1a1VvNzRZdVlzeTlKRGdZMTJBMnJOOUxHTVplbkpycXozU0NaS0F4eXkybkN3cm9LaVYtRGRMWmdWb2wzaGg0MA?oc=5",
+      "publisher": "Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80NWVLQWN1TlpjcjlpZmp0UUFLRW5hMVFoWEZzUVB0eGF2U3NyYkFyajQ2anRlUTFWLVA1ZXhjYl9zVXRuVDlkZ3RCbUJ2QXM4SThYYkFUV0R1UQ?oc=5",
       "source_tier": "T3",
       "status": "discovery",
       "evidence_stage": "新闻线索/待核验",
@@ -91,11 +113,11 @@
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
-      "id": "rss-39b28ae7a92b",
-      "title": "功率半导体涨价潮延续，相关企业近2000家，近八成注册资本超千万元 - Moomoo",
+      "id": "rss-8d5715031ab8",
+      "title": "功率半导体大厂，宣布涨价 - cj.sina.cn",
       "published_at": "2026-09-10",
-      "publisher": "Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80NWVLQWN1TlpjcjlpZmp0UUFLRW5hMVFoWEZzUVB0eGF2U3NyYkFyajQ2anRlUTFWLVA1ZXhjYl9zVXRuVDlkZ3RCbUJ2QXM4SThYYkFUV0R1UQ?oc=5",
+      "publisher": "cj.sina.cn",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZUQ3V0RhS2Vkek5RaXJmQUZQTHlEVGRfWEtUb2JXRmVya0Exc19iV3gxRnhCR0lGY0x3dHVTSU9fczM1a1VvNzRZdVlzeTlKRGdZMTJBMnJOOUxHTVplbkpycXozU0NaS0F4eXkybkN3cm9LaVYtRGRMWmdWb2wzaGg0MA?oc=5",
       "source_tier": "T3",
       "status": "discovery",
       "evidence_stage": "新闻线索/待核验",
@@ -139,9 +161,9 @@
     },
     {
       "id": "rss-95ed33640104",
-      "title": "瑞萨电子再发涨价函 - 新浪财经",
+      "title": "瑞萨电子再发涨价函 - cj.sina.cn",
       "published_at": "2026-09-09",
-      "publisher": "新浪财经",
+      "publisher": "cj.sina.cn",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE90dkNuR1g1N2NEbGZpRHhzQmhXZDl6YnlBQ1p0eGxXNTVXUnp1aXNlbnhZbnBqMWctSXhNdGFVQkIxWkRjNVZ4WlN0bnNjc3FuOXNJVEsyWVVFM0Y1TVI1V3hZdmNMR0VlVlpCQ00tNWpkcXR6MjJBdzcteXhhUQ?oc=5",
       "source_tier": "T3",
       "status": "discovery",
@@ -182,10 +204,10 @@
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
-      "id": "rss-06b4032b93ed",
-      "title": "新增4起SiC合作！涉及芯联/理想/英飞凌等 - 电子工程专辑",
+      "id": "rss-9a2eb6eab3e7",
+      "title": "新增4起SiC合作！涉及芯联/理想/英飞凌等 - eet-china.com",
       "published_at": "2026-09-04",
-      "publisher": "电子工程专辑",
+      "publisher": "eet-china.com",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBjSlA5VlI2cEV2cjdVOHRHN0FmbUxfd29kV0ZmMUtFalUwa2xULU9HblBzWGJCYzlYenhsdk9zWEFGNUxIMWs3RlYwb2txcDJabjdR?oc=5",
       "source_tier": "T2",
       "status": "discovery",
