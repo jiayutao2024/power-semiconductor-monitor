@@ -1,13 +1,79 @@
 {
-  "generated_at": "2026-09-18T09:21:21+08:00",
-  "lookback_start": "2026-09-03",
+  "generated_at": "2026-09-19T09:20:31+08:00",
+  "lookback_start": "2026-09-04",
   "rows": [
     {
+      "id": "rss-766052bce960",
+      "title": "港股异动 | 天岳先进(02631)涨超6% 功率半导体进入涨价周期 机构看好公司业绩释放拐点 - 新浪财经_金融信息服务商",
+      "published_at": "2026-09-18",
+      "publisher": "新浪财经_金融信息服务商",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdjFuUVNOZ1BqQWxxdHFsbFplaEdmRUtuSVEtb0xoemtyU0JFczdtWWtOMEw2cnljRE5ydVdGVU5nejlLZnJYUUZlQV84UGVzUUNMd2F2MEZIckhzNjhYRnh0dGN2QUQ3UTZvbUFMVDI4c2pVbk1qRnhIUkYxR2x5NVlVWEZNRHl1bnVYQTRQTEhkOVFHbnc?oc=5",
+      "source_tier": "T3",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "价格"
+      ],
+      "products": [
+        "功率器件"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 2,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
+    {
+      "id": "rss-a1e963cbb23c",
+      "title": "功率半导体进入涨价周期 机构看好公司业绩释放拐点 天岳先进涨超6% - caiwennews.com",
+      "published_at": "2026-09-18",
+      "publisher": "caiwennews.com",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1aaE1JT1hrQTdsZTk4QmlmcXZlNVpjOVRNaWtKLXRTaUpPQS12dGxYVlBkc2Z4Und2RjlzSG4tdHZKY2lfUnFlV0JwREdVNDRwV3g0SFNBeEoyUkpz?oc=5",
+      "source_tier": "T3",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "价格"
+      ],
+      "products": [
+        "功率器件"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 2,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
+    {
+      "id": "rss-083bc260024b",
+      "title": "年内二轮调价！安森美再出涨价函，成本压力沿半导体产业链传导丨大咖星选 - 手机新浪网",
+      "published_at": "2026-09-18",
+      "publisher": "手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNN1EtbmtkQW8ybGlROUFtZXI3OUhJM3h3TDFJalZrRWprWkNScktLUWphREg0VENnb1RPMFl0eHhSTU96Nm56M1VERzE5cHdGUHZ6Z2wxVDRvS1NwMDg3clZqbEN5Qk5SMHRFUnU4VDROekVRcG5kaWl1YUhfd05ULTdR?oc=5",
+      "source_tier": "T3",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "价格"
+      ],
+      "products": [
+        "功率器件"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 1,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
+    {
       "id": "rss-2a82045184ca",
-      "title": "数据中心需求“三个月一变”，功率半导体成供配电核心 - 新浪财经",
+      "title": "数据中心需求“三个月一变”，功率半导体成供配电核心 - 新浪财经_金融信息服务商",
       "published_at": "2026-09-17",
-      "publisher": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeTB5OTRTLWlRWUxKTDhwS0xFc1NmLVJJREZhcXBMTkxvejd0U3VhLXRDRy1ZS0VicmctV0lrUDBGbDEtVTNXOUlCZC1JdW16ZzVMM3JLRVFfMzZrOW53S0hxdzNvQlRuMk9wQ1hxa010aVlLbHJWS2JscW5ra3dNVnpRSVROZ2x4cnZXeDBJcXpYTFZsc1MycDlQU3N5TlhlUmRJNkJfUQ?oc=5",
+      "publisher": "新浪财经_金融信息服务商",
+      "url": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxNQTFCZUtZMkdMVTNzTld2RnNhZE1DVXN4WmFWaHo1N0VKRmowa1JKa0JwZ2k2OEV3Nmh5bUtxM2s1QWJ4MGxSTXdUbE9QMGNyRTJkcGdldzVQTzN5bWtHTUdGNzU1R2thaEsyNXJBcHdZZFVYcVlHcDBMX3ZpVDB2NF9weE02NllPN1FUMHNrR2hzMUVOZEJXZGZUOThyc3JYa2lvUDcyLXEyVHZVbk1mNnJrSWhsS28xSmxJSTFmS0ZJQUZMR05qdUc1ekF3SHAtVG5jZzZlVDhPY0xTQWNFM3p1SHlHN0VhTXdzSklTUjJ6eDF0dEs0aXhqX1o3ck02MTdlM1VMdzdtRHkzMnI4cWRQRjRLVnJRQURrQ2NOVlcxOVExODdfVWdxOE5ZU2x1SFhMWjYzSXI3OGI4dXNzV19XS2Z0bFlxbjlUMmZJOGhxX0s5R1p1ai14Z3NsWVhmWmJRMkZEcw?oc=5",
       "source_tier": "T3",
       "status": "discovery",
       "evidence_stage": "新闻线索/待核验",
@@ -25,10 +91,10 @@
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
-      "id": "rss-c713354791d6",
-      "title": "安森美发布嵌入式功率平台EPP：晶圆即封装，功率密度提升3至5倍 - eet-china.com",
+      "id": "rss-b8cba124a6c4",
+      "title": "安森美发布嵌入式功率平台EPP：晶圆即封装，功率密度提升3至5倍 - 电子工程专辑",
       "published_at": "2026-09-17",
-      "publisher": "eet-china.com",
+      "publisher": "电子工程专辑",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5SUGtqX3hoNXVGaVY0WkdxZWswRlFRSjlVOVNnYXcxYVY5eUlwMzgyOXVDRktaeGhwZ294bGQwX2s5Qjk1aDZwX3I0RVpQUmtXTWw2WHdtd044WmpY?oc=5",
       "source_tier": "T2",
       "status": "discovery",
@@ -47,10 +113,10 @@
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
-      "id": "rss-9aecbb1cdfa7",
-      "title": "15家车企冲刺下一代平台，这家SiC企业已量产上车 - eet-china.com",
+      "id": "rss-8b5b67b9e960",
+      "title": "15家车企冲刺下一代平台，这家SiC企业已量产上车 - 电子工程专辑",
       "published_at": "2026-09-15",
-      "publisher": "eet-china.com",
+      "publisher": "电子工程专辑",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1KRFY1bFkwTVJNQkFjdWl0Y1lGc2JyRHEwcnVkSjVuc3VteFhFVE5QU2Nna3ZPT2tNQjFBWWVYVUtST0FHWWF5VXBpcThNbHFFZnpv?oc=5",
       "source_tier": "T2",
       "status": "discovery",
@@ -70,9 +136,9 @@
     },
     {
       "id": "rss-e729d7af21b6",
-      "title": "芯粤能、芯聚能协同开发第二代碳化硅主驱芯片和模块组合量产 - Sohu",
+      "title": "芯粤能、芯聚能协同开发第二代碳化硅主驱芯片和模块组合量产 - sohu.com",
       "published_at": "2026-09-15",
-      "publisher": "Sohu",
+      "publisher": "sohu.com",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQjA5MzlFRmMzY2NVTGJ3ZmxPSDlvYzNVOHg1NjJHX24zQTROVG4wYWdMMWoydjg4a2tUT19rWHhKS1RlSzJhVUR2dFF2QVRRZXM1R3djb0puTzNtanFob2toVlFad0tpR1JZQTh6TEtrYUZTSVZqT3ltU0hzU1dlMVNLMzNORGoyZld2Rw?oc=5",
       "source_tier": "T3",
       "status": "discovery",
@@ -82,28 +148,6 @@
       ],
       "products": [
         "SiC"
-      ],
-      "applications": [
-        "多应用"
-      ],
-      "companies": [],
-      "relevance_score": 1,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
-    {
-      "id": "rss-c3fa64e369e6",
-      "title": "【明日主题前瞻】多轮连涨开启！全球模拟及功率半导体企业7月集体涨价 - cls.cn",
-      "published_at": "2026-09-14",
-      "publisher": "cls.cn",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9ZaURyU3hZcGdwOVZrLUFsTVRBNFJUcEdOZmo2ZDZkaHdXb1BzQTlCNGxDa1J5S1hNS2F3Q0FrX1Vyb2hYMHA5WA?oc=5",
-      "source_tier": "T3",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "价格"
-      ],
-      "products": [
-        "功率器件"
       ],
       "applications": [
         "多应用"
@@ -136,9 +180,9 @@
     },
     {
       "id": "rss-8d5715031ab8",
-      "title": "功率半导体大厂，宣布涨价 - 新浪财经",
+      "title": "功率半导体大厂，宣布涨价 - 新浪财经_金融信息服务商",
       "published_at": "2026-09-10",
-      "publisher": "新浪财经",
+      "publisher": "新浪财经_金融信息服务商",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZUQ3V0RhS2Vkek5RaXJmQUZQTHlEVGRfWEtUb2JXRmVya0Exc19iV3gxRnhCR0lGY0x3dHVTSU9fczM1a1VvNzRZdVlzeTlKRGdZMTJBMnJOOUxHTVplbkpycXozU0NaS0F4eXkybkN3cm9LaVYtRGRMWmdWb2wzaGg0MA?oc=5",
       "source_tier": "T3",
       "status": "discovery",
@@ -201,6 +245,28 @@
       ],
       "companies": [],
       "relevance_score": 1,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
+    {
+      "id": "rss-06b4032b93ed",
+      "title": "新增4起SiC合作！涉及芯联/理想/英飞凌等 - 电子工程专辑",
+      "published_at": "2026-09-04",
+      "publisher": "电子工程专辑",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBjSlA5VlI2cEV2cjdVOHRHN0FmbUxfd29kV0ZmMUtFalUwa2xULU9HblBzWGJCYzlYenhsdk9zWEFGNUxIMWs3RlYwb2txcDJabjdR?oc=5",
+      "source_tier": "T2",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "客户/合同"
+      ],
+      "products": [
+        "SiC"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 2,
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
