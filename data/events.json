@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-20T09:20:24+08:00",
-  "lookback_start": "2026-09-05",
+  "generated_at": "2026-09-21T09:18:30+08:00",
+  "lookback_start": "2026-09-06",
   "rows": [
     {
-      "id": "rss-766052bce960",
-      "title": "港股异动 | 天岳先进(02631)涨超6% 功率半导体进入涨价周期 机构看好公司业绩释放拐点 - 新浪财经",
-      "published_at": "2026-09-18",
-      "publisher": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdjFuUVNOZ1BqQWxxdHFsbFplaEdmRUtuSVEtb0xoemtyU0JFczdtWWtOMEw2cnljRE5ydVdGVU5nejlLZnJYUUZlQV84UGVzUUNMd2F2MEZIckhzNjhYRnh0dGN2QUQ3UTZvbUFMVDI4c2pVbk1qRnhIUkYxR2x5NVlVWEZNRHl1bnVYQTRQTEhkOVFHbnc?oc=5",
+      "id": "rss-f9895b31b62f",
+      "title": "财通证券:《功率半导体行业点评：海外龙头囤货涨价，高景气驱动业绩估值双修复》 - 发现报告",
+      "published_at": "2026-09-20",
+      "publisher": "发现报告",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE93UEQzaUJZN09ldEYzRE5CUVdfX1JrcUtaQ1VUU1ByQU9CeFFKM0ZrdlVKbENxZkNpX0J1ZUpOLWpTWUxsQXc0VWdpanZXZERu?oc=5",
       "source_tier": "T3",
       "status": "discovery",
       "evidence_stage": "新闻线索/待核验",
@@ -21,15 +21,15 @@
         "多应用"
       ],
       "companies": [],
-      "relevance_score": 2,
+      "relevance_score": 1,
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
-      "id": "rss-a1e963cbb23c",
-      "title": "功率半导体进入涨价周期 机构看好公司业绩释放拐点 天岳先进涨超6% - caiwennews.com",
+      "id": "rss-766052bce960",
+      "title": "港股异动 | 天岳先进(02631)涨超6% 功率半导体进入涨价周期 机构看好公司业绩释放拐点 - 凤凰网",
       "published_at": "2026-09-18",
-      "publisher": "caiwennews.com",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1aaE1JT1hrQTdsZTk4QmlmcXZlNVpjOVRNaWtKLXRTaUpPQS12dGxYVlBkc2Z4Und2RjlzSG4tdHZKY2lfUnFlV0JwREdVNDRwV3g0SFNBeEoyUkpz?oc=5",
+      "publisher": "凤凰网",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBneHR6X3dkS0ozSWRlbklReVFuOHpMZGM0T3N2STVBM3FHUXVCMFJBWXNRMGRWdGZ2ZC1YZXY4ZjFUMGhFeHEteA?oc=5",
       "source_tier": "T3",
       "status": "discovery",
       "evidence_stage": "新闻线索/待核验",
@@ -113,11 +113,33 @@
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
-      "id": "rss-39b28ae7a92b",
-      "title": "功率半导体涨价潮延续，相关企业近2000家，近八成注册资本超千万元 - Moomoo",
+      "id": "rss-8b5b67b9e960",
+      "title": "15家车企冲刺下一代平台，这家SiC企业已量产上车 - 电子工程专辑",
+      "published_at": "2026-09-15",
+      "publisher": "电子工程专辑",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1KRFY1bFkwTVJNQkFjdWl0Y1lGc2JyRHEwcnVkSjVuc3VteFhFVE5QU2Nna3ZPT2tNQjFBWWVYVUtST0FHWWF5VXBpcThNbHFFZnpv?oc=5",
+      "source_tier": "T2",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "产业动态"
+      ],
+      "products": [
+        "SiC"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 1,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
+    {
+      "id": "rss-cc9dda204a29",
+      "title": "功率半导体涨价潮延续，瑞萨电子新一轮调价明年起生效 - 富途牛牛",
       "published_at": "2026-09-10",
-      "publisher": "Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80NWVLQWN1TlpjcjlpZmp0UUFLRW5hMVFoWEZzUVB0eGF2U3NyYkFyajQ2anRlUTFWLVA1ZXhjYl9zVXRuVDlkZ3RCbUJ2QXM4SThYYkFUV0R1UQ?oc=5",
+      "publisher": "富途牛牛",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcUx2czV5NVNVOTVRSWlDbFVYdE9Mam1JS0VxVmw3Tl83eE9DZXZCdnlCWVBTQ2tkUHZkdjBhTWtHV18zdFdPenR0ZTVYTTh5UTlqc0hfR0ZmeGtZcU9hZGtrWkdHOVdBTExaS24tWjY2SFpBdDF5Z3N3dWJvNzlWTGhuLTItbVpNb196bzY4SU5Ld1A2R1h4QmMtU0lBSEU3ckxNaUx1OUdQM0dEVzhqTkh3?oc=5",
       "source_tier": "T3",
       "status": "discovery",
       "evidence_stage": "新闻线索/待核验",
@@ -131,15 +153,15 @@
         "多应用"
       ],
       "companies": [],
-      "relevance_score": 1,
+      "relevance_score": 2,
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
-      "id": "rss-8d5715031ab8",
-      "title": "功率半导体大厂，宣布涨价 - 新浪财经",
+      "id": "rss-39b28ae7a92b",
+      "title": "功率半导体涨价潮延续，相关企业近2000家，近八成注册资本超千万元 - Moomoo",
       "published_at": "2026-09-10",
-      "publisher": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZUQ3V0RhS2Vkek5RaXJmQUZQTHlEVGRfWEtUb2JXRmVya0Exc19iV3gxRnhCR0lGY0x3dHVTSU9fczM1a1VvNzRZdVlzeTlKRGdZMTJBMnJOOUxHTVplbkpycXozU0NaS0F4eXkybkN3cm9LaVYtRGRMWmdWb2wzaGg0MA?oc=5",
+      "publisher": "Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80NWVLQWN1TlpjcjlpZmp0UUFLRW5hMVFoWEZzUVB0eGF2U3NyYkFyajQ2anRlUTFWLVA1ZXhjYl9zVXRuVDlkZ3RCbUJ2QXM4SThYYkFUV0R1UQ?oc=5",
       "source_tier": "T3",
       "status": "discovery",
       "evidence_stage": "新闻线索/待核验",
@@ -183,10 +205,10 @@
     },
     {
       "id": "rss-102ba1e7b131",
-      "title": "功率大厂瑞萨电子再发涨价函 AI机柜功率跃升打开行业成长空间 - 财联社",
+      "title": "功率大厂瑞萨电子再发涨价函 AI机柜功率跃升打开行业成长空间 - 富途牛牛",
       "published_at": "2026-09-09",
-      "publisher": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8xOHAzQ2Y5c2tHNWRxdWhpYXd3NnZBeFljbV92OEVXbnlmVW1WM2ZOM01zTGRNUDgyRld6cEVJeVhEb3RIQ0E?oc=5",
+      "publisher": "富途牛牛",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRlRXSkk1VDhaT1JJV2RqMFpMeUtpWjNYRXRJUDZEWWh4NU9XT3RHdko5RXlHeFFhS29NRjA4OUZHZ2lOd1V1dUhSSFRuRzJ3bmF0VDNLVUVQVlkyQ0g5Z0E5NnppSkR2S0c3MVA4NFJNYWt4RW8yZVgxY0JnSDRuUlJJclI3MExwa2w1S2dNUGZ4N2VjOUVReXNGR0NUTzh0OS0wSDk3cUZMSjVablJPUFo1UVFPZEF3?oc=5",
       "source_tier": "T3",
       "status": "discovery",
       "evidence_stage": "新闻线索/待核验",
