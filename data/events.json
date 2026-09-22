@@ -1,7 +1,51 @@
 {
-  "generated_at": "2026-09-21T09:18:30+08:00",
-  "lookback_start": "2026-09-06",
+  "generated_at": "2026-09-22T09:41:14+08:00",
+  "lookback_start": "2026-09-07",
   "rows": [
+    {
+      "id": "rss-e03f4b94d76e",
+      "title": "全球功率半导体厂商多轮调价 台系厂商计划10月再提价10%—15% - 观点网",
+      "published_at": "2026-09-22",
+      "publisher": "观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE95MVEySnB4NTgySHJZTjdPWjBNYl91dVNtSjhmNFlMUWwycnExeU0wOG50LXYtRnozUlgwT0hDNmJYUmljY0xMb1pXSDNWaGFpbkdXazFKOUdRVDEtd0h0QW9n?oc=5",
+      "source_tier": "T3",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "价格"
+      ],
+      "products": [
+        "功率器件"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 1,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
+    {
+      "id": "rss-dc9bd58329fa",
+      "title": "大厂涨价 AI驱动功率半导体高景气 高成长潜力股揭秘（附名单） - 新浪财经",
+      "published_at": "2026-09-21",
+      "publisher": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB1MkdnNE8xSXBNeW5GXzFmRVRFQkpmc0JiR1pqUXdxUjR5bzlDVF9TVm5hdXlCbjgtRU9keVlsUExhYVhkU1hna05iN182QlNIQ09OeHlZQnY0TTBHdHhiNFdmSHhHN1NXZFczVTJrMnNERlhHUWtDZ19zN3pFQQ?oc=5",
+      "source_tier": "T3",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "价格"
+      ],
+      "products": [
+        "功率器件"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 1,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
     {
       "id": "rss-f9895b31b62f",
       "title": "财通证券:《功率半导体行业点评：海外龙头囤货涨价，高景气驱动业绩估值双修复》 - 发现报告",
@@ -70,10 +114,10 @@
     },
     {
       "id": "rss-2a82045184ca",
-      "title": "数据中心需求“三个月一变”，功率半导体成供配电核心 - 新浪财经",
+      "title": "数据中心需求“三个月一变”，功率半导体成供配电核心 - 第一财经",
       "published_at": "2026-09-17",
-      "publisher": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxNQTFCZUtZMkdMVTNzTld2RnNhZE1DVXN4WmFWaHo1N0VKRmowa1JKa0JwZ2k2OEV3Nmh5bUtxM2s1QWJ4MGxSTXdUbE9QMGNyRTJkcGdldzVQTzN5bWtHTUdGNzU1R2thaEsyNXJBcHdZZFVYcVlHcDBMX3ZpVDB2NF9weE02NllPN1FUMHNrR2hzMUVOZEJXZGZUOThyc3JYa2lvUDcyLXEyVHZVbk1mNnJrSWhsS28xSmxJSTFmS0ZJQUZMR05qdUc1ekF3SHAtVG5jZzZlVDhPY0xTQWNFM3p1SHlHN0VhTXdzSklTUjJ6eDF0dEs0aXhqX1o3ck02MTdlM1VMdzdtRHkzMnI4cWRQRjRLVnJRQURrQ2NOVlcxOVExODdfVWdxOE5ZU2x1SFhMWjYzSXI3OGI4dXNzV19XS2Z0bFlxbjlUMmZJOGhxX0s5R1p1ai14Z3NsWVhmWmJRMkZEcw?oc=5",
+      "publisher": "第一财经",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1tcGFvRnFLa2wtZTZvY1JIc2RCbTFsOTRPSU1HbFFneExtYTlyZ1N4Rjc3cjFJVmdXZ3hjU2RFZDVNQnBseWVicFUyYjJScmhoclQw?oc=5",
       "source_tier": "T3",
       "status": "discovery",
       "evidence_stage": "新闻线索/待核验",
@@ -91,10 +135,10 @@
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
-      "id": "rss-b8cba124a6c4",
-      "title": "安森美发布嵌入式功率平台EPP：晶圆即封装，功率密度提升3至5倍 - 电子工程专辑",
+      "id": "rss-c713354791d6",
+      "title": "安森美发布嵌入式功率平台EPP：晶圆即封装，功率密度提升3至5倍 - eet-china.com",
       "published_at": "2026-09-17",
-      "publisher": "电子工程专辑",
+      "publisher": "eet-china.com",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5SUGtqX3hoNXVGaVY0WkdxZWswRlFRSjlVOVNnYXcxYVY5eUlwMzgyOXVDRktaeGhwZ294bGQwX2s5Qjk1aDZwX3I0RVpQUmtXTWw2WHdtd044WmpY?oc=5",
       "source_tier": "T2",
       "status": "discovery",
@@ -104,28 +148,6 @@
       ],
       "products": [
         "功率器件"
-      ],
-      "applications": [
-        "多应用"
-      ],
-      "companies": [],
-      "relevance_score": 1,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
-    {
-      "id": "rss-8b5b67b9e960",
-      "title": "15家车企冲刺下一代平台，这家SiC企业已量产上车 - 电子工程专辑",
-      "published_at": "2026-09-15",
-      "publisher": "电子工程专辑",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1KRFY1bFkwTVJNQkFjdWl0Y1lGc2JyRHEwcnVkSjVuc3VteFhFVE5QU2Nna3ZPT2tNQjFBWWVYVUtST0FHWWF5VXBpcThNbHFFZnpv?oc=5",
-      "source_tier": "T2",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "产业动态"
-      ],
-      "products": [
-        "SiC"
       ],
       "applications": [
         "多应用"
@@ -205,10 +227,10 @@
     },
     {
       "id": "rss-102ba1e7b131",
-      "title": "功率大厂瑞萨电子再发涨价函 AI机柜功率跃升打开行业成长空间 - 富途牛牛",
+      "title": "功率大厂瑞萨电子再发涨价函 AI机柜功率跃升打开行业成长空间 - 财联社",
       "published_at": "2026-09-09",
-      "publisher": "富途牛牛",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRlRXSkk1VDhaT1JJV2RqMFpMeUtpWjNYRXRJUDZEWWh4NU9XT3RHdko5RXlHeFFhS29NRjA4OUZHZ2lOd1V1dUhSSFRuRzJ3bmF0VDNLVUVQVlkyQ0g5Z0E5NnppSkR2S0c3MVA4NFJNYWt4RW8yZVgxY0JnSDRuUlJJclI3MExwa2w1S2dNUGZ4N2VjOUVReXNGR0NUTzh0OS0wSDk3cUZMSjVablJPUFo1UVFPZEF3?oc=5",
+      "publisher": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8xOHAzQ2Y5c2tHNWRxdWhpYXd3NnZBeFljbV92OEVXbnlmVW1WM2ZOM01zTGRNUDgyRld6cEVJeVhEb3RIQ0E?oc=5",
       "source_tier": "T3",
       "status": "discovery",
       "evidence_stage": "新闻线索/待核验",
