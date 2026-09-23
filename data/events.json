@@ -1,13 +1,35 @@
 {
-  "generated_at": "2026-09-22T09:41:14+08:00",
-  "lookback_start": "2026-09-07",
+  "generated_at": "2026-09-23T09:35:49+08:00",
+  "lookback_start": "2026-09-08",
   "rows": [
+    {
+      "id": "rss-0c6bd3b325bf",
+      "title": "功率半导体涨价潮，天岳先进盘中涨超5% - caiwennews.com",
+      "published_at": "2026-09-22",
+      "publisher": "caiwennews.com",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5lM1lta09IQTBuN294UEVVVVF4RTJvZ012OGNDMEExenN3N1dFWFFodTN1V21OQ1Y1SEtySnF5VlplbHhIM0Fqa0VVeFBtZHRaSjZPdlJRNk5hRDNI?oc=5",
+      "source_tier": "T3",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "价格"
+      ],
+      "products": [
+        "功率器件"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 2,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
     {
       "id": "rss-e03f4b94d76e",
       "title": "全球功率半导体厂商多轮调价 台系厂商计划10月再提价10%—15% - 观点网",
       "published_at": "2026-09-22",
       "publisher": "观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE95MVEySnB4NTgySHJZTjdPWjBNYl91dVNtSjhmNFlMUWwycnExeU0wOG50LXYtRnozUlgwT0hDNmJYUmljY0xMb1pXSDNWaGFpbkdXazFKOUdRVDEtd0h0QW9n?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9LR3pyY0U1TS1OQnZPQTJpSk81R0djd3Q5enoxbklydk5TZDBTN0t3UFdFVThuZTRVdndQMHR4WlJMZlp3akUxdDJLOHJJdw?oc=5",
       "source_tier": "T3",
       "status": "discovery",
       "evidence_stage": "新闻线索/待核验",
@@ -26,10 +48,32 @@
     },
     {
       "id": "rss-dc9bd58329fa",
-      "title": "大厂涨价 AI驱动功率半导体高景气 高成长潜力股揭秘（附名单） - 新浪财经",
+      "title": "大厂涨价 AI驱动功率半导体高景气 高成长潜力股揭秘（附名单） - 东方财富",
       "published_at": "2026-09-21",
-      "publisher": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB1MkdnNE8xSXBNeW5GXzFmRVRFQkpmc0JiR1pqUXdxUjR5bzlDVF9TVm5hdXlCbjgtRU9keVlsUExhYVhkU1hna05iN182QlNIQ09OeHlZQnY0TTBHdHhiNFdmSHhHN1NXZFczVTJrMnNERlhHUWtDZ19zN3pFQQ?oc=5",
+      "publisher": "东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB4U0p4enJqdndsa2xKb2JhZjhIUXBRMTdWQlpPMVVCRzlVdno1VmszRzN6M2RSTmRPdmZZa3p5Y0VQdDZCMTI5QjBuS3BKZVUzdHhSWWJfS2RqcnJIV0JpN3VQN1Jwdw?oc=5",
+      "source_tier": "T3",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "价格"
+      ],
+      "products": [
+        "功率器件"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 1,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
+    {
+      "id": "rss-1980dd7aeead",
+      "title": "功率半导体又涨价：AI为何连成熟芯片也开始“抢”？ - 36kr.com",
+      "published_at": "2026-09-21",
+      "publisher": "36kr.com",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5PNDEyYkRidWwtWUoxR2tXOEhWaGNDQjNyR19FbkpyVDdTMlN4VWE4WVRsOGJPcEtaMUpGSFBEN3dHMzVTQTN3UVEzejAwUQ?oc=5",
       "source_tier": "T3",
       "status": "discovery",
       "evidence_stage": "新闻线索/待核验",
@@ -92,9 +136,9 @@
     },
     {
       "id": "rss-083bc260024b",
-      "title": "年内二轮调价！安森美再出涨价函，成本压力沿半导体产业链传导丨大咖星选 - 新浪财经",
+      "title": "年内二轮调价！安森美再出涨价函，成本压力沿半导体产业链传导丨大咖星选 - finance.sina.cn",
       "published_at": "2026-09-18",
-      "publisher": "新浪财经",
+      "publisher": "finance.sina.cn",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1hSmRueDFyZDgwYnJ5dHJSaTliTmQ1NlpITVRiQ2ZwQzVGTUZOU3M0WTdDODlZYXJaTnBZbENDeF9GblU0WW1fTWo3SGdKWW1OS1pNTW81OGhOMHl5YUE2Z2o0RlR1Y1llZzZzNm4wUk9JOV9IMnZlNA?oc=5",
       "source_tier": "T3",
       "status": "discovery",
@@ -114,10 +158,10 @@
     },
     {
       "id": "rss-2a82045184ca",
-      "title": "数据中心需求“三个月一变”，功率半导体成供配电核心 - 第一财经",
+      "title": "数据中心需求“三个月一变”，功率半导体成供配电核心 - finance.sina.cn",
       "published_at": "2026-09-17",
-      "publisher": "第一财经",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1tcGFvRnFLa2wtZTZvY1JIc2RCbTFsOTRPSU1HbFFneExtYTlyZ1N4Rjc3cjFJVmdXZ3hjU2RFZDVNQnBseWVicFUyYjJScmhoclQw?oc=5",
+      "publisher": "finance.sina.cn",
+      "url": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxNQTFCZUtZMkdMVTNzTld2RnNhZE1DVXN4WmFWaHo1N0VKRmowa1JKa0JwZ2k2OEV3Nmh5bUtxM2s1QWJ4MGxSTXdUbE9QMGNyRTJkcGdldzVQTzN5bWtHTUdGNzU1R2thaEsyNXJBcHdZZFVYcVlHcDBMX3ZpVDB2NF9weE02NllPN1FUMHNrR2hzMUVOZEJXZGZUOThyc3JYa2lvUDcyLXEyVHZVbk1mNnJrSWhsS28xSmxJSTFmS0ZJQUZMR05qdUc1ekF3SHAtVG5jZzZlVDhPY0xTQWNFM3p1SHlHN0VhTXdzSklTUjJ6eDF0dEs0aXhqX1o3ck02MTdlM1VMdzdtRHkzMnI4cWRQRjRLVnJRQURrQ2NOVlcxOVExODdfVWdxOE5ZU2x1SFhMWjYzSXI3OGI4dXNzV19XS2Z0bFlxbjlUMmZJOGhxX0s5R1p1ai14Z3NsWVhmWmJRMkZEcw?oc=5",
       "source_tier": "T3",
       "status": "discovery",
       "evidence_stage": "新闻线索/待核验",
@@ -135,10 +179,10 @@
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
-      "id": "rss-c713354791d6",
-      "title": "安森美发布嵌入式功率平台EPP：晶圆即封装，功率密度提升3至5倍 - eet-china.com",
+      "id": "rss-b8cba124a6c4",
+      "title": "安森美发布嵌入式功率平台EPP：晶圆即封装，功率密度提升3至5倍 - 电子工程专辑",
       "published_at": "2026-09-17",
-      "publisher": "eet-china.com",
+      "publisher": "电子工程专辑",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5SUGtqX3hoNXVGaVY0WkdxZWswRlFRSjlVOVNnYXcxYVY5eUlwMzgyOXVDRktaeGhwZ294bGQwX2s5Qjk1aDZwX3I0RVpQUmtXTWw2WHdtd044WmpY?oc=5",
       "source_tier": "T2",
       "status": "discovery",
@@ -157,10 +201,32 @@
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
-      "id": "rss-cc9dda204a29",
-      "title": "功率半导体涨价潮延续，瑞萨电子新一轮调价明年起生效 - 富途牛牛",
+      "id": "rss-720f95783eac",
+      "title": "瑞萨再度涨价！功率半导体迎来行业多轮涨价潮 - 电子工程专辑",
       "published_at": "2026-09-10",
-      "publisher": "富途牛牛",
+      "publisher": "电子工程专辑",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB5VTR4NVNxbE5haHVYM3p1MEtyTHh6SHdSemIwalNBT254NVFHclEzX09acjhFOGRLUXRVSzk5RVFnRzRCMzlISHo0Z05jVTJ4OXJZ?oc=5",
+      "source_tier": "T2",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "价格"
+      ],
+      "products": [
+        "功率器件"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 2,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
+    {
+      "id": "rss-cc9dda204a29",
+      "title": "功率半导体涨价潮延续，瑞萨电子新一轮调价明年起生效 - news.futunn.com",
+      "published_at": "2026-09-10",
+      "publisher": "news.futunn.com",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcUx2czV5NVNVOTVRSWlDbFVYdE9Mam1JS0VxVmw3Tl83eE9DZXZCdnlCWVBTQ2tkUHZkdjBhTWtHV18zdFdPenR0ZTVYTTh5UTlqc0hfR0ZmeGtZcU9hZGtrWkdHOVdBTExaS24tWjY2SFpBdDF5Z3N3dWJvNzlWTGhuLTItbVpNb196bzY4SU5Ld1A2R1h4QmMtU0lBSEU3ckxNaUx1OUdQM0dEVzhqTkh3?oc=5",
       "source_tier": "T3",
       "status": "discovery",
