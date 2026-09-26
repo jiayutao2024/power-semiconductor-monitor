@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-25T09:40:40+08:00",
-  "lookback_start": "2026-09-10",
+  "generated_at": "2026-09-26T09:45:40+08:00",
+  "lookback_start": "2026-09-11",
   "rows": [
     {
       "id": "rss-0c6bd3b325bf",
@@ -145,50 +145,6 @@
       "evidence_stage": "新闻线索/待核验",
       "event_types": [
         "产品发布"
-      ],
-      "products": [
-        "功率器件"
-      ],
-      "applications": [
-        "多应用"
-      ],
-      "companies": [],
-      "relevance_score": 1,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
-    {
-      "id": "rss-cc9dda204a29",
-      "title": "功率半导体涨价潮延续，瑞萨电子新一轮调价明年起生效 - news.futunn.com",
-      "published_at": "2026-09-10",
-      "publisher": "news.futunn.com",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcUx2czV5NVNVOTVRSWlDbFVYdE9Mam1JS0VxVmw3Tl83eE9DZXZCdnlCWVBTQ2tkUHZkdjBhTWtHV18zdFdPenR0ZTVYTTh5UTlqc0hfR0ZmeGtZcU9hZGtrWkdHOVdBTExaS24tWjY2SFpBdDF5Z3N3dWJvNzlWTGhuLTItbVpNb196bzY4SU5Ld1A2R1h4QmMtU0lBSEU3ckxNaUx1OUdQM0dEVzhqTkh3?oc=5",
-      "source_tier": "T3",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "价格"
-      ],
-      "products": [
-        "功率器件"
-      ],
-      "applications": [
-        "多应用"
-      ],
-      "companies": [],
-      "relevance_score": 2,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
-    {
-      "id": "rss-39b28ae7a92b",
-      "title": "功率半导体涨价潮延续，相关企业近2000家，近八成注册资本超千万元 - Moomoo",
-      "published_at": "2026-09-10",
-      "publisher": "Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80NWVLQWN1TlpjcjlpZmp0UUFLRW5hMVFoWEZzUVB0eGF2U3NyYkFyajQ2anRlUTFWLVA1ZXhjYl9zVXRuVDlkZ3RCbUJ2QXM4SThYYkFUV0R1UQ?oc=5",
-      "source_tier": "T3",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "价格"
       ],
       "products": [
         "功率器件"
