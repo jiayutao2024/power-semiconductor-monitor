@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-28T09:48:41+08:00",
-  "lookback_start": "2026-09-13",
+  "generated_at": "2026-09-29T10:37:37+08:00",
+  "lookback_start": "2026-09-14",
   "rows": [
     {
       "id": "rss-1e54409b71de",
@@ -22,50 +22,6 @@
       ],
       "companies": [],
       "relevance_score": 2,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
-    {
-      "id": "rss-0c6bd3b325bf",
-      "title": "功率半导体涨价潮，天岳先进盘中涨超5% - caiwennews.com",
-      "published_at": "2026-09-22",
-      "publisher": "caiwennews.com",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5lM1lta09IQTBuN294UEVVVVF4RTJvZ012OGNDMEExenN3N1dFWFFodTN1V21OQ1Y1SEtySnF5VlplbHhIM0Fqa0VVeFBtZHRaSjZPdlJRNk5hRDNI?oc=5",
-      "source_tier": "T3",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "价格"
-      ],
-      "products": [
-        "功率器件"
-      ],
-      "applications": [
-        "多应用"
-      ],
-      "companies": [],
-      "relevance_score": 2,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
-    {
-      "id": "rss-dc9bd58329fa",
-      "title": "大厂涨价 AI驱动功率半导体高景气 高成长潜力股揭秘（附名单） - 东方财富",
-      "published_at": "2026-09-22",
-      "publisher": "东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB4U0p4enJqdndsa2xKb2JhZjhIUXBRMTdWQlpPMVVCRzlVdno1VmszRzN6M2RSTmRPdmZZa3p5Y0VQdDZCMTI5QjBuS3BKZVUzdHhSWWJfS2RqcnJIV0JpN3VQN1Jwdw?oc=5",
-      "source_tier": "T3",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "价格"
-      ],
-      "products": [
-        "功率器件"
-      ],
-      "applications": [
-        "多应用"
-      ],
-      "companies": [],
-      "relevance_score": 1,
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
@@ -91,11 +47,11 @@
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
-      "id": "rss-6fd7019fe71d",
-      "title": "功率半导体集体涨价潮来袭 AI算力爆发为何连成熟制程芯片也遭抢购 - eu.36kr.com",
+      "id": "rss-e57d532f36d6",
+      "title": "行业步入高景气周期 功率半导体迎涨价潮 - 证券时报网",
       "published_at": "2026-09-21",
-      "publisher": "eu.36kr.com",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAxYUl2RG1BbndqbS01UElhWlFvc1dYTFM5djhuVDVPdHZXR09yVFM0bzNEZklVLThSV0N4Yi1Ca0FaQlNHdExHOXJicWhzVEhyN1lB?oc=5",
+      "publisher": "证券时报网",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5Eb2NxTXJJLXRMUWhnVVVFMG9hUkQ1Q3lKTkxQNUtrd1JpSXBMbkV5ZjlWN2g3X2pmeUhqMEVtR0Zjb3NPNVJJSTRrMUlRd0dYTkEzbGtBRFJMMnpH?oc=5",
       "source_tier": "T3",
       "status": "discovery",
       "evidence_stage": "新闻线索/待核验",
@@ -113,11 +69,11 @@
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
-      "id": "rss-e57d532f36d6",
-      "title": "行业步入高景气周期 功率半导体迎涨价潮 - finance.sina.com.cn",
+      "id": "rss-6fd7019fe71d",
+      "title": "功率半导体集体涨价潮来袭 AI算力爆发为何连成熟制程芯片也遭抢购 - 36Kr",
       "published_at": "2026-09-21",
-      "publisher": "finance.sina.com.cn",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE00R1l2azk3Ymo0Z3hHQWp2MVhoOGlucnhNcG1HUXZIZFEyRmpxck5uT2VGSE8tUVE1UzVmaTJvQTFaeFM2SGc4UG4zbUpvYk1kVkFoV3hlSXVoYm81aXk5NlhNNm1YXzNmTjl6SzZxUQ?oc=5",
+      "publisher": "36Kr",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAxYUl2RG1BbndqbS01UElhWlFvc1dYTFM5djhuVDVPdHZXR09yVFM0bzNEZklVLThSV0N4Yi1Ca0FaQlNHdExHOXJicWhzVEhyN1lB?oc=5",
       "source_tier": "T3",
       "status": "discovery",
       "evidence_stage": "新闻线索/待核验",
