@@ -1,7 +1,51 @@
 {
-  "generated_at": "2026-09-30T10:13:27+08:00",
-  "lookback_start": "2026-09-15",
+  "generated_at": "2026-10-01T10:15:38+08:00",
+  "lookback_start": "2026-09-16",
   "rows": [
+    {
+      "id": "rss-dc9bd58329fa",
+      "title": "大厂涨价，AI驱动功率半导体高景气，高成长潜力股揭秘（附名单） - 搜狐网",
+      "published_at": "2026-09-30",
+      "publisher": "搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9PeHI1LUw4YzFJWEpTd2g4UV8weGNhSnpRLXdoQlpBZE9pS1E0VEcyejNyY2Zya2ZXeXczRlE3SFJiWVNrZ1ZPRnExNUNDb21Zd204?oc=5",
+      "source_tier": "T3",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "价格"
+      ],
+      "products": [
+        "功率器件"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 1,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
+    {
+      "id": "rss-4855c44b9bf2",
+      "title": "航嘉推出高能S67 mini氮化镓充电器：1A2C三口输出，本体109元 - finance.sina.com.cn",
+      "published_at": "2026-09-28",
+      "publisher": "finance.sina.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcklIbTVVOFoxWHFQbndvLW9SRDhiNUY1dVJXMmk4bXlzT1BxWE02aEhLZU9EdjFTc3pzQU5HYkNnT3NvclJIQ1F3X0k3anNPNkdVaTQtdWZ3U215aFdBbWxxTk5PVl9TRGdmSXFGMlp4YzE4MlA0QlduVnFyaEMwRjJzTVV6dXI0YUhCb0p4ZXZpT0ZVVWNkbnk4dC1YOWdPQmFlMmVNYw?oc=5",
+      "source_tier": "T3",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "产品发布"
+      ],
+      "products": [
+        "GaN"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 1,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
     {
       "id": "rss-1e54409b71de",
       "title": "功率半导体涨价接力赛开跑！安森美10月调价，台厂最快Q4跟上 - 集微网",
@@ -25,33 +69,11 @@
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
-      "id": "rss-e03f4b94d76e",
-      "title": "全球功率半导体厂商多轮调价 台系厂商计划10月再提价10%—15% - 观点网",
-      "published_at": "2026-09-22",
-      "publisher": "观点网",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9LR3pyY0U1TS1OQnZPQTJpSk81R0djd3Q5enoxbklydk5TZDBTN0t3UFdFVThuZTRVdndQMHR4WlJMZlp3akUxdDJLOHJJdw?oc=5",
-      "source_tier": "T3",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "价格"
-      ],
-      "products": [
-        "功率器件"
-      ],
-      "applications": [
-        "多应用"
-      ],
-      "companies": [],
-      "relevance_score": 1,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
-    {
       "id": "rss-e57d532f36d6",
-      "title": "行业步入高景气周期 功率半导体迎涨价潮 - 证券时报网",
-      "published_at": "2026-09-21",
-      "publisher": "证券时报网",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5Eb2NxTXJJLXRMUWhnVVVFMG9hUkQ1Q3lKTkxQNUtrd1JpSXBMbkV5ZjlWN2g3X2pmeUhqMEVtR0Zjb3NPNVJJSTRrMUlRd0dYTkEzbGtBRFJMMnpH?oc=5",
+      "title": "行业步入高景气周期 功率半导体迎涨价潮 - 东方财富",
+      "published_at": "2026-09-22",
+      "publisher": "东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8tXzNfSnJDbTNhaGZnajRlSTNNd2ZINTZucmlnZGlISGlsZGQ4WEpjSFZaUzdBemdGckVObEcwSENWYVg2V2RmakFtV2VsT2doNG5HX1pNTjVlMGRQUlBiak81NmV3QQ?oc=5",
       "source_tier": "T3",
       "status": "discovery",
       "evidence_stage": "新闻线索/待核验",
@@ -70,9 +92,9 @@
     },
     {
       "id": "rss-6fd7019fe71d",
-      "title": "功率半导体集体涨价潮来袭 AI算力爆发为何连成熟制程芯片也遭抢购 - eu.36kr.com",
+      "title": "功率半导体集体涨价潮来袭 AI算力爆发为何连成熟制程芯片也遭抢购 - 36 Kr",
       "published_at": "2026-09-21",
-      "publisher": "eu.36kr.com",
+      "publisher": "36 Kr",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAxYUl2RG1BbndqbS01UElhWlFvc1dYTFM5djhuVDVPdHZXR09yVFM0bzNEZklVLThSV0N4Yi1Ca0FaQlNHdExHOXJicWhzVEhyN1lB?oc=5",
       "source_tier": "T3",
       "status": "discovery",
