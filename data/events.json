@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-01T10:15:38+08:00",
-  "lookback_start": "2026-09-16",
+  "generated_at": "2026-10-02T10:22:51+08:00",
+  "lookback_start": "2026-09-17",
   "rows": [
     {
       "id": "rss-dc9bd58329fa",
@@ -25,32 +25,10 @@
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
-      "id": "rss-4855c44b9bf2",
-      "title": "航嘉推出高能S67 mini氮化镓充电器：1A2C三口输出，本体109元 - finance.sina.com.cn",
-      "published_at": "2026-09-28",
-      "publisher": "finance.sina.com.cn",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcklIbTVVOFoxWHFQbndvLW9SRDhiNUY1dVJXMmk4bXlzT1BxWE02aEhLZU9EdjFTc3pzQU5HYkNnT3NvclJIQ1F3X0k3anNPNkdVaTQtdWZ3U215aFdBbWxxTk5PVl9TRGdmSXFGMlp4YzE4MlA0QlduVnFyaEMwRjJzTVV6dXI0YUhCb0p4ZXZpT0ZVVWNkbnk4dC1YOWdPQmFlMmVNYw?oc=5",
-      "source_tier": "T3",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "产品发布"
-      ],
-      "products": [
-        "GaN"
-      ],
-      "applications": [
-        "多应用"
-      ],
-      "companies": [],
-      "relevance_score": 1,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
-    {
       "id": "rss-1e54409b71de",
-      "title": "功率半导体涨价接力赛开跑！安森美10月调价，台厂最快Q4跟上 - 集微网",
+      "title": "功率半导体涨价接力赛开跑！安森美10月调价，台厂最快Q4跟上 - laoyaoba.com",
       "published_at": "2026-09-25",
-      "publisher": "集微网",
+      "publisher": "laoyaoba.com",
       "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1rb29STW1VM0F4cG9zeDBZTGtBTUFYY3JYQjlaOEVnUE9WUWVUTzE0aXBWNWVUbWNPeXFrR25UYlU2V0xaT0dJNmJB?oc=5",
       "source_tier": "T3",
       "status": "discovery",
@@ -66,28 +44,6 @@
       ],
       "companies": [],
       "relevance_score": 2,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
-    {
-      "id": "rss-e57d532f36d6",
-      "title": "行业步入高景气周期 功率半导体迎涨价潮 - 东方财富",
-      "published_at": "2026-09-22",
-      "publisher": "东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8tXzNfSnJDbTNhaGZnajRlSTNNd2ZINTZucmlnZGlISGlsZGQ4WEpjSFZaUzdBemdGckVObEcwSENWYVg2V2RmakFtV2VsT2doNG5HX1pNTjVlMGRQUlBiak81NmV3QQ?oc=5",
-      "source_tier": "T3",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "价格"
-      ],
-      "products": [
-        "功率器件"
-      ],
-      "applications": [
-        "多应用"
-      ],
-      "companies": [],
-      "relevance_score": 1,
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
