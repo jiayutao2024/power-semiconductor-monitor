@@ -1,24 +1,25 @@
 {
-  "generated_at": "2026-10-03T10:09:27+08:00",
-  "lookback_start": "2026-09-18",
+  "generated_at": "2026-10-04T10:47:15+08:00",
+  "lookback_start": "2026-09-19",
   "rows": [
     {
-      "id": "rss-1e54409b71de",
-      "title": "功率半导体涨价接力赛开跑！安森美10月调价，台厂最快Q4跟上 - 集微网",
-      "published_at": "2026-09-25",
-      "publisher": "集微网",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1rb29STW1VM0F4cG9zeDBZTGtBTUFYY3JYQjlaOEVnUE9WUWVUTzE0aXBWNWVUbWNPeXFrR25UYlU2V0xaT0dJNmJB?oc=5",
-      "source_tier": "T3",
+      "id": "rss-a2187aa0a6c7",
+      "title": "东芝推出具备高浪涌电流能力3300V SiC MOSFET模块，助力提升工业设备可靠性 - 电子工程专辑",
+      "published_at": "2026-09-24",
+      "publisher": "电子工程专辑",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5WTkozOS1hRXhoZzVkOThZVFRfWEduNFlDaHBHdkVfWV9YTndadTNrdEFldjk1MDFYMXZhTTZKWmRTNk5EekI1VnY2LUNHZHBrdkxB?oc=5",
+      "source_tier": "T2",
       "status": "discovery",
       "evidence_stage": "新闻线索/待核验",
       "event_types": [
-        "价格"
+        "产品发布"
       ],
       "products": [
-        "功率器件"
+        "SiC",
+        "MOSFET"
       ],
       "applications": [
-        "多应用"
+        "工业"
       ],
       "companies": [],
       "relevance_score": 2,
@@ -48,9 +49,9 @@
     },
     {
       "id": "rss-6fd7019fe71d",
-      "title": "功率半导体集体涨价潮来袭 AI算力爆发为何连成熟制程芯片也遭抢购 - 36Kr",
+      "title": "功率半导体集体涨价潮来袭 AI算力爆发为何连成熟制程芯片也遭抢购 - 36 Kr",
       "published_at": "2026-09-21",
-      "publisher": "36Kr",
+      "publisher": "36 Kr",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAxYUl2RG1BbndqbS01UElhWlFvc1dYTFM5djhuVDVPdHZXR09yVFM0bzNEZklVLThSV0N4Yi1Ca0FaQlNHdExHOXJicWhzVEhyN1lB?oc=5",
       "source_tier": "T3",
       "status": "discovery",
