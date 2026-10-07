@@ -1,35 +1,13 @@
 {
-  "generated_at": "2026-10-06T11:10:33+08:00",
-  "lookback_start": "2026-09-21",
+  "generated_at": "2026-10-07T10:33:22+08:00",
+  "lookback_start": "2026-09-22",
   "rows": [
     {
       "id": "rss-dc9bd58329fa",
-      "title": "大厂涨价，AI驱动功率半导体高景气，高成长潜力股揭秘（附名单） - 搜狐网",
-      "published_at": "2026-09-21",
-      "publisher": "搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9PeHI1LUw4YzFJWEpTd2g4UV8weGNhSnpRLXdoQlpBZE9pS1E0VEcyejNyY2Zya2ZXeXczRlE3SFJiWVNrZ1ZPRnExNUNDb21Zd204?oc=5",
-      "source_tier": "T3",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "价格"
-      ],
-      "products": [
-        "功率器件"
-      ],
-      "applications": [
-        "多应用"
-      ],
-      "companies": [],
-      "relevance_score": 1,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
-    {
-      "id": "rss-6fd7019fe71d",
-      "title": "功率半导体集体涨价潮来袭 AI算力爆发为何连成熟制程芯片也遭抢购 - 36 Kr",
-      "published_at": "2026-09-21",
-      "publisher": "36 Kr",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAxYUl2RG1BbndqbS01UElhWlFvc1dYTFM5djhuVDVPdHZXR09yVFM0bzNEZklVLThSV0N4Yi1Ca0FaQlNHdExHOXJicWhzVEhyN1lB?oc=5",
+      "title": "大厂涨价 AI驱动功率半导体高景气 高成长潜力股揭秘（附名单） - 东方财富",
+      "published_at": "2026-09-22",
+      "publisher": "东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB4U0p4enJqdndsa2xKb2JhZjhIUXBRMTdWQlpPMVVCRzlVdno1VmszRzN6M2RSTmRPdmZZa3p5Y0VQdDZCMTI5QjBuS3BKZVUzdHhSWWJfS2RqcnJIV0JpN3VQN1Jwdw?oc=5",
       "source_tier": "T3",
       "status": "discovery",
       "evidence_stage": "新闻线索/待核验",
