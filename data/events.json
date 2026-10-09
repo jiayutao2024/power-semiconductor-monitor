@@ -1,7 +1,29 @@
 {
-  "generated_at": "2026-10-08T10:47:45+08:00",
-  "lookback_start": "2026-09-23",
+  "generated_at": "2026-10-09T11:00:05+08:00",
+  "lookback_start": "2026-09-24",
   "rows": [
+    {
+      "id": "rss-3800e6f6b1e2",
+      "title": "【BT财报瞬析】扬杰科技前三季净利增20％－40％ SiC与车务双双翻倍_公司新闻 - 证券之星",
+      "published_at": "2026-10-08",
+      "publisher": "证券之星",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB4U056M2h1RXFGbnp6RTd3MWlZbEFXUEpnQndfZTI5VlkxaEg4QU1uYjRSajNLajRsMklqN25pNVZ3Y1NpUnd3Y3JaRFZUdkl4TVZteWRodkxGNXh1Nkotd3F3?oc=5",
+      "source_tier": "T3",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "财务"
+      ],
+      "products": [
+        "SiC"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 2,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
     {
       "id": "renesas-price-report-20260910",
       "title": "媒体报道Renesas拟自2027年起调整部分产品价格",
