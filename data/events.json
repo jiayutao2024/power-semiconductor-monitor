@@ -1,7 +1,29 @@
 {
-  "generated_at": "2026-10-09T11:00:05+08:00",
-  "lookback_start": "2026-09-24",
+  "generated_at": "2026-10-10T10:29:45+08:00",
+  "lookback_start": "2026-09-25",
   "rows": [
+    {
+      "id": "rss-7d154e341933",
+      "title": "扬杰科技预计SiC业务收入同比翻倍 - 搜狐网",
+      "published_at": "2026-10-09",
+      "publisher": "搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNX3hZMnpYUDVZR3RUWmVRdkFiRXJQZldlMjBNcTZDam0yVS1BaWg3VVdKZXFyQUdramU1eXBIaVRqT2gyR2JVSDlsT0M4WnVQV1ZSVWltc1RSUFdHejBTUHdwOU1iMk16NmFuck9DSVp6LUtTaUF2eVp2cm5MRmtlUGNmajkwOERL?oc=5",
+      "source_tier": "T3",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "财务"
+      ],
+      "products": [
+        "SiC"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 2,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
     {
       "id": "rss-3800e6f6b1e2",
       "title": "【BT财报瞬析】扬杰科技前三季净利增20％－40％ SiC与车务双双翻倍_公司新闻 - 证券之星",
@@ -22,6 +44,28 @@
       ],
       "companies": [],
       "relevance_score": 2,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
+    {
+      "id": "rss-449c12eaacb5",
+      "title": "英飞凌完成收购C2i Semiconductors，进一步增强其在AI数据中心电源管理解决方案领域的创新能力 - 电子工程专辑",
+      "published_at": "2026-10-08",
+      "publisher": "电子工程专辑",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1VTTVRZlV5ZnYtWUVEZkw4RHp1bl9WenlpUnY0WUZ4M3lldUNZQl82dy1TTVBjOXA2dU1Rd2xCYWpzZ3RsNUMwbTNDdEJxUDhqTzdN?oc=5",
+      "source_tier": "T2",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "产业动态"
+      ],
+      "products": [
+        "功率器件"
+      ],
+      "applications": [
+        "AI数据中心"
+      ],
+      "companies": [],
+      "relevance_score": 1,
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
