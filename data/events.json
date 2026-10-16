@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-15T09:36:48+08:00",
-  "lookback_start": "2026-09-30",
+  "generated_at": "2026-10-16T09:32:33+08:00",
+  "lookback_start": "2026-10-01",
   "rows": [
     {
-      "id": "rss-577f81d612e7",
-      "title": "【华润微：SiC 收入翻倍、GaN 锁定 AI 数据中心，功率半导体景气\"三重奏\"】PjTime.COM 财经新闻 - 投影时代",
+      "id": "rss-51e4de136a9f",
+      "title": "华润微：华润微：SiC / GaN 双线卡位，AI 数据中心成新战场 - 投影时代",
       "published_at": "2026-10-12",
       "publisher": "投影时代",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5oNEZXT1ZMb1p5bjFvenpaV2tfcjJpa0hVSl9wajZhQlFJSk9DTDlxU184NU53VEpmNXJKUHBNeDBMTDRQYXp6STJOQzRQODZwa20xOUJLSzFjVmVn?oc=5",
@@ -12,7 +12,7 @@
       "status": "discovery",
       "evidence_stage": "新闻线索/待核验",
       "event_types": [
-        "财务"
+        "产业动态"
       ],
       "products": [
         "SiC",
@@ -22,7 +22,7 @@
         "AI数据中心"
       ],
       "companies": [],
-      "relevance_score": 4,
+      "relevance_score": 3,
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
