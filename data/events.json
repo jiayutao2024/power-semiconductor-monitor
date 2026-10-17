@@ -1,7 +1,51 @@
 {
-  "generated_at": "2026-10-16T09:32:33+08:00",
-  "lookback_start": "2026-10-01",
+  "generated_at": "2026-10-17T09:23:29+08:00",
+  "lookback_start": "2026-10-02",
   "rows": [
+    {
+      "id": "rss-af406aa6ae4d",
+      "title": "方正微电子全系碳化硅产品方案亮相2026湾芯展 - 全球半导体观察",
+      "published_at": "2026-10-16",
+      "publisher": "全球半导体观察",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5PS2VOcWstWG5Iekkyd1NGbEpUYVBkelFyQ3I0cFd3RGd0REdGd21Ld3UtMUpZeDZzdUJzRUF1M1NYRXNnQUg3YmFrQm5VU3VVcWwzcFpWYUFxMm9WcHdSeA?oc=5",
+      "source_tier": "T3",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "产业动态"
+      ],
+      "products": [
+        "SiC"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 1,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
+    {
+      "id": "rss-94d2cb6e10d9",
+      "title": "功率半导体需求大涨，台厂拟10月涨价10%-15% - 搜狐网",
+      "published_at": "2026-10-15",
+      "publisher": "搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9RV1RTSHA5VDZld0tyZUsxX3hmbmJqYlhaVFZiMUpGdEdBUXFiSzlJZFBuUm05ZWhPWDgtTFc5UHFNM2ZsT1Q3clpNMU9lcnA4M3JN?oc=5",
+      "source_tier": "T3",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "价格"
+      ],
+      "products": [
+        "功率器件"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 1,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
     {
       "id": "rss-51e4de136a9f",
       "title": "华润微：华润微：SiC / GaN 双线卡位，AI 数据中心成新战场 - 投影时代",
@@ -23,6 +67,28 @@
       ],
       "companies": [],
       "relevance_score": 3,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
+    {
+      "id": "rss-449c12eaacb5",
+      "title": "英飞凌完成收购C2i Semiconductors，进一步增强其在AI数据中心电源管理解决方案领域的创新能力 - 电子工程专辑",
+      "published_at": "2026-10-08",
+      "publisher": "电子工程专辑",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1VTTVRZlV5ZnYtWUVEZkw4RHp1bl9WenlpUnY0WUZ4M3lldUNZQl82dy1TTVBjOXA2dU1Rd2xCYWpzZ3RsNUMwbTNDdEJxUDhqTzdN?oc=5",
+      "source_tier": "T2",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "产业动态"
+      ],
+      "products": [
+        "功率器件"
+      ],
+      "applications": [
+        "AI数据中心"
+      ],
+      "companies": [],
+      "relevance_score": 1,
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
