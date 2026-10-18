@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-17T09:23:29+08:00",
-  "lookback_start": "2026-10-02",
+  "generated_at": "2026-10-18T09:18:24+08:00",
+  "lookback_start": "2026-10-03",
   "rows": [
     {
       "id": "rss-af406aa6ae4d",
@@ -16,6 +16,28 @@
       ],
       "products": [
         "SiC"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 1,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
+    {
+      "id": "rss-52c6df27b9bb",
+      "title": "功率半导体提价，国内外厂商陆续涨价，价格周期迎拐点 - QQ News",
+      "published_at": "2026-10-15",
+      "publisher": "QQ News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE43YkpjZE55WEZ4T2xoZW0yaHNQSmZrZDZPTFY5dFFoRE5WUkRlYXZjbVBrYWdrYXc0ZVEzd3lrOTRUcDNEVlRBVmlxdldkZ05ybnFyUUpR?oc=5",
+      "source_tier": "T3",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "价格"
+      ],
+      "products": [
+        "功率器件"
       ],
       "applications": [
         "多应用"
