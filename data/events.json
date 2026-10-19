@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-18T09:18:24+08:00",
-  "lookback_start": "2026-10-03",
+  "generated_at": "2026-10-19T09:27:27+08:00",
+  "lookback_start": "2026-10-04",
   "rows": [
     {
       "id": "rss-af406aa6ae4d",
@@ -92,6 +92,50 @@
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
+      "id": "rss-f094d0c4feeb",
+      "title": "成熟制程涨价预期扩大与HBM价格上调，功率半导体步入供需改善与价格修复阶段 - www.caiwennews.com",
+      "published_at": "2026-10-12",
+      "publisher": "www.caiwennews.com",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9lOV9Dd0pCUENsNDkwRWtOOGxiYlFycWZNXzg5cFA4WjFibVBIekxtQnc1d0F6MjBuVlZiUmdzU1l0Yzhkby15ZGpzdFo5dE5fOFA5bEdRSXU0TzNt?oc=5",
+      "source_tier": "T3",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "价格"
+      ],
+      "products": [
+        "功率器件"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 1,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
+    {
+      "id": "rss-7d154e341933",
+      "title": "扬杰科技预计SiC业务收入同比翻倍 - 电子工程专辑",
+      "published_at": "2026-10-09",
+      "publisher": "电子工程专辑",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1vcXBtaGRZZHQ2dS15QjBhX3o3WHlBOXZBXzEzam5TSzV0TDhYNWt6N2pidXQyRkxub0N4OXJwaWY0WktGendydjZBeEs0d051VlhB?oc=5",
+      "source_tier": "T2",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "财务"
+      ],
+      "products": [
+        "SiC"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 2,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
+    {
       "id": "rss-449c12eaacb5",
       "title": "英飞凌完成收购C2i Semiconductors，进一步增强其在AI数据中心电源管理解决方案领域的创新能力 - 电子工程专辑",
       "published_at": "2026-10-08",
@@ -111,28 +155,6 @@
       ],
       "companies": [],
       "relevance_score": 1,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
-    {
-      "id": "rss-a0cc8d7a3dfc",
-      "title": "瑞萨推出品牌首款低压氮化镓功率半导体，面向AI数据中心、人形机器人等领域|瑞萨电子|开关|器件|硅基_手机新浪网 - finance.sina.com.cn",
-      "published_at": "2026-10-06",
-      "publisher": "finance.sina.com.cn",
-      "url": "https://news.google.com/rss/articles/CBMi2wNBVV95cUxNZ1FRMW82Z0hBSmNyd2o5QXRBZVZQSlQxUFFfeGIzSU56SllyRWtqeGk3eTVfN0twd2NRYnpJeHhvNDAwaFhUa1FaYU5sZFA3NHp5T3RSQkxFSWZONFJDUWVJQllnVmduS0dpS3BXeFpLdTZuQ2sycThCTFJCbGNUdW5hb0p6M2ZoQnVBdlNrSC1XaExyVkVhblN0QmZkbDhuRS1TeDVsNGNxSngwR0lvQ2pBR2pOT2hOcF85cXZKeGZUWVJvbl9UN0VIX2xJTE5XemxvT1pJTUNzZnVHcVFVNmdYMGhiX1ZQeEN0dDktVkZTSlZzN3NtLXlMcmQ0WnpocllFaUs2QW9EZEM3X0lId3FILXYyc1NheHk4dExUWGpvNnA0OWl4VU9LLWxhV3cyaXJrcGlwZGdVbnpGclEyUERuUzFJUDhrQzM4ZHpqdjBLeC1kNkhja1RXX2VkYThVN2M2aFpnOF9yZnc2anVpOHVfZVEyVC1KbUFRMzNxUmIwZWRqWHN6Z200TnZGNldfTFRfSFZKRGRvZ3dBVGt5UkpnYUwzbGxDX0hKVS1WMlZOcjhGeU5NeC1ITENMWUt3dFdCOUtWQzBoQ19zLTRnbnB2Ul9KRjRrc2JJ?oc=5",
-      "source_tier": "T3",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "产品发布"
-      ],
-      "products": [
-        "GaN"
-      ],
-      "applications": [
-        "AI数据中心"
-      ],
-      "companies": [],
-      "relevance_score": 3,
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
