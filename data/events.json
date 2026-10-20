@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-19T09:27:27+08:00",
-  "lookback_start": "2026-10-04",
+  "generated_at": "2026-10-20T09:57:31+08:00",
+  "lookback_start": "2026-10-05",
   "rows": [
     {
-      "id": "rss-af406aa6ae4d",
-      "title": "方正微电子全系碳化硅产品方案亮相2026湾芯展 - 全球半导体观察",
-      "published_at": "2026-10-16",
-      "publisher": "全球半导体观察",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5PS2VOcWstWG5Iekkyd1NGbEpUYVBkelFyQ3I0cFd3RGd0REdGd21Ld3UtMUpZeDZzdUJzRUF1M1NYRXNnQUg3YmFrQm5VU3VVcWwzcFpWYUFxMm9WcHdSeA?oc=5",
+      "id": "rss-5fa08bb352e0",
+      "title": "800V碳化硅平台助力小鹏GX大规模发运中东非，国产供应链出海再下一城 - 网通社",
+      "published_at": "2026-10-19",
+      "publisher": "网通社",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE51Q3NDdFVvZTRkMlEwOWFlVmtBNWcydm00NjFES0ZHd1hxekdtVFBQNEJ4VFFuUG55c3hhNVhsZ2NleDNHZlBDNVFIYXktNlc2QU1iWWJWM3dfelE?oc=5",
       "source_tier": "T3",
       "status": "discovery",
       "evidence_stage": "新闻线索/待核验",
@@ -18,7 +18,7 @@
         "SiC"
       ],
       "applications": [
-        "多应用"
+        "AI数据中心"
       ],
       "companies": [],
       "relevance_score": 1,
@@ -57,6 +57,28 @@
       "evidence_stage": "新闻线索/待核验",
       "event_types": [
         "价格"
+      ],
+      "products": [
+        "功率器件"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 1,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
+    {
+      "id": "rss-4c8d8375bc9e",
+      "title": "本田下一代混动系统Honda Hybrid定点2027年量产，驱动单元与功率半导体供应链迎新变局 - 网通社",
+      "published_at": "2026-10-13",
+      "publisher": "网通社",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9jQVZncHhMbTdJaHE0R0VzSHpEYm14TWhZS2RYN2ZWVnFZdnQxWU9mcDRiTU00blNfMG1IZTc0eUZmel9ndDByVDdhM1FKOFFkMU5mWklTU2dfaDBl?oc=5",
+      "source_tier": "T3",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "客户/合同"
       ],
       "products": [
         "功率器件"
