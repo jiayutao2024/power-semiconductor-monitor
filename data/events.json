@@ -1,7 +1,29 @@
 {
-  "generated_at": "2026-10-20T09:57:31+08:00",
-  "lookback_start": "2026-10-05",
+  "generated_at": "2026-10-21T09:46:40+08:00",
+  "lookback_start": "2026-10-06",
   "rows": [
+    {
+      "id": "rss-c22ff1235c24",
+      "title": "12英寸GaN量产在即：功率半导体的「硅价」时代来了 - 电子工程专辑",
+      "published_at": "2026-10-19",
+      "publisher": "电子工程专辑",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9KTGpLX1FTVGJwSlh1S0pxQl9YV244OW55alh5a0xtOEtiZW9HdXVfWVVENWt3ZGxwazB5WnJCM09iSU9PYS11N01uWGlCWmNqNmtJ?oc=5",
+      "source_tier": "T2",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "产业动态"
+      ],
+      "products": [
+        "GaN"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 2,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
     {
       "id": "rss-5fa08bb352e0",
       "title": "800V碳化硅平台助力小鹏GX大规模发运中东非，国产供应链出海再下一城 - 网通社",
@@ -111,72 +133,6 @@
       ],
       "companies": [],
       "relevance_score": 3,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
-    {
-      "id": "rss-f094d0c4feeb",
-      "title": "成熟制程涨价预期扩大与HBM价格上调，功率半导体步入供需改善与价格修复阶段 - www.caiwennews.com",
-      "published_at": "2026-10-12",
-      "publisher": "www.caiwennews.com",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9lOV9Dd0pCUENsNDkwRWtOOGxiYlFycWZNXzg5cFA4WjFibVBIekxtQnc1d0F6MjBuVlZiUmdzU1l0Yzhkby15ZGpzdFo5dE5fOFA5bEdRSXU0TzNt?oc=5",
-      "source_tier": "T3",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "价格"
-      ],
-      "products": [
-        "功率器件"
-      ],
-      "applications": [
-        "多应用"
-      ],
-      "companies": [],
-      "relevance_score": 1,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
-    {
-      "id": "rss-7d154e341933",
-      "title": "扬杰科技预计SiC业务收入同比翻倍 - 电子工程专辑",
-      "published_at": "2026-10-09",
-      "publisher": "电子工程专辑",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1vcXBtaGRZZHQ2dS15QjBhX3o3WHlBOXZBXzEzam5TSzV0TDhYNWt6N2pidXQyRkxub0N4OXJwaWY0WktGendydjZBeEs0d051VlhB?oc=5",
-      "source_tier": "T2",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "财务"
-      ],
-      "products": [
-        "SiC"
-      ],
-      "applications": [
-        "多应用"
-      ],
-      "companies": [],
-      "relevance_score": 2,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
-    {
-      "id": "rss-449c12eaacb5",
-      "title": "英飞凌完成收购C2i Semiconductors，进一步增强其在AI数据中心电源管理解决方案领域的创新能力 - 电子工程专辑",
-      "published_at": "2026-10-08",
-      "publisher": "电子工程专辑",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1VTTVRZlV5ZnYtWUVEZkw4RHp1bl9WenlpUnY0WUZ4M3lldUNZQl82dy1TTVBjOXA2dU1Rd2xCYWpzZ3RsNUMwbTNDdEJxUDhqTzdN?oc=5",
-      "source_tier": "T2",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "产业动态"
-      ],
-      "products": [
-        "功率器件"
-      ],
-      "applications": [
-        "AI数据中心"
-      ],
-      "companies": [],
-      "relevance_score": 1,
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
