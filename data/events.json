@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-10-21T09:46:40+08:00",
-  "lookback_start": "2026-10-06",
+  "generated_at": "2026-10-22T09:40:04+08:00",
+  "lookback_start": "2026-10-07",
   "rows": [
     {
-      "id": "rss-c22ff1235c24",
-      "title": "12英寸GaN量产在即：功率半导体的「硅价」时代来了 - 电子工程专辑",
-      "published_at": "2026-10-19",
+      "id": "rss-f037649a8dd0",
+      "title": "奇瑞采用8英寸碳化硅，合作厂商有哪些？ - 电子工程专辑",
+      "published_at": "2026-10-21",
       "publisher": "电子工程专辑",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9KTGpLX1FTVGJwSlh1S0pxQl9YV244OW55alh5a0xtOEtiZW9HdXVfWVVENWt3ZGxwazB5WnJCM09iSU9PYS11N01uWGlCWmNqNmtJ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1xLXpkT1JWUXRjYU53R0VRRnlKaHZqeHRCUjhaUkR1QllZZlRwbG4tTU5JVi1aVFg1ZkFEUWxuMERIQ1liNWdvaDB3Mi1tZzVHMVlN?oc=5",
       "source_tier": "T2",
       "status": "discovery",
       "evidence_stage": "新闻线索/待核验",
       "event_types": [
-        "产业动态"
+        "客户/合同"
       ],
       "products": [
-        "GaN"
+        "SiC"
       ],
       "applications": [
         "多应用"
       ],
       "companies": [],
-      "relevance_score": 2,
+      "relevance_score": 1,
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
@@ -41,6 +41,28 @@
       ],
       "applications": [
         "AI数据中心"
+      ],
+      "companies": [],
+      "relevance_score": 1,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
+    {
+      "id": "rss-af406aa6ae4d",
+      "title": "方正微电子全系碳化硅产品方案亮相2026湾芯展 - 全球半导体观察",
+      "published_at": "2026-10-16",
+      "publisher": "全球半导体观察",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5PS2VOcWstWG5Iekkyd1NGbEpUYVBkelFyQ3I0cFd3RGd0REdGd21Ld3UtMUpZeDZzdUJzRUF1M1NYRXNnQUg3YmFrQm5VU3VVcWwzcFpWYUFxMm9WcHdSeA?oc=5",
+      "source_tier": "T3",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "产业动态"
+      ],
+      "products": [
+        "SiC"
+      ],
+      "applications": [
+        "多应用"
       ],
       "companies": [],
       "relevance_score": 1,
@@ -133,6 +155,50 @@
       ],
       "companies": [],
       "relevance_score": 3,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
+    {
+      "id": "rss-7d154e341933",
+      "title": "扬杰科技预计SiC业务收入同比翻倍 - 电子工程专辑",
+      "published_at": "2026-10-09",
+      "publisher": "电子工程专辑",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1vcXBtaGRZZHQ2dS15QjBhX3o3WHlBOXZBXzEzam5TSzV0TDhYNWt6N2pidXQyRkxub0N4OXJwaWY0WktGendydjZBeEs0d051VlhB?oc=5",
+      "source_tier": "T2",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "财务"
+      ],
+      "products": [
+        "SiC"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 2,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
+    {
+      "id": "rss-449c12eaacb5",
+      "title": "英飞凌完成收购C2i Semiconductors，进一步增强其在AI数据中心电源管理解决方案领域的创新能力 - 电子工程专辑",
+      "published_at": "2026-10-08",
+      "publisher": "电子工程专辑",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1VTTVRZlV5ZnYtWUVEZkw4RHp1bl9WenlpUnY0WUZ4M3lldUNZQl82dy1TTVBjOXA2dU1Rd2xCYWpzZ3RsNUMwbTNDdEJxUDhqTzdN?oc=5",
+      "source_tier": "T2",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "产业动态"
+      ],
+      "products": [
+        "功率器件"
+      ],
+      "applications": [
+        "AI数据中心"
+      ],
+      "companies": [],
+      "relevance_score": 1,
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
