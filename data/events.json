@@ -1,7 +1,29 @@
 {
-  "generated_at": "2026-10-22T09:40:04+08:00",
-  "lookback_start": "2026-10-07",
+  "generated_at": "2026-10-23T09:42:26+08:00",
+  "lookback_start": "2026-10-08",
   "rows": [
+    {
+      "id": "rss-5187947087cc",
+      "title": "集微咨询发布《2026全球功率半导体行业上市公司研究报告》 - 搜狐",
+      "published_at": "2026-10-22",
+      "publisher": "搜狐",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWTVXZW9zWFRGZHBEbjBUOF8yeVRYSUh0SnRLdVZiOGtJZGlLWmltZFBBS1YtbGtSdUlaWHdYd19NSF9pYjVva3EzU0JvSDQ3NnZuN3ZkR1g1SEMtT3p5dkFRT21leDlqYzROTFFPZXZna1JYMmFuZmtiUDhwbzMzdGI3c3ItZTRM?oc=5",
+      "source_tier": "T3",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "产品发布"
+      ],
+      "products": [
+        "功率器件"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 1,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
     {
       "id": "rss-f037649a8dd0",
       "title": "奇瑞采用8英寸碳化硅，合作厂商有哪些？ - 电子工程专辑",
@@ -47,55 +69,11 @@
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
-      "id": "rss-af406aa6ae4d",
-      "title": "方正微电子全系碳化硅产品方案亮相2026湾芯展 - 全球半导体观察",
-      "published_at": "2026-10-16",
-      "publisher": "全球半导体观察",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5PS2VOcWstWG5Iekkyd1NGbEpUYVBkelFyQ3I0cFd3RGd0REdGd21Ld3UtMUpZeDZzdUJzRUF1M1NYRXNnQUg3YmFrQm5VU3VVcWwzcFpWYUFxMm9WcHdSeA?oc=5",
-      "source_tier": "T3",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "产业动态"
-      ],
-      "products": [
-        "SiC"
-      ],
-      "applications": [
-        "多应用"
-      ],
-      "companies": [],
-      "relevance_score": 1,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
-    {
       "id": "rss-52c6df27b9bb",
       "title": "功率半导体提价，国内外厂商陆续涨价，价格周期迎拐点 - QQ News",
       "published_at": "2026-10-15",
       "publisher": "QQ News",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE43YkpjZE55WEZ4T2xoZW0yaHNQSmZrZDZPTFY5dFFoRE5WUkRlYXZjbVBrYWdrYXc0ZVEzd3lrOTRUcDNEVlRBVmlxdldkZ05ybnFyUUpR?oc=5",
-      "source_tier": "T3",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "价格"
-      ],
-      "products": [
-        "功率器件"
-      ],
-      "applications": [
-        "多应用"
-      ],
-      "companies": [],
-      "relevance_score": 1,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
-    {
-      "id": "rss-94d2cb6e10d9",
-      "title": "功率半导体需求大涨，台厂拟10月涨价10%-15% - 搜狐网",
-      "published_at": "2026-10-15",
-      "publisher": "搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9RV1RTSHA5VDZld0tyZUsxX3hmbmJqYlhaVFZiMUpGdEdBUXFiSzlJZFBuUm05ZWhPWDgtTFc5UHFNM2ZsT1Q3clpNMU9lcnA4M3JN?oc=5",
       "source_tier": "T3",
       "status": "discovery",
       "evidence_stage": "新闻线索/待核验",
