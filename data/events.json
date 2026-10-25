@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-24T09:45:17+08:00",
-  "lookback_start": "2026-10-09",
+  "generated_at": "2026-10-25T09:22:11+08:00",
+  "lookback_start": "2026-10-10",
   "rows": [
     {
       "id": "rss-5187947087cc",
@@ -113,28 +113,6 @@
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
-      "id": "rss-af406aa6ae4d",
-      "title": "方正微电子全系碳化硅产品方案亮相2026湾芯展 - 全球半导体观察",
-      "published_at": "2026-10-16",
-      "publisher": "全球半导体观察",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5PS2VOcWstWG5Iekkyd1NGbEpUYVBkelFyQ3I0cFd3RGd0REdGd21Ld3UtMUpZeDZzdUJzRUF1M1NYRXNnQUg3YmFrQm5VU3VVcWwzcFpWYUFxMm9WcHdSeA?oc=5",
-      "source_tier": "T3",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "产业动态"
-      ],
-      "products": [
-        "SiC"
-      ],
-      "applications": [
-        "多应用"
-      ],
-      "companies": [],
-      "relevance_score": 1,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
-    {
       "id": "rss-52c6df27b9bb",
       "title": "功率半导体提价，国内外厂商陆续涨价，价格周期迎拐点 - QQ News",
       "published_at": "2026-10-15",
@@ -202,25 +180,25 @@
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
-      "id": "rss-7d154e341933",
-      "title": "扬杰科技预计SiC业务收入同比翻倍 - 电子工程专辑",
-      "published_at": "2026-10-09",
-      "publisher": "电子工程专辑",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1vcXBtaGRZZHQ2dS15QjBhX3o3WHlBOXZBXzEzam5TSzV0TDhYNWt6N2pidXQyRkxub0N4OXJwaWY0WktGendydjZBeEs0d051VlhB?oc=5",
-      "source_tier": "T2",
+      "id": "rss-fe2dc85babbe",
+      "title": "西部证券：汽车+AIDC重塑行业供需关系 功率半导体涨价潮密集来袭 - 凤凰网",
+      "published_at": "2026-10-12",
+      "publisher": "凤凰网",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE53UC12elZzSG9IZmhscmItekgtMWFTakFkUTBDU3FuQWpWQXVtWFcxNkFUQzhSNmlwTnhGdW9qMUpfb2oxN1Q1LTkxTzQ?oc=5",
+      "source_tier": "T3",
       "status": "discovery",
       "evidence_stage": "新闻线索/待核验",
       "event_types": [
-        "财务"
+        "价格"
       ],
       "products": [
-        "SiC"
+        "功率器件"
       ],
       "applications": [
-        "多应用"
+        "汽车"
       ],
       "companies": [],
-      "relevance_score": 2,
+      "relevance_score": 1,
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
