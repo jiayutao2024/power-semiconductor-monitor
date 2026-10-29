@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-28T10:28:56+08:00",
-  "lookback_start": "2026-10-13",
+  "generated_at": "2026-10-29T10:35:25+08:00",
+  "lookback_start": "2026-10-14",
   "rows": [
     {
       "id": "rss-5187947087cc",
@@ -57,28 +57,6 @@
       "evidence_stage": "新闻线索/待核验",
       "event_types": [
         "价格"
-      ],
-      "products": [
-        "功率器件"
-      ],
-      "applications": [
-        "多应用"
-      ],
-      "companies": [],
-      "relevance_score": 1,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
-    {
-      "id": "rss-4c8d8375bc9e",
-      "title": "本田下一代混动系统Honda Hybrid定点2027年量产，驱动单元与功率半导体供应链迎新变局 - 网通社",
-      "published_at": "2026-10-13",
-      "publisher": "网通社",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9jQVZncHhMbTdJaHE0R0VzSHpEYm14TWhZS2RYN2ZWVnFZdnQxWU9mcDRiTU00blNfMG1IZTc0eUZmel9ndDByVDdhM1FKOFFkMU5mWklTU2dfaDBl?oc=5",
-      "source_tier": "T3",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "客户/合同"
       ],
       "products": [
         "功率器件"
