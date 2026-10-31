@@ -1,7 +1,73 @@
 {
-  "generated_at": "2026-10-30T10:44:47+08:00",
-  "lookback_start": "2026-10-15",
+  "generated_at": "2026-10-31T10:35:05+08:00",
+  "lookback_start": "2026-10-16",
   "rows": [
+    {
+      "id": "rss-8a1542b54fba",
+      "title": "意法半导体扩充高能效集成功率器件产品阵容，推出 MasterGaN7 - 电子工程专辑",
+      "published_at": "2026-10-29",
+      "publisher": "电子工程专辑",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4zNEswTmkzdDMwN0FaVXA5RUI5aGNhT0xGNHVNd1VfSFZKVXlhbXJHZ2FLN1Q4cVEzSXJOdk5FdmJ4N21UZFZ4WGt4M0VFeTVGQ3Fz?oc=5",
+      "source_tier": "T2",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "产品发布"
+      ],
+      "products": [
+        "GaN"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 1,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
+    {
+      "id": "rss-31b371a07004",
+      "title": "英飞凌将在欧洲建设全球首座300毫米氮化镓功率半导体大规模量产基地 - 电子工程专辑",
+      "published_at": "2026-10-28",
+      "publisher": "电子工程专辑",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0zR19RYUFLN2dOQnc3Z2x6aS1tby1ObzVseUFjaHFLV0JmMlFwR0FRenhGYTZ1ejBGcWtWM2RhMmNzTGRJellWbG41Yjdab2prSkVZ?oc=5",
+      "source_tier": "T2",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "产业动态"
+      ],
+      "products": [
+        "GaN"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 3,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
+    {
+      "id": "rss-2172c65a5de2",
+      "title": "全球首座300mm氮化镓量产工厂落地奥地利 - 国际电子商情",
+      "published_at": "2026-10-28",
+      "publisher": "国际电子商情",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3R2VCZVNZbTdMd2pmc0c1azZhWVhmeHByMXcxdVZwcXVnRW1lT3NDZ0Jyd2pfa2IwTjVldWpJUUs0dW5XODlzTFhGcnVlMkpuSnc?oc=5",
+      "source_tier": "T3",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "产业动态"
+      ],
+      "products": [
+        "GaN"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 1,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
     {
       "id": "rss-5187947087cc",
       "title": "集微咨询发布《2026全球功率半导体行业上市公司研究报告》 - 搜狐网",
@@ -30,28 +96,6 @@
       "published_at": "2026-10-19",
       "publisher": "第一财经",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB1Y0k1c05mZjVlMkZPT3ZsRG5QVXppQzhDdEN1Q1d5bFo2Qy1YMHY0NUtxcU1BMjN5REZvZGgtcmVHSVAyc2ZFVjFZejJuNmRFd2lN?oc=5",
-      "source_tier": "T3",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "价格"
-      ],
-      "products": [
-        "功率器件"
-      ],
-      "applications": [
-        "多应用"
-      ],
-      "companies": [],
-      "relevance_score": 1,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
-    {
-      "id": "rss-52c6df27b9bb",
-      "title": "功率半导体提价，国内外厂商陆续涨价，价格周期迎拐点 - QQ News",
-      "published_at": "2026-10-15",
-      "publisher": "QQ News",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE43YkpjZE55WEZ4T2xoZW0yaHNQSmZrZDZPTFY5dFFoRE5WUkRlYXZjbVBrYWdrYXc0ZVEzd3lrOTRUcDNEVlRBVmlxdldkZ05ybnFyUUpR?oc=5",
       "source_tier": "T3",
       "status": "discovery",
       "evidence_stage": "新闻线索/待核验",
