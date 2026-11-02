@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-11-01T10:23:58+08:00",
-  "lookback_start": "2026-10-17",
+  "generated_at": "2026-11-02T10:38:44+08:00",
+  "lookback_start": "2026-10-18",
   "rows": [
     {
-      "id": "rss-6cdc98a766ac",
-      "title": "扬杰科技三季报点评：营收同比大增34%验证行业景气，新业务盈利兑现与现金流质量有待观察 - 新浪财经",
-      "published_at": "2026-11-01",
-      "publisher": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5FWUFyLURPODBycWxLSGFteXFUbzRZWUw4b0QtS1hoTUJVa1ByY1ZmM0g4OUJ3bHpSUGQxVS1mNmI4RE14X3hpemhnSXdVWUhEZFcxdE9teS12dzU1MjJ6U0tBZmQ1LXVjY2FxTW1pWHgzX3FIRHowbw?oc=5",
-      "source_tier": "T3",
+      "id": "rss-a4e45917c8b3",
+      "title": "新微半导体第二代700V氮化镓E-mode功率工艺平台正式发布 - 电子工程专辑",
+      "published_at": "2026-11-02",
+      "publisher": "电子工程专辑",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBiZXJfUHJOOS1kdGh6d2pFYlhRZmM5bEx1U2dob2I2NFVJV3V3YjMzeTFRUlc2TUU0QzRnZGltcE1CV1BfWnEyZXJWMzRkMjNSUXBv?oc=5",
+      "source_tier": "T2",
       "status": "discovery",
       "evidence_stage": "新闻线索/待核验",
       "event_types": [
-        "产业动态"
+        "产品发布"
       ],
       "products": [
-        "功率器件"
+        "GaN"
       ],
       "applications": [
         "多应用"
@@ -25,16 +25,16 @@
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
-      "id": "rss-16c3f13b7f59",
-      "title": "华润微（688396）2026年三季报简析：营收净利润同比双双增长，盈利能力上升_财报季 - 证券之星",
-      "published_at": "2026-10-31",
-      "publisher": "证券之星",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0yNE5WQlJjdGpOZjlod2xpX2tETFlpVDhUajdHUV92Zl9aQUh1UDE1WGIwRlZmY3psQVhlSXFZTUExakEtN2ozZ2haY25UUUFYQkdNeDZNLTJfRWVtbmRhVmZR?oc=5",
+      "id": "rss-6cdc98a766ac",
+      "title": "扬杰科技三季报点评：营收同比大增34%验证行业景气，新业务盈利兑现与现金流质量有待观察 - 新浪财经",
+      "published_at": "2026-11-01",
+      "publisher": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9CbHZRUUJod1RXNkh5TkJ6M2x2QzZjVE81N1AzNHVlYmo0a0NaaHJHamxpblFGYVhPS3hEMG5OMWF5RmhiM3hMYUlweEdQNGxfbDBQenA1QWVuaVJONy1oQ2JoZmR3ZHFwUkxUbkVfZjVCeHFxR255bA?oc=5",
       "source_tier": "T3",
       "status": "discovery",
       "evidence_stage": "新闻线索/待核验",
       "event_types": [
-        "财务"
+        "产业动态"
       ],
       "products": [
         "功率器件"
@@ -69,28 +69,6 @@
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
-      "id": "rss-31b371a07004",
-      "title": "英飞凌将在欧洲建设全球首座300毫米氮化镓功率半导体大规模量产基地 - 电子工程专辑",
-      "published_at": "2026-10-28",
-      "publisher": "电子工程专辑",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0zR19RYUFLN2dOQnc3Z2x6aS1tby1ObzVseUFjaHFLV0JmMlFwR0FRenhGYTZ1ejBGcWtWM2RhMmNzTGRJellWbG41Yjdab2prSkVZ?oc=5",
-      "source_tier": "T2",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "产业动态"
-      ],
-      "products": [
-        "GaN"
-      ],
-      "applications": [
-        "多应用"
-      ],
-      "companies": [],
-      "relevance_score": 3,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
-    {
       "id": "rss-2172c65a5de2",
       "title": "全球首座300mm氮化镓量产工厂落地奥地利 - 国际电子商情",
       "published_at": "2026-10-28",
@@ -113,15 +91,16 @@
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
-      "id": "rss-5187947087cc",
-      "title": "集微咨询发布《2026全球功率半导体行业上市公司研究报告》 - 搜狐网",
+      "id": "rss-744d0b8d7f65",
+      "title": "集微咨询发布《2026全球功率半导体行业上市公司研究报告》：AI引爆涨价周期 - 凤凰网",
       "published_at": "2026-10-22",
-      "publisher": "搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9IajNyZ3pqTFlKdXZ3SWNpOWU1LUw3TFBRTE4tWUlha05yWnZvN2hRb1JxeFM3eXZCQ2N2TkUteUkxX2hUTXdXZjBUQWV4TEZTOUE?oc=5",
+      "publisher": "凤凰网",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9kbXRVTzFqWUVDX2dNanAtQUd6RlBCNk51WUFWWURoQjk2S21YR3RNMVdfbnJXVjhOdE5RTzBCazV0cmRJMkFlcWJLT20?oc=5",
       "source_tier": "T3",
       "status": "discovery",
       "evidence_stage": "新闻线索/待核验",
       "event_types": [
+        "价格",
         "产品发布"
       ],
       "products": [
@@ -154,28 +133,6 @@
       ],
       "companies": [],
       "relevance_score": 2,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
-    {
-      "id": "rss-fe0535c5aaab",
-      "title": "AI“吃电”！20家芯片厂商集体涨价，英飞凌回应 - 第一财经",
-      "published_at": "2026-10-19",
-      "publisher": "第一财经",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB1Y0k1c05mZjVlMkZPT3ZsRG5QVXppQzhDdEN1Q1d5bFo2Qy1YMHY0NUtxcU1BMjN5REZvZGgtcmVHSVAyc2ZFVjFZejJuNmRFd2lN?oc=5",
-      "source_tier": "T3",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "价格"
-      ],
-      "products": [
-        "功率器件"
-      ],
-      "applications": [
-        "多应用"
-      ],
-      "companies": [],
-      "relevance_score": 1,
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
