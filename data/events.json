@@ -1,79 +1,13 @@
 {
-  "generated_at": "2026-11-04T11:04:18+08:00",
-  "lookback_start": "2026-10-20",
+  "generated_at": "2026-11-05T11:35:25+08:00",
+  "lookback_start": "2026-10-21",
   "rows": [
     {
-      "id": "rss-4ca7ab00ff28",
-      "title": "中信建投研报称AI需求高景气驱动功率半导体涨价潮 - 观点网",
+      "id": "rss-ae52d78d8ad4",
+      "title": "安森美 (ON) 2026财年第三季度业绩电话会：AI数据中心营收激增 - TradingKey",
       "published_at": "2026-11-03",
-      "publisher": "观点网",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBreWtNT3JLUDFVNllpMFFjSzA4OEdFd3QtSm5zbHZ6NDVaeGpHa3BYbWZRLThaRnRxWjZMcWd0RERuSEhWWFl5LXJYOElzUQ?oc=5",
-      "source_tier": "T3",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "价格"
-      ],
-      "products": [
-        "功率器件"
-      ],
-      "applications": [
-        "多应用"
-      ],
-      "companies": [],
-      "relevance_score": 1,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
-    {
-      "id": "rss-6cdc98a766ac",
-      "title": "扬杰科技三季报点评：营收同比大增34%验证行业景气，新业务盈利兑现与现金流质量有待观察 - 新浪财经",
-      "published_at": "2026-11-01",
-      "publisher": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSW5QOXZtcWdsUFFKSm9CejZEZ1N0U3BQdHlYR2ZkVjlsMXVuUGlOWVZDWVRGWEgwMTBvaUNNNmJkbFQwMG5oN3VFbHJKVEZhWDdFVjVlaXUzdjlzcUZMdlhRNVVBNWg2VkJfUUhybkxuYjd1eU5XWk1qNWlzR0IzZC0wQkpPVEU?oc=5",
-      "source_tier": "T3",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "产业动态"
-      ],
-      "products": [
-        "功率器件"
-      ],
-      "applications": [
-        "多应用"
-      ],
-      "companies": [],
-      "relevance_score": 1,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
-    {
-      "id": "rss-62973d96ae44",
-      "title": "芯片产出暴增2.3倍！全球首个300mm氮化镓量产厂落地：总投资超82亿元 - 凤凰网",
-      "published_at": "2026-10-30",
-      "publisher": "凤凰网",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBqZ3Izb3ZSZkRJM1pYeG96dGhKRXNJc0FsaUxHVWlFMEUzejYxb0lfbjZaLUlZc1lCVU9hUlBSY01CalpxRFkxaFpxQkM?oc=5",
-      "source_tier": "T3",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "产业动态"
-      ],
-      "products": [
-        "GaN"
-      ],
-      "applications": [
-        "多应用"
-      ],
-      "companies": [],
-      "relevance_score": 1,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
-    {
-      "id": "rss-522476328133",
-      "title": "54V遇容量瓶颈、800VDC接棒 功率半导体缺货链恐一路传导 - DIGITIMES",
-      "published_at": "2026-10-26",
-      "publisher": "DIGITIMES",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaDBrakNHd1dOR2F3OXRtOFN6UnFXQk5qU3BPUkJwT0JvTnFDcmh6ZTdadjkxUnlHMDZqNll1SWpSbldXN3hJMHdJYnlacEJnM2Z2bDdJVlVXQWdHVmVuMnFkdnpxZFBvRTZvZnNzUTk3MERqNDRZZl9ucEpub1lfZFE2aEp2UmZsRUJ5d3YtbWtTV0hzT1dPSlFhM01WU0FfcTFEbVhfUmJiS0Z0SUFVZFVn?oc=5",
+      "publisher": "TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBOUlJYWlVSVk5MNzRJb0hxNUhoVUJXMW1jX2lBYi1DdWt5THNxR3NDRGxQeE54Q3VZbXpSUXN3X2dSZ2pRRHpZQlQ3MEFWeUsxYTJmNHNSMFVTRXo1RnZVcTV1TVJBakltVkJaYnUtQQ?oc=5",
       "source_tier": "T3",
       "status": "discovery",
       "evidence_stage": "新闻线索/待核验",
@@ -85,6 +19,28 @@
       ],
       "applications": [
         "AI数据中心"
+      ],
+      "companies": [],
+      "relevance_score": 1,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
+    {
+      "id": "rss-4ca7ab00ff28",
+      "title": "中信建投研报称AI需求高景气驱动功率半导体涨价潮 - 凤凰网",
+      "published_at": "2026-11-03",
+      "publisher": "凤凰网",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE04Q2ZmdTlmS25fNW14ZU9yTGhNLUtoTGxXZ29FRklTMzA2TW9BSE1ZcC1kRmVQejVUSjBmb0xDaWY3dXozWm5nQno0R2I?oc=5",
+      "source_tier": "T3",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "价格"
+      ],
+      "products": [
+        "功率器件"
+      ],
+      "applications": [
+        "多应用"
       ],
       "companies": [],
       "relevance_score": 1,
@@ -105,28 +61,6 @@
       ],
       "products": [
         "功率器件"
-      ],
-      "applications": [
-        "多应用"
-      ],
-      "companies": [],
-      "relevance_score": 1,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
-    {
-      "id": "rss-5e2b599d7731",
-      "title": "DRAM business resilience exceeds expectations! Morgan Stanley remains bullish on Applied Materials' (AMAT.US) long-term growth potential and maintains a target price of $563. - 富途牛牛",
-      "published_at": "2026-10-20",
-      "publisher": "富途牛牛",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWm9lNFNfRjA4RzgzdGk0MGg0RU45M2prd2tQODRMdmtJdF9Nc2ZZVmx3UkVzeTFncjRramRsRXp5SzdqeWhhc3JVUHNtLU1VM1BTNVZaZDNWcmhTeUhPYnluc0gwMXNuUFdjaXJrcFl0aTJya2k0X0N3N3FaZGNuNXg5VFJOX21FLU81VDBpTFJ5VnNOUGwzWS11UVZ2RkhjM3VVSzM3ZE9URUE0VGNudGpyZlRXOUdOaFhobldlaw?oc=5",
-      "source_tier": "T3",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "价格"
-      ],
-      "products": [
-        "GaN"
       ],
       "applications": [
         "多应用"
