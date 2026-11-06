@@ -1,7 +1,29 @@
 {
-  "generated_at": "2026-11-05T11:35:25+08:00",
-  "lookback_start": "2026-10-21",
+  "generated_at": "2026-11-06T11:29:57+08:00",
+  "lookback_start": "2026-10-22",
   "rows": [
+    {
+      "id": "rss-fe0535c5aaab",
+      "title": "AI“吃电”！20家芯片厂商集体涨价，英飞凌回应 - 第一财经",
+      "published_at": "2026-11-04",
+      "publisher": "第一财经",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB1Y0k1c05mZjVlMkZPT3ZsRG5QVXppQzhDdEN1Q1d5bFo2Qy1YMHY0NUtxcU1BMjN5REZvZGgtcmVHSVAyc2ZFVjFZejJuNmRFd2lN?oc=5",
+      "source_tier": "T3",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "价格"
+      ],
+      "products": [
+        "功率器件"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 1,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
     {
       "id": "rss-ae52d78d8ad4",
       "title": "安森美 (ON) 2026财年第三季度业绩电话会：AI数据中心营收激增 - TradingKey",
@@ -35,29 +57,6 @@
       "evidence_stage": "新闻线索/待核验",
       "event_types": [
         "价格"
-      ],
-      "products": [
-        "功率器件"
-      ],
-      "applications": [
-        "多应用"
-      ],
-      "companies": [],
-      "relevance_score": 1,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
-    {
-      "id": "rss-744d0b8d7f65",
-      "title": "集微咨询发布《2026全球功率半导体行业上市公司研究报告》：AI引爆涨价周期 - 凤凰网",
-      "published_at": "2026-10-22",
-      "publisher": "凤凰网",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9kbXRVTzFqWUVDX2dNanAtQUd6RlBCNk51WUFWWURoQjk2S21YR3RNMVdfbnJXVjhOdE5RTzBCazV0cmRJMkFlcWJLT20?oc=5",
-      "source_tier": "T3",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "价格",
-        "产品发布"
       ],
       "products": [
         "功率器件"
