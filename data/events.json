@@ -1,7 +1,51 @@
 {
-  "generated_at": "2026-11-06T11:29:57+08:00",
-  "lookback_start": "2026-10-22",
+  "generated_at": "2026-11-07T10:57:46+08:00",
+  "lookback_start": "2026-10-23",
   "rows": [
+    {
+      "id": "rss-9e182dd0538f",
+      "title": "董承非两次现身扬杰科技调研：业绩高增难掩营收压力，行业集体扩产或迎周期拐点-yeeyi - yeeyi",
+      "published_at": "2026-11-06",
+      "publisher": "yeeyi",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4wZGRDNGxocUtVRTFGcW5wOEFoSjA5ck10WUJKLUdVajR5R1VDaERlaVBhNXFsdVRVVkFiOEVEdHJ0Q1JyLWlJc3RCRG5rWDUzNXVZWTNn?oc=5",
+      "source_tier": "T3",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "供给"
+      ],
+      "products": [
+        "功率器件"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 1,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
+    {
+      "id": "rss-3a251f708bf8",
+      "title": "董承非两次现身扬杰科技调研：业绩高增难掩营收压力，行业集体扩产或迎周期拐点 - 蓝鲸财经",
+      "published_at": "2026-11-05",
+      "publisher": "蓝鲸财经",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE90TlVvMGlscmQ1b0VIREFqQ1RhZG1HNWlTZTBhT3dsc3puZmE5Y2hSN1g2Q2xIRDN5cTBtNUVYd0JTSXZxN2NDbEJSeUZyZUV1U3JmbkE5aGV4cGs?oc=5",
+      "source_tier": "T3",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "供给"
+      ],
+      "products": [
+        "功率器件"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 1,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
     {
       "id": "rss-fe0535c5aaab",
       "title": "AI“吃电”！20家芯片厂商集体涨价，英飞凌回应 - 第一财经",
@@ -25,28 +69,6 @@
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
-      "id": "rss-ae52d78d8ad4",
-      "title": "安森美 (ON) 2026财年第三季度业绩电话会：AI数据中心营收激增 - TradingKey",
-      "published_at": "2026-11-03",
-      "publisher": "TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBOUlJYWlVSVk5MNzRJb0hxNUhoVUJXMW1jX2lBYi1DdWt5THNxR3NDRGxQeE54Q3VZbXpSUXN3X2dSZ2pRRHpZQlQ3MEFWeUsxYTJmNHNSMFVTRXo1RnZVcTV1TVJBakltVkJaYnUtQQ?oc=5",
-      "source_tier": "T3",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "产业动态"
-      ],
-      "products": [
-        "功率器件"
-      ],
-      "applications": [
-        "AI数据中心"
-      ],
-      "companies": [],
-      "relevance_score": 1,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
-    {
       "id": "rss-4ca7ab00ff28",
       "title": "中信建投研报称AI需求高景气驱动功率半导体涨价潮 - 凤凰网",
       "published_at": "2026-11-03",
@@ -63,6 +85,28 @@
       ],
       "applications": [
         "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 1,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
+    {
+      "id": "rss-522476328133",
+      "title": "54V遇容量瓶颈、800VDC接棒 功率半导体缺货链恐一路传导 - DIGITIMES",
+      "published_at": "2026-10-26",
+      "publisher": "DIGITIMES",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaDBrakNHd1dOR2F3OXRtOFN6UnFXQk5qU3BPUkJwT0JvTnFDcmh6ZTdadjkxUnlHMDZqNll1SWpSbldXN3hJMHdJYnlacEJnM2Z2bDdJVlVXQWdHVmVuMnFkdnpxZFBvRTZvZnNzUTk3MERqNDRZZl9ucEpub1lfZFE2aEp2UmZsRUJ5d3YtbWtTV0hzT1dPSlFhM01WU0FfcTFEbVhfUmJiS0Z0SUFVZFVn?oc=5",
+      "source_tier": "T3",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "产业动态"
+      ],
+      "products": [
+        "功率器件"
+      ],
+      "applications": [
+        "AI数据中心"
       ],
       "companies": [],
       "relevance_score": 1,
