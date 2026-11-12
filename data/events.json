@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-11T10:53:11+08:00",
-  "lookback_start": "2026-10-27",
+  "generated_at": "2026-11-12T11:57:52+08:00",
+  "lookback_start": "2026-10-28",
   "rows": [
     {
       "id": "rss-74a03a54ab89",
@@ -22,28 +22,6 @@
       ],
       "companies": [],
       "relevance_score": 2,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
-    {
-      "id": "rss-3a251f708bf8",
-      "title": "董承非两次现身扬杰科技调研：业绩高增难掩营收压力，行业集体扩产或迎周期拐点 - 中华网财经",
-      "published_at": "2026-11-09",
-      "publisher": "中华网财经",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB5WU1DY01idDIyYmNIeWgtb3JDUDlDZ2hDeWJJTHg0dm1FQlRYOGlJQUwyQUk1OUJSb1o3MmtFaTdzU0V4czZubVVHRFh4dHFkbjNYYURhbHE2MGlNdGRPLVJhY0k4SktjeTEyb2ZB?oc=5",
-      "source_tier": "T3",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "供给"
-      ],
-      "products": [
-        "功率器件"
-      ],
-      "applications": [
-        "多应用"
-      ],
-      "companies": [],
-      "relevance_score": 1,
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
