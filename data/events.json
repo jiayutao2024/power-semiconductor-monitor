@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-11-12T11:57:52+08:00",
-  "lookback_start": "2026-10-28",
+  "generated_at": "2026-11-13T11:28:54+08:00",
+  "lookback_start": "2026-10-29",
   "rows": [
     {
-      "id": "rss-74a03a54ab89",
-      "title": "从电子电气架构到800VDC服务器：英飞凌与Wolfspeed同步争夺宽禁带制高点 - 电子工程专辑EE Times China",
-      "published_at": "2026-11-10",
-      "publisher": "电子工程专辑EE Times China",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5HcFAxLVhEZFZzTE9ub3BYTlpqNlRzUkZ1bFQ3bUxNNGtEN2I1TWk5bnE0aW9Ydl82b0h4U3VMa184M0VCbTJzWFp1M2d0SDZkYm53?oc=5",
-      "source_tier": "T2",
+      "id": "rss-b6a021da49e5",
+      "title": "【盘中特供】功率半导体巨头再发涨价函，供需错配下涨价趋势望延续，A股对标公司望同步受益 - QQ News",
+      "published_at": "2026-11-11",
+      "publisher": "QQ News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NQlFjOHRBZDdySGszc0N3MnBWZDNGbGZsV0I0N0tWS3lYMS15V2tjWkNZbUVJb284aXpNcks4MEVhV012SURGeE9hbVVHSFVIMEc3bE9B?oc=5",
+      "source_tier": "T3",
       "status": "discovery",
       "evidence_stage": "新闻线索/待核验",
       "event_types": [
-        "产业动态"
+        "价格"
       ],
       "products": [
         "功率器件"
       ],
       "applications": [
-        "AI数据中心"
+        "多应用"
       ],
       "companies": [],
-      "relevance_score": 2,
+      "relevance_score": 1,
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
