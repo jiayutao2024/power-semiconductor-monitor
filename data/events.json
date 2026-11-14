@@ -1,7 +1,29 @@
 {
-  "generated_at": "2026-11-13T11:28:54+08:00",
-  "lookback_start": "2026-10-29",
+  "generated_at": "2026-11-14T11:25:09+08:00",
+  "lookback_start": "2026-10-30",
   "rows": [
+    {
+      "id": "rss-317cb401d57b",
+      "title": "锴威特16.5亿元收购第一大客户：溢价逾3倍，押注功率半导体周期反转 - https://ijiwei.com/",
+      "published_at": "2026-11-13",
+      "publisher": "https://ijiwei.com/",
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5XSEp1LUdNaElZMVZuaXpDbUJSd0N2Q1BHdTZOQzJxTWtMb3BjTTlyWC1zY0FxWDBSRmVpcHlRV1NHdw?oc=5",
+      "source_tier": "T3",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "产业动态"
+      ],
+      "products": [
+        "功率器件"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 1,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
     {
       "id": "rss-b6a021da49e5",
       "title": "【盘中特供】功率半导体巨头再发涨价函，供需错配下涨价趋势望延续，A股对标公司望同步受益 - QQ News",
