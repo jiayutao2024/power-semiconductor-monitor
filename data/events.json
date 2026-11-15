@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-14T11:25:09+08:00",
-  "lookback_start": "2026-10-30",
+  "generated_at": "2026-11-15T10:54:24+08:00",
+  "lookback_start": "2026-10-31",
   "rows": [
     {
       "id": "rss-317cb401d57b",
@@ -63,28 +63,6 @@
       ],
       "applications": [
         "多应用"
-      ],
-      "companies": [],
-      "relevance_score": 1,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
-    {
-      "id": "rss-ae52d78d8ad4",
-      "title": "安森美 (ON) 2026财年第三季度业绩电话会：AI数据中心营收激增 - TradingKey",
-      "published_at": "2026-11-03",
-      "publisher": "TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBOUlJYWlVSVk5MNzRJb0hxNUhoVUJXMW1jX2lBYi1DdWt5THNxR3NDRGxQeE54Q3VZbXpSUXN3X2dSZ2pRRHpZQlQ3MEFWeUsxYTJmNHNSMFVTRXo1RnZVcTV1TVJBakltVkJaYnUtQQ?oc=5",
-      "source_tier": "T3",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "产业动态"
-      ],
-      "products": [
-        "功率器件"
-      ],
-      "applications": [
-        "AI数据中心"
       ],
       "companies": [],
       "relevance_score": 1,
