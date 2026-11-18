@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-17T13:09:20+08:00",
-  "lookback_start": "2026-11-02",
+  "generated_at": "2026-11-18T12:37:01+08:00",
+  "lookback_start": "2026-11-03",
   "rows": [
     {
       "id": "rss-b6a021da49e5",
@@ -203,14 +203,5 @@
       "summary": "监管披露文件可核验行业调价汇总，但并非全部公司的原始调价函；看板单列为二次核验材料。"
     }
   ],
-  "failures": [
-    {
-      "query": "power semiconductor SiC GaN IGBT",
-      "error": "HTTPError"
-    },
-    {
-      "query": "SiC 碳化硅 量产 定点",
-      "error": "HTTPError"
-    }
-  ]
+  "failures": []
 }
