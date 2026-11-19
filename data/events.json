@@ -1,7 +1,29 @@
 {
-  "generated_at": "2026-11-18T12:37:01+08:00",
-  "lookback_start": "2026-11-03",
+  "generated_at": "2026-11-19T12:19:36+08:00",
+  "lookback_start": "2026-11-04",
   "rows": [
+    {
+      "id": "rss-317cb401d57b",
+      "title": "锴威特16.5亿元收购第一大客户：溢价逾3倍，押注功率半导体周期反转 - https://ijiwei.com/",
+      "published_at": "2026-11-13",
+      "publisher": "https://ijiwei.com/",
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5XSEp1LUdNaElZMVZuaXpDbUJSd0N2Q1BHdTZOQzJxTWtMb3BjTTlyWC1zY0FxWDBSRmVpcHlRV1NHdw?oc=5",
+      "source_tier": "T3",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "产业动态"
+      ],
+      "products": [
+        "功率器件"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 1,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
     {
       "id": "rss-b6a021da49e5",
       "title": "【盘中特供】功率半导体巨头再发涨价函，供需错配下涨价趋势望延续，A股对标公司望同步受益 - QQ News",
@@ -30,28 +52,6 @@
       "published_at": "2026-11-04",
       "publisher": "第一财经",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB1Y0k1c05mZjVlMkZPT3ZsRG5QVXppQzhDdEN1Q1d5bFo2Qy1YMHY0NUtxcU1BMjN5REZvZGgtcmVHSVAyc2ZFVjFZejJuNmRFd2lN?oc=5",
-      "source_tier": "T3",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "价格"
-      ],
-      "products": [
-        "功率器件"
-      ],
-      "applications": [
-        "多应用"
-      ],
-      "companies": [],
-      "relevance_score": 1,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
-    {
-      "id": "rss-4ca7ab00ff28",
-      "title": "中信建投研报称AI需求高景气驱动功率半导体涨价潮 - 凤凰网",
-      "published_at": "2026-11-03",
-      "publisher": "凤凰网",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE04Q2ZmdTlmS25fNW14ZU9yTGhNLUtoTGxXZ29FRklTMzA2TW9BSE1ZcC1kRmVQejVUSjBmb0xDaWY3dXozWm5nQno0R2I?oc=5",
       "source_tier": "T3",
       "status": "discovery",
       "evidence_stage": "新闻线索/待核验",
