@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-11-19T12:19:36+08:00",
-  "lookback_start": "2026-11-04",
+  "generated_at": "2026-11-20T12:07:07+08:00",
+  "lookback_start": "2026-11-05",
   "rows": [
+    {
+      "id": "rss-060c6143387d",
+      "title": "📋 功率IDM景气反转，华润微 688396 12吋产能释放与涨价共振，驱动盈利中枢上修 - 金股讯",
+      "published_at": "2026-11-19",
+      "publisher": "金股讯",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5OcU4yQzEyZUNTUjNacUlZM2JSeVBVVXBlWHNtSTNTQ3ZSX0VKY0Q4UkNJQkFLZXdEdFN3d3lzQzJOcm9FR0ZlUXpURFZpN0F0NWZub0MwczlOelY4YWVVc05mYw?oc=5",
+      "source_tier": "T3",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "价格",
+        "供给"
+      ],
+      "products": [
+        "功率器件"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 1,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
     {
       "id": "rss-317cb401d57b",
       "title": "锴威特16.5亿元收购第一大客户：溢价逾3倍，押注功率半导体周期反转 - https://ijiwei.com/",
@@ -30,28 +53,6 @@
       "published_at": "2026-11-11",
       "publisher": "QQ News",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NQlFjOHRBZDdySGszc0N3MnBWZDNGbGZsV0I0N0tWS3lYMS15V2tjWkNZbUVJb284aXpNcks4MEVhV012SURGeE9hbVVHSFVIMEc3bE9B?oc=5",
-      "source_tier": "T3",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "价格"
-      ],
-      "products": [
-        "功率器件"
-      ],
-      "applications": [
-        "多应用"
-      ],
-      "companies": [],
-      "relevance_score": 1,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
-    {
-      "id": "rss-fe0535c5aaab",
-      "title": "AI“吃电”！20家芯片厂商集体涨价，英飞凌回应 - 第一财经",
-      "published_at": "2026-11-04",
-      "publisher": "第一财经",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB1Y0k1c05mZjVlMkZPT3ZsRG5QVXppQzhDdEN1Q1d5bFo2Qy1YMHY0NUtxcU1BMjN5REZvZGgtcmVHSVAyc2ZFVjFZejJuNmRFd2lN?oc=5",
       "source_tier": "T3",
       "status": "discovery",
       "evidence_stage": "新闻线索/待核验",
