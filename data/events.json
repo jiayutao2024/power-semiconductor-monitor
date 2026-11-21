@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T12:07:07+08:00",
-  "lookback_start": "2026-11-05",
+  "generated_at": "2026-11-21T12:06:36+08:00",
+  "lookback_start": "2026-11-06",
   "rows": [
     {
       "id": "rss-060c6143387d",
@@ -48,16 +48,16 @@
       "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
     },
     {
-      "id": "rss-b6a021da49e5",
-      "title": "【盘中特供】功率半导体巨头再发涨价函，供需错配下涨价趋势望延续，A股对标公司望同步受益 - QQ News",
-      "published_at": "2026-11-11",
-      "publisher": "QQ News",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NQlFjOHRBZDdySGszc0N3MnBWZDNGbGZsV0I0N0tWS3lYMS15V2tjWkNZbUVJb284aXpNcks4MEVhV012SURGeE9hbVVHSFVIMEc3bE9B?oc=5",
+      "id": "rss-9e182dd0538f",
+      "title": "董承非两次现身扬杰科技调研：业绩高增难掩营收压力，行业集体扩产或迎周期拐点-yeeyi - yeeyi",
+      "published_at": "2026-11-06",
+      "publisher": "yeeyi",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4wZGRDNGxocUtVRTFGcW5wOEFoSjA5ck10WUJKLUdVajR5R1VDaERlaVBhNXFsdVRVVkFiOEVEdHJ0Q1JyLWlJc3RCRG5rWDUzNXVZWTNn?oc=5",
       "source_tier": "T3",
       "status": "discovery",
       "evidence_stage": "新闻线索/待核验",
       "event_types": [
-        "价格"
+        "供给"
       ],
       "products": [
         "功率器件"
