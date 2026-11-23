@@ -1,7 +1,29 @@
 {
-  "generated_at": "2026-11-22T11:18:51+08:00",
-  "lookback_start": "2026-11-07",
+  "generated_at": "2026-11-23T11:52:06+08:00",
+  "lookback_start": "2026-11-08",
   "rows": [
+    {
+      "id": "rss-fe0535c5aaab",
+      "title": "AI“吃电”！20家芯片厂商集体涨价，英飞凌回应 - 第一财经",
+      "published_at": "2026-11-22",
+      "publisher": "第一财经",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB1Y0k1c05mZjVlMkZPT3ZsRG5QVXppQzhDdEN1Q1d5bFo2Qy1YMHY0NUtxcU1BMjN5REZvZGgtcmVHSVAyc2ZFVjFZejJuNmRFd2lN?oc=5",
+      "source_tier": "T3",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "价格"
+      ],
+      "products": [
+        "功率器件"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 1,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
     {
       "id": "rss-060c6143387d",
       "title": "📋 功率IDM景气反转，华润微 688396 12吋产能释放与涨价共振，驱动盈利中枢上修 - 金股讯",
