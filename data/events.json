@@ -1,7 +1,29 @@
 {
-  "generated_at": "2026-11-25T13:33:11+08:00",
-  "lookback_start": "2026-11-10",
+  "generated_at": "2026-11-26T13:15:11+08:00",
+  "lookback_start": "2026-11-11",
   "rows": [
+    {
+      "id": "rss-6d56f1f6cc2a",
+      "title": "Littelfuse推出IXD704系列双通道4 A低边MOSFET栅极驱动器 - 新浪财经",
+      "published_at": "2026-11-25",
+      "publisher": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9RMDdFSzlpbE9tTjlzR3Z1UjZBVGQwMW9fWHRRUGY0QWM5Nkl4TnZ0b29Wa3ZObS1jbXBjUTJRa1Q4TEZscFZ5STB0NVpLQl95UlhoU2J3TnVmTkRqdHdCWnBTWUVOaXRpRG1uZ25nNUxGN0h1RkNaTXpLaGhpaVE?oc=5",
+      "source_tier": "T3",
+      "status": "discovery",
+      "evidence_stage": "新闻线索/待核验",
+      "event_types": [
+        "产品发布"
+      ],
+      "products": [
+        "MOSFET"
+      ],
+      "applications": [
+        "多应用"
+      ],
+      "companies": [],
+      "relevance_score": 1,
+      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
+    },
     {
       "id": "rss-fe0535c5aaab",
       "title": "AI“吃电”！20家芯片厂商集体涨价，英飞凌回应 - 第一财经",
@@ -13,29 +35,6 @@
       "evidence_stage": "新闻线索/待核验",
       "event_types": [
         "价格"
-      ],
-      "products": [
-        "功率器件"
-      ],
-      "applications": [
-        "多应用"
-      ],
-      "companies": [],
-      "relevance_score": 1,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
-    {
-      "id": "rss-060c6143387d",
-      "title": "📋 功率IDM景气反转，华润微 688396 12吋产能释放与涨价共振，驱动盈利中枢上修 - 金股讯",
-      "published_at": "2026-11-19",
-      "publisher": "金股讯",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5OcU4yQzEyZUNTUjNacUlZM2JSeVBVVXBlWHNtSTNTQ3ZSX0VKY0Q4UkNJQkFLZXdEdFN3d3lzQzJOcm9FR0ZlUXpURFZpN0F0NWZub0MwczlOelY4YWVVc05mYw?oc=5",
-      "source_tier": "T3",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "价格",
-        "供给"
       ],
       "products": [
         "功率器件"
