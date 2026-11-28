@@ -1,30 +1,7 @@
 {
-  "generated_at": "2026-11-27T13:13:10+08:00",
-  "lookback_start": "2026-11-12",
+  "generated_at": "2026-11-28T12:48:55+08:00",
+  "lookback_start": "2026-11-13",
   "rows": [
-    {
-      "id": "rss-65f0f492d203",
-      "title": "多空辩论更新：民德电子定增10亿扩产，功率半导体收入增339.29%与亏损扩大分歧 - 证券之星",
-      "published_at": "2026-11-27",
-      "publisher": "证券之星",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA1WmFVazdwNlBxZTFUUTAwY1BrdDlaWjRCQ0w2VDdMMEpkQVZhQUlKV2Uyb1ZtUWxEdnRIWEgxTXowRVlfV3RLRF9iYkNlUUhHc25xRENtT3FLbzMwTHBYbHln?oc=5",
-      "source_tier": "T3",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "供给",
-        "财务"
-      ],
-      "products": [
-        "功率器件"
-      ],
-      "applications": [
-        "多应用"
-      ],
-      "companies": [],
-      "relevance_score": 1,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
     {
       "id": "rss-6d56f1f6cc2a",
       "title": "Littelfuse推出IXD704系列双通道4 A低边MOSFET栅极驱动器 - 新浪财经",
@@ -58,29 +35,6 @@
       "evidence_stage": "新闻线索/待核验",
       "event_types": [
         "价格"
-      ],
-      "products": [
-        "功率器件"
-      ],
-      "applications": [
-        "多应用"
-      ],
-      "companies": [],
-      "relevance_score": 1,
-      "summary": "自动发现的公开新闻线索；需打开原文并交叉核验后，才可进入正式指标。"
-    },
-    {
-      "id": "rss-060c6143387d",
-      "title": "📋 功率IDM景气反转，华润微 688396 12吋产能释放与涨价共振，驱动盈利中枢上修 - 金股讯",
-      "published_at": "2026-11-19",
-      "publisher": "金股讯",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5OcU4yQzEyZUNTUjNacUlZM2JSeVBVVXBlWHNtSTNTQ3ZSX0VKY0Q4UkNJQkFLZXdEdFN3d3lzQzJOcm9FR0ZlUXpURFZpN0F0NWZub0MwczlOelY4YWVVc05mYw?oc=5",
-      "source_tier": "T3",
-      "status": "discovery",
-      "evidence_stage": "新闻线索/待核验",
-      "event_types": [
-        "价格",
-        "供给"
       ],
       "products": [
         "功率器件"
